@@ -82,3 +82,68 @@ Append-only log of all wiki operations.
 
 - 同步更新概念页 [[Agent框架选型与工程维度]] 补强工具学习理论支撑（控制器四组件框架、工具审计学术依据）
 - 同步更新概念页 [[多Agent系统研究趋势与工程映射]] 补强多智能体分析框架（通信拓扑分类学、问题求解 vs 世界模拟模式区分）
+
+## [2026-06-27] ingest | 同步可信图神经网络综述并织入跨域治理框架
+
+- 新增来源页 [[来源-可信图神经网络综述-2022]]，对应 `raw/papers/4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md`
+- 新增概念页 [[可信图神经网络]]，整理鲁棒性、可解释性、隐私、公平性、问责、环境福祉六维治理框架
+- 同步更新 [[流量风控技能栈与Agent治理]]、[[多Agent系统研究趋势与工程映射]]、[[研究主题导航]]、[[来源索引]] 与 [[Wiki 索引]]，补入“从性能优化转向系统治理”的跨域映射
+- 冲突/不确定性：当前 raw 为中文导读稿而非论文原文，适合做框架抽象，不宜直接承载强定量结论
+
+## [2026-08-31] ingest | 深度摄入 raw/articles 四批新来源并跨域织入
+
+**扫描范围**：递归扫描 `raw/`，对比 `wiki/sources/` 与 `wiki/log.md`（上次同步 2026-06-27），识别 06-27 之后新增未摄入来源。
+
+**新增来源页（4）**：
+- [[来源-Agent记忆综述-2026]] — `raw/articles/agent_memory/`（Foundation Agent Memory 三维分类法：基底/认知机制/主体 + 自我演进六挑战）
+- [[来源-视频审核与电商风控GUI-Agent批次-2026]] — `raw/articles/video_moderation/`（UNIVID 统一 VLM 审核基座 / IPS 提示内过程监督 / VideoModerator 2021 起点 / RISK 框架 + RiskWebWorld 逼真交互基准）
+- [[来源-时间序列LLM智能体综述-2026]] — `raw/articles/time_series_agent/`（综述四分类 + AD-Agent/ARGOS/CALM/SAGE/AgentFM/IoT 论文 + 配套代码）
+- [[来源-WeMM多模态嵌入技术报告-2026]] — `raw/articles/multimodal_embed/`（WeChat 通用多模态嵌入模型族 2B/4B/9B，两阶段训练，登顶 MMEB-v2）
+
+**新增概念页（3）**：[[Agent记忆系统与自我演进]]、[[时间序列LLM智能体分类法]]、[[多模态嵌入与检索基座]]
+
+**更新既有页（深度织入，非仅来源页）**：
+- [[短视频内容审核与多模态治理]] — 补 VideoModerator→KuaiMod→UNIVID/IPS 演进表与"可解释"内涵迁移
+- [[多Agent系统研究趋势与工程映射]] — 织入 Agent Memory 多拓扑记忆路由、时序 Agent 协作/竞争拓扑
+- [[流量风控技能栈与Agent治理]] — 织入 RISK/RiskWebWorld（电商风控 GUI Agent）、时序异常检测可审计链路同构
+- [[maps/研究主题导航]] — mermaid 图新增 7 节点 + 跨域边，补"补充织入（2026-08-31）"小节
+- [[index.md]] / [[sources/_index.md]] — 登记新概念/来源/地图条目，更新"尚未摄入"备注
+
+**冲突与不确定性**：
+- 量化口径不可直接横比：UNIVID 42.7%/37.0% 为 beta/内部仿真；RISK 70.5% 为线上评测；ARGOS 公开+9.5% vs 内部+28.3%；CALM 用 ROC AUC；WeMM 80.6 为 MMEB-v2 榜单口径（截至 2026-08-24）。
+- "可解释"在 VideoModerator(2021) 与 UNIVID(2026) 内涵不同（可视化协作 vs VLM 语义中间表示），跨年对照已显式标注。
+- raw 含智谱4Flash 译文与知乎中文导读，技术细节以 arXiv 英文原文为准；`time_series_agent/papers/llm-tsfd_code/` 仅含 constants/数据 CSV，非完整可运行项目。
+- `raw/personal_notes/人生回报率最高的12个习惯.md` 与 `raw/search/traffic-risk-control-watch/2026-06-27/` 一条归档未纳入本次领域摄入（非 LLM/Agent 主题或已在既有批次覆盖），留待后续判断。
+
+**后续建议**：
+- 对 ARGOS/CALM/SAGE/AD-Agent 做逐篇深读，补齐复现实验与开源实现状态到独立来源页。
+- 时间序列方向若继续扩展，可考虑新增 `comparisons/时序异常检测方法对照`（可解释规则 vs LLM-as-Judge vs 专门分析器）。
+- WeMM 可与未来其他多模态嵌入基座（如 Gemini Embedding）做对比页。
+- 按 CLAUDE.md 规则，本次为深度更新；提交时应走 `kb/2026-08-31-v1` 分支。
+
+## [2026-08-31] ingest | 后续建议 1-5 执行：4 篇时序论文深读 + 2 个对比页 + watch 批次织入
+
+承接前次"后续建议 1→2→3→4→5"：
+
+**1. 逐篇深读 4 篇时序论文（建独立来源页）**：
+- [[来源-AD-Agent多Agent异常检测-2025]] — 7 Agent + 短/长期记忆，自然语言→可执行 AD 流水线，集成 PyOD/PyGOD/TSLib；成功率 100%/91.1%/90%；**开源** BSD-2 `github.com/USC-FORTIS/AD-AGENT`
+- [[来源-ARGOS自主规则时序异常检测-2025]] — LLM 训练期生成可解释可复现 Python 规则，运行时不调 LLM；三 Agent + 模型融合；KPI +9.5% F1 / Yahoo +4.8% / 内部 +28.3%；未明确开源
+- [[来源-CALM流式异常检测LLM裁判-2025]] — Apache Beam + TimesFM 分位数预测；LLM-as-a-Judge 漂移检测 + 闭环持续微调；TSB-UAD 优于静态基线
+- [[来源-SAGE专家式多Agent时序诊断-2026]] — 5 阶段管线 + 4 族 9 类分析器 + 合成 ICL（k-medoids+DTW top-3）；LLM 打分 0-100 归一化 temperature=0；压缩摘要省 ~75% token
+- 同步更新 [[来源-时间序列LLM智能体综述-2026]] 子论文要点指向独立页、[[时间序列LLM智能体分类法]] 异常检测方法谱
+
+**2. 新增 [[时序异常检测方法对照-2026-08-31]]**：四法在 LLM 介入程度/可解释性/可复现性/自主性/开源上的取舍 + 风控治理同构 + 记忆/工具维度映射
+
+**3. 新增 [[多模态嵌入基座对比-2026-08-31]]**：WeMM vs CLIP/Gemini Embedding 演进路线、规模-性能前沿、选型建议（⚠️ Gemini/CLIP 为 E3 外部参照，本仓库无对应 raw 来源页）
+
+**4. 评估未纳入来源**：
+- `raw/personal_notes/人生回报率最高的12个习惯.md` — 非本 wiki 领域（LLM/Agent/风控），**不纳入**领域 KB，仅记录决定
+- `raw/search/traffic-risk-control-watch/2026-06-27/` — 06-27 Agent 风控情报批次（24 条去重），**已摄入** [[来源-搜索归档-Agent风控情报Watch-2026-06-27]] 并织入 [[流量风控技能栈与Agent治理]]（行动链风险、Agent 双重角色、Berkeley/Microsoft/Oracle 治理框架）
+
+**5. git 提交**：本次按 CLAUDE.md 走 `kb/2026-08-31-v1` 分支提交（见下）。
+
+**冲突与不确定性**：
+- 时序四法量化口径不可横比（ARGOS F1 / CALM ROC AUC 所读页未给数字 / SAGE benchmark 排名 / AD-Agent 成功率+AUROC）。
+- 开源状态：仅 AD-Agent 明确开源；ARGOS/CALM/SAGE 未在读页给仓库。
+- 多模态嵌入对比页证据层级不均，Gemini/CLIP 为 E3，精确横比前须回原始榜单。
+- watch 06-27 批次为 E3 搜索摘要，含平台偏移与抽取失败（36氪 extract 失败）。
