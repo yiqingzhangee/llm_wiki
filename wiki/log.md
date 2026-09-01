@@ -147,3 +147,20 @@ Append-only log of all wiki operations.
 - 开源状态：仅 AD-Agent 明确开源；ARGOS/CALM/SAGE 未在读页给仓库。
 - 多模态嵌入对比页证据层级不均，Gemini/CLIP 为 E3，精确横比前须回原始榜单。
 - watch 06-27 批次为 E3 搜索摘要，含平台偏移与抽取失败（36氪 extract 失败）。
+
+## [2026-09-01] ingest | 时序综述剩余两篇子论文深读：AgentFM + IoT-XAI，补建独立来源页并扩展对照
+
+**新增来源页（2）**：
+- `来源-AgentFM-数据库故障管理Agent-2025.md`（arXiv 2504.06614，北大/阿里，FSE'25）— 角色感知（system/data/task）+ meta-agent 编排，Apache IoTDB preliminary 验证。
+- `来源-IoT异常检测LLM-Agent-2025.md`（arXiv 2510.03859，Northeastern/USC）— LLM+XAI 混合，注意力过滤+语义记忆缓冲+SHAP/LIME，smart grid/healthcare 仿真 95.4% vs 82.1%（AUC 0.972）。
+
+**深度织入**：
+- `comparisons/时序异常检测方法对照-2026-08-31.md`：对照表 +2 行（AgentFM/IoT-XAI）、记忆/工具映射表 +2 行、小结补"垂域/安全攸关延伸两法"、冲突段补量化口径与 preliminary 标注。
+- `concepts/时间序列LLM智能体分类法.md`：方法谱补 AgentFM（编排可治理）+ IoT-XAI（XAI 可审计 + 人在回路）两条带链条目。
+- `sources/来源-时间序列LLM智能体综述-2026.md`：§4.4 两行子论文补建 → 独立来源页交叉链接。
+- `maps/研究主题导航.md`：+2 节点（AgentFM/IoTXAI）+ TS 综述→子论文边 + 与 RiskSkills 同构边。
+- `index.md` / `sources/_index.md`：注册两来源页 + 原始路径；更新"尚未摄入"备注（time_series_agent 综述全部子论文均已建独立来源页）。
+
+**冲突/不确定性**：
+- 两篇均为 preliminary / 仿真口径，非成熟系统级定论；IoT "97%" 为峰值、"95.4%"为主对照口径，已在来源页与对照页标注。
+- 两篇均未明确开源（与 AD-Agent BSD-2 形成对照），复现需回原文核验。
