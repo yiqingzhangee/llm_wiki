@@ -54,6 +54,10 @@
   - Raw：[`raw/articles/time_series_agent/papers/2508.21273.pdf`](../../raw/articles/time_series_agent/papers/2508.21273.pdf)
 - [来源-SAGE专家式多Agent时序诊断-2026.md](来源-SAGE专家式多Agent时序诊断-2026.md)
   - Raw：[`raw/articles/time_series_agent/papers/2605.05725.pdf`](../../raw/articles/time_series_agent/papers/2605.05725.pdf)
+- [来源-AgentFM-数据库故障管理Agent-2025.md](来源-AgentFM-数据库故障管理Agent-2025.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2504.06614v1.pdf`](../../raw/articles/time_series_agent/papers/2504.06614v1.pdf)
+- [来源-IoT异常检测LLM-Agent-2025.md](来源-IoT异常检测LLM-Agent-2025.md)
+  - Raw：[`raw/articles/time_series_agent/2510.03859v1.pdf`](../../raw/articles/time_series_agent/2510.03859v1.pdf)
 - [来源-WeMM多模态嵌入技术报告-2026.md](来源-WeMM多模态嵌入技术报告-2026.md)
   - Raw：[`raw/articles/multimodal_embed/2026-WeMM-Embedding WeChat Multi-Modal Embedding Technical Report.pdf`](../../raw/articles/multimodal_embed/2026-WeMM-Embedding%20WeChat%20Multi-Modal%20Embedding%20Technical%20Report.pdf)
 
@@ -156,5 +160,5 @@
 ## 尚未摄入
 
 - `raw/papers/`（大量论文/教程/手册仍未摄入；已额外纳入 `4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md` 作为新分支入口）— 其余继续按专题分批处理。
-- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；其余子目录（如未列出的论文/报告）待后续按专题摄入。
+- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；2026-09-01 补入 `time_series_agent/` 剩余两篇子论文（AgentFM 2504.06614、IoT 2510.03859），该综述全部子论文均已建独立来源页。其余子目录（如未列出的论文/报告）待后续按专题摄入。
 - `raw/data/` — 暂未使用。

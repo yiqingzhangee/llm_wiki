@@ -59,7 +59,8 @@ LLM 必须**至少做出一个改变多步时序工作流的决策**（选动作
 - **LLM-as-a-Judge**：[[来源-CALM流式异常检测LLM裁判-2025]] — Apache Beam + TimesFM，LLM 判官区分噪声 vs 漂移，闭环持续微调。工程对应"评判可治理"。
 - **专门分析器分工 + 合成 ICL**：[[来源-SAGE专家式多Agent时序诊断-2026]] — 5 阶段管线、4 族 9 类分析器、k-medoids+DTW 检索正常原型、LLM 打分 temperature=0。工程对应"诊断可结构化"。
 - **多 Agent 自动化管线 + 开源**：[[来源-AD-Agent多Agent异常检测-2025]] — 7 Agent + 短/长期记忆，自然语言→可执行 AD 流水线，集成 PyOD/PyGOD/TSLib，BSD-2 开源。
-- **多 Agent 角色感知**：AgentFM 区分系统/数据/任务角色做分布式数据库故障管理。
+- **多 Agent 角色感知**：[[来源-AgentFM-数据库故障管理Agent-2025]] — 分布式数据库运维场景，区分系统/数据/任务角色，meta-agent 编排聚合；IoTDB 初步验证（preliminary）。工程对应"编排可治理（meta-agent 归因）"。
+- **LLM + XAI 混合 + 语义记忆**：[[来源-IoT异常检测LLM-Agent-2025]] — 关键 IoT 基础设施场景，LLM 上下文推理 + XAI（SHAP/LIME/注意力热图）+ 语义记忆缓冲，强可解释 + human-in-the-loop；仿真 smart grid/healthcare，95.4% vs 82.1%。工程对应"XAI 可审计 + 人在回路"。
 
 这些与 [[流量风控技能栈与Agent治理]] 的"可审计链路"在治理诉求上同构——时序运维与风控都要求"可解释 + 可追溯 + 可干预"。
 

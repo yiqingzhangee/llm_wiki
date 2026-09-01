@@ -117,6 +117,8 @@
 - [sources/来源-ARGOS自主规则时序异常检测-2025.md](sources/来源-ARGOS自主规则时序异常检测-2025.md) — LLM 训练期生成可解释可复现 Python 规则，三 Agent + 模型融合，KPI +9.5% F1
 - [sources/来源-CALM流式异常检测LLM裁判-2025.md](sources/来源-CALM流式异常检测LLM裁判-2025.md) — Apache Beam + TimesFM，LLM-as-a-Judge 漂移检测 + 闭环持续微调
 - [sources/来源-SAGE专家式多Agent时序诊断-2026.md](sources/来源-SAGE专家式多Agent时序诊断-2026.md) — 5 阶段管线 + 4 族 9 类分析器 + 合成 ICL（k-medoids+DTW），LLM 打分 temperature=0
+- [sources/来源-AgentFM-数据库故障管理Agent-2025.md](sources/来源-AgentFM-数据库故障管理Agent-2025.md) — 分布式数据库角色感知故障管理，meta-agent 编排 system/data/task 三类 agent，IoTDB preliminary 验证
+- [sources/来源-IoT异常检测LLM-Agent-2025.md](sources/来源-IoT异常检测LLM-Agent-2025.md) — 关键 IoT 基础设施 LLM+XAI 混合异常检测，语义记忆缓冲 + SHAP/LIME 可解释，仿真 95.4% vs 82.1%
 - [sources/来源-WeMM多模态嵌入技术报告-2026.md](sources/来源-WeMM多模态嵌入技术报告-2026.md) — WeChat 通用多模态嵌入模型族（2B/4B/9B）两阶段训练，登顶 MMEB-v2
 
 ## 领域知识 — 对比（Comparisons）
