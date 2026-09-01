@@ -40,6 +40,10 @@
 - [concepts/Stable-Diffusion微调技术矩阵.md](concepts/Stable-Diffusion微调技术矩阵.md) — SD 微调方法全景对比（LoRA/DreamBooth/ControlNet/IP-Adapter 等）与选型决策
 - [concepts/对抗样本攻击原理与实践.md](concepts/对抗样本攻击原理与实践.md) — VLM 对抗攻击三类方法（迁移型/多尺度/扩散生成）的 ASR 实测与防御量化
 - [concepts/风控工程实战案例-ByteDance.md](concepts/风控工程实战案例-ByteDance.md) — 字节电商+内容风控一线工程复盘（双 Runtime Agent、闪帧治理、团伙挖掘、统一大盘）
+- [concepts/可信图神经网络.md](concepts/可信图神经网络.md) — 从图学习视角整理鲁棒性/可解释性/隐私/公平/问责/环境福祉六维治理框架
+- [concepts/Agent记忆系统与自我演进.md](concepts/Agent记忆系统与自我演进.md) — Foundation Agent Memory 三维分类法（基底/认知机制/主体），记忆从被动存储到可学习策略的自我演进
+- [concepts/时间序列LLM智能体分类法.md](concepts/时间序列LLM智能体分类法.md) — 时序 Agent 问题驱动四分类 + 架构/工具/记忆三维度（异常检测子域方法谱）
+- [concepts/多模态嵌入与检索基座.md](concepts/多模态嵌入与检索基座.md) — CLIP→MLLM 隐藏状态→通用多模态嵌入模型族演进与 WeMM 两阶段训练范式
 
 ## 领域知识 — 实体（Entities）
 
@@ -62,6 +66,7 @@
 - [sources/来源-搜索归档-多Agent-arXiv-2026-06-20.md](sources/来源-搜索归档-多Agent-arXiv-2026-06-20.md) — 多Agent arXiv 近期论文归档与趋势提要
 - [sources/来源-搜索归档-流量风控skills-2026-06-20.md](sources/来源-搜索归档-流量风控skills-2026-06-20.md) — 流量风控技能与 Agent 治理搜索归档的证据分层总结
 - [sources/来源-搜索归档-Agent风控情报Watch-2026-06-21.md](sources/来源-搜索归档-Agent风控情报Watch-2026-06-21.md) — Agent+风控定时情报批次的证据质量分层与平台偏移说明
+- [sources/来源-搜索归档-Agent风控情报Watch-2026-06-27.md](sources/来源-搜索归档-Agent风控情报Watch-2026-06-27.md) — 06-27 情报批次：行动链风险治理、Agent 双重角色、Berkeley/Microsoft/Oracle 治理框架与平台治理信号
 - [sources/来源-构建Agent的四个问题-2026-06-21.md](sources/来源-构建Agent的四个问题-2026-06-21.md) — “复杂度/价值/可执行性/错误成本”四问框架的来源归档与边界说明
 - [sources/来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md](sources/来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md) — TCE + 飞书 + Claude Code 的企业内网部署清单与运维要点
 - [sources/来源-基于控制论的内容风控系统全流程方案-2026-06-21.md](sources/来源-基于控制论的内容风控系统全流程方案-2026-06-21.md) — 将内容风控建模为传感器-控制器-执行器-反馈回路的闭环方案
@@ -94,6 +99,7 @@
 - [sources/来源-Reverse-Curriculum-RL-逆课程推理强化-ICML2024.md](sources/来源-Reverse-Curriculum-RL-逆课程推理强化-ICML2024.md) — 从中间状态回退的逆课程强化推理方法
 - [sources/来源-AdaProp-自适应传播路径-KDD2024.md](sources/来源-AdaProp-自适应传播路径-KDD2024.md) — 查询相关的 KG 传播路径自适应采样
 - [sources/来源-NRN-实体与数值联合推理-KDD2024.md](sources/来源-NRN-实体与数值联合推理-KDD2024.md) — 将实体与数值分相位编码的复杂查询推理框架
+- [sources/来源-可信图神经网络综述-2022.md](sources/来源-可信图神经网络综述-2022.md) — 可信 GNN 六维框架导读：鲁棒性、可解释性、隐私、公平性、问责与环境福祉
 - [sources/来源-Stable-Diffusion微调技术深度调研-2026-06-23.md](sources/来源-Stable-Diffusion微调技术深度调研-2026-06-23.md) — SD 微调技术全景调研（LoRA/DreamBooth/ControlNet/IP-Adapter 等 9 种方法 + 5 大框架对比）
 - [sources/来源-Stable-Diffusion架构代表性工作与原理深度解析-2026-06-23.md](sources/来源-Stable-Diffusion架构代表性工作与原理深度解析-2026-06-23.md) — SD 架构演进深度解析（LDM→SDXL→SD3/MMDiT→FLUX，含关键代码实现）
 - [sources/来源-视频透明图层提取技术方案-2026-06-23.md](sources/来源-视频透明图层提取技术方案-2026-06-23.md) — 视频抠图/层分解完整技术方案（RVM/MODNet/MatAnyone + 生成式前沿）
@@ -104,6 +110,14 @@
 - [sources/来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md](sources/来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md) — 清华大学主导：基于基础模型的工具学习统一框架（控制器-工具-环境-感知器）及其认知起源、训练策略与安全挑战
 - [sources/来源-增强语言模型综述-ALM-MetaAI-2026-06-23.md](sources/来源-增强语言模型综述-ALM-MetaAI-2026-06-23.md) — Meta AI（Yann LeCun 参与）：增强语言模型 ALM 综述，推理+工具双重增强打破纯统计语言建模范式
 - [sources/来源-LLM多智能体综述-NotreDame-2026-06-23.md](sources/来源-LLM多智能体综述-NotreDame-2026-06-23.md) — 圣母大学主导：LLM 多智能体系统四维度框架（接口/画像/通信/能力获取）与问题求解+世界模拟双模式全景
+- [sources/来源-Agent记忆综述-2026.md](sources/来源-Agent记忆综述-2026.md) — Foundation Agent Memory 综述：基底/认知机制/主体三维分类法与自我演进开放挑战（`raw/articles/agent_memory/`）
+- [sources/来源-视频审核与电商风控GUI-Agent批次-2026.md](sources/来源-视频审核与电商风控GUI-Agent批次-2026.md) — UNIVID/IPS/VideoModerator 审核演进 + RISK/RiskWebWorld 电商风控 GUI Agent 框架与基准
+- [sources/来源-时间序列LLM智能体综述-2026.md](sources/来源-时间序列LLM智能体综述-2026.md) — 时序 LLM Agent 综述四分类 + AD-Agent/ARGOS/CALM/SAGE/AgentFM 等子论文（`raw/articles/time_series_agent/`）
+- [sources/来源-AD-Agent多Agent异常检测-2025.md](sources/来源-AD-Agent多Agent异常检测-2025.md) — 7 Agent + 短/长期记忆，自然语言→可执行 AD 流水线，集成 PyOD/PyGOD/TSLib，BSD-2 开源
+- [sources/来源-ARGOS自主规则时序异常检测-2025.md](sources/来源-ARGOS自主规则时序异常检测-2025.md) — LLM 训练期生成可解释可复现 Python 规则，三 Agent + 模型融合，KPI +9.5% F1
+- [sources/来源-CALM流式异常检测LLM裁判-2025.md](sources/来源-CALM流式异常检测LLM裁判-2025.md) — Apache Beam + TimesFM，LLM-as-a-Judge 漂移检测 + 闭环持续微调
+- [sources/来源-SAGE专家式多Agent时序诊断-2026.md](sources/来源-SAGE专家式多Agent时序诊断-2026.md) — 5 阶段管线 + 4 族 9 类分析器 + 合成 ICL（k-medoids+DTW），LLM 打分 temperature=0
+- [sources/来源-WeMM多模态嵌入技术报告-2026.md](sources/来源-WeMM多模态嵌入技术报告-2026.md) — WeChat 通用多模态嵌入模型族（2B/4B/9B）两阶段训练，登顶 MMEB-v2
 
 ## 领域知识 — 对比（Comparisons）
 
@@ -115,6 +129,8 @@
 - [comparisons/工作流与Agent任务分流对比-2026-06-21.md](comparisons/工作流与Agent任务分流对比-2026-06-21.md) — 基于四问框架比较 workflow 与 agent 的适用条件与治理代价
 - [comparisons/评测污染与推理捷径风险对照-2026-06-22.md](comparisons/评测污染与推理捷径风险对照-2026-06-22.md) — 对照 benchmark contamination 与 reasoning shortcuts 的风险来源与治理手段
 - [comparisons/推理框架六法对照-2026-06-22.md](comparisons/推理框架六法对照-2026-06-22.md) — 对照十二类推理/修正/评测路径的结构、纠错信号与成本边界
+- [comparisons/时序异常检测方法对照-2026-08-31.md](comparisons/时序异常检测方法对照-2026-08-31.md) — ARGOS/CALM/SAGE/AD-Agent 在 LLM 介入程度、可解释性、可复现性、自主性、开源上的设计取舍与风控治理同构
+- [comparisons/多模态嵌入基座对比-2026-08-31.md](comparisons/多模态嵌入基座对比-2026-08-31.md) — WeMM vs CLIP/Gemini Embedding 的演进路线、规模-性能前沿与选型建议（证据层级不均，Gemini/CLIP 为 E3 外部参照）
 
 ## 领域知识 — 地图（Maps）
 
@@ -122,6 +138,7 @@
 - [maps/研究主题导航.md](maps/研究主题导航.md) — 现有主题关系总览（蒸馏/多语/协同/治理/表格）
 - [maps/表格建模选型决策树.md](maps/表格建模选型决策树.md) — 按样本量、预算与线上约束选择建模路线
 - [maps/多Agent研究与工程落地地图.md](maps/多Agent研究与工程落地地图.md) — 连接多Agent论文趋势与框架工程实践的主题地图
+- [maps/研究主题导航.md](maps/研究主题导航.md) — 主题关系总览，已补入 Agent 记忆 / 时序 Agent / 多模态嵌入 / 视频审核与电商风控 GUI Agent 批次及其跨域连接
 
 ## 运维
 

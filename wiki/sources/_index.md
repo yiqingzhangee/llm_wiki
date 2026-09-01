@@ -38,6 +38,24 @@
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_AdaProp_Learning_Adaptive_Propagation_for_Graph_Neural_Network_based_Knowledge_Graph_Reasoning.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_AdaProp_Learning_Adaptive_Propagation_for_Graph_Neural_Network_based_Knowledge_Graph_Reasoning.md)
 - [来源-NRN-实体与数值联合推理-KDD2024.md](来源-NRN-实体与数值联合推理-KDD2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_Knowledge_Graph_Reasoning_over_Entities_and_Numerical_Values.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_Knowledge_Graph_Reasoning_over_Entities_and_Numerical_Values.md)
+- [来源-可信图神经网络综述-2022.md](来源-可信图神经网络综述-2022.md)
+  - Raw：[`raw/papers/4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md`](../../raw/papers/4_Other_ML/%E5%8F%AF%E4%BF%A1AI/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E5%8F%AF%E4%BF%A1GNN%EF%BC%9F%E6%9C%80%E6%96%B0%E7%BB%BC%E8%BF%B0%E6%9D%A5%E4%BA%86%EF%BC%81%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%9A%E7%BB%B4%E5%BA%A6%EF%BC%8C%E6%96%B9%E6%B3%95%EF%BC%8C%E8%B6%8B%E5%8A%BF.md)
+- [来源-Agent记忆综述-2026.md](来源-Agent记忆综述-2026.md)
+  - Raw：[`raw/articles/agent_memory/2026-Review-A Survey of Agent Memory in the Second Half Towards Self-Evolving and Long-Horizon Agents.pdf.md`](../../raw/articles/agent_memory/2026-Review-A%20Survey%20of%20Agent%20Memory%20in%20the%20Second%20Half%20Towards%20Self-Evolving%20and%20Long-Horizon%20Agents.pdf.md)（含 ZH/Dual/EN 三版 PDF）
+- [来源-视频审核与电商风控GUI-Agent批次-2026.md](来源-视频审核与电商风控GUI-Agent批次-2026.md)
+  - Raw：[`raw/articles/video_moderation/`](../../raw/articles/video_moderation/)（UNIVID / IPS / RiskWebWorld / RISK / VideoModerator，含 dual/ZH/translated 版本）
+- [来源-时间序列LLM智能体综述-2026.md](来源-时间序列LLM智能体综述-2026.md)
+  - Raw：[`raw/articles/time_series_agent/`](../../raw/articles/time_series_agent/)（综述 + AD-Agent/ARGOS/CALM/SAGE/AgentFM/IoT 论文 + 代码 `papers/llm-tsfd_code/`）
+- [来源-AD-Agent多Agent异常检测-2025.md](来源-AD-Agent多Agent异常检测-2025.md)
+  - Raw：[`raw/articles/time_series_agent/2505.12594v1.pdf`](../../raw/articles/time_series_agent/2505.12594v1.pdf)（开源 `github.com/USC-FORTIS/AD-AGENT`）
+- [来源-ARGOS自主规则时序异常检测-2025.md](来源-ARGOS自主规则时序异常检测-2025.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2501.14170.pdf`](../../raw/articles/time_series_agent/papers/2501.14170.pdf)
+- [来源-CALM流式异常检测LLM裁判-2025.md](来源-CALM流式异常检测LLM裁判-2025.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2508.21273.pdf`](../../raw/articles/time_series_agent/papers/2508.21273.pdf)
+- [来源-SAGE专家式多Agent时序诊断-2026.md](来源-SAGE专家式多Agent时序诊断-2026.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2605.05725.pdf`](../../raw/articles/time_series_agent/papers/2605.05725.pdf)
+- [来源-WeMM多模态嵌入技术报告-2026.md](来源-WeMM多模态嵌入技术报告-2026.md)
+  - Raw：[`raw/articles/multimodal_embed/2026-WeMM-Embedding WeChat Multi-Modal Embedding Technical Report.pdf`](../../raw/articles/multimodal_embed/2026-WeMM-Embedding%20WeChat%20Multi-Modal%20Embedding%20Technical%20Report.pdf)
 
 ## 代码镜像（`raw/code/`）
 
@@ -70,6 +88,8 @@
   - Raw：[`raw/search/traffic-risk-control-skills/2026-06-20/`（10 个页面）](../../raw/search/traffic-risk-control-skills/2026-06-20/)
 - [来源-搜索归档-Agent风控情报Watch-2026-06-21.md](来源-搜索归档-Agent风控情报Watch-2026-06-21.md)
   - Raw：[`raw/search/traffic-risk-control-watch/2026-06-21/agent-fengkong-watch-2026-06-21-1847.md`](../../raw/search/traffic-risk-control-watch/2026-06-21/agent-fengkong-watch-2026-06-21-1847.md)
+- [来源-搜索归档-Agent风控情报Watch-2026-06-27.md](来源-搜索归档-Agent风控情报Watch-2026-06-27.md)
+  - Raw：[`raw/search/traffic-risk-control-watch/2026-06-27/agent-fengkong-watch-2026-06-27-1234.md`](../../raw/search/traffic-risk-control-watch/2026-06-27/agent-fengkong-watch-2026-06-27-1234.md)
 - [来源-构建Agent的四个问题-2026-06-21.md](来源-构建Agent的四个问题-2026-06-21.md)
   - Raw：[`raw/transcripts/4 problems for building agent.md`](../../raw/transcripts/4%20problems%20for%20building%20agent.md)
 - [来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md](来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md)
@@ -135,5 +155,6 @@
 
 ## 尚未摄入
 
-- `raw/papers/`（~680 篇论文列表，已摄入 reasoning 子目录 14 篇）— 其余继续分批处理。
+- `raw/papers/`（大量论文/教程/手册仍未摄入；已额外纳入 `4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md` 作为新分支入口）— 其余继续按专题分批处理。
+- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；其余子目录（如未列出的论文/报告）待后续按专题摄入。
 - `raw/data/` — 暂未使用。
