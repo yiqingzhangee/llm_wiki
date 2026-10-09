@@ -2,7 +2,7 @@
 
 > 原始来源：[`raw/articles/RSI/papers_Dream-RSI_2609.14858v1.pdf`](../../../raw/articles/RSI/papers_Dream-RSI_2609.14858v1.pdf)（Google / UMD / UVA，共 17 位作者，通讯 xidongwu@google.com、zzhangx@google.com；© 2026 Google）。项目：github.com/zhengkid/Dream-RSI、dream-rsi.com。
 >
-> 关联概念：[[递归自我改进与Harness自演化]]、[[Agent记忆系统与自我演进]]。
+> 关联概念：[[递归自我改进与Harness自演化]]、[[Agent记忆系统与自我演进]]、[[来源-RSI综述-Preprints-2026]]。
 
 ## 一句话主张
 
