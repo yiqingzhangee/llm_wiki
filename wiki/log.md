@@ -185,3 +185,20 @@ Append-only log of all wiki operations.
   - `maps/研究主题导航.md`：新增 Dream-RSI/DreamRSISrc 节点与 RSIHarness→Dream-RSI 边；用户表征 & RSI 条目补链。
   - `index.md`、`sources/_index.md`：各 +3 来源页注册；raw/articles provenance 补 2026-10-09 批次说明。
 - **冲突/不确定性**：Dream-RSI 收益仅递归轮内、任务内成立，跨模型/新世界泛化未证（replay 评分超参敏感度未展开）；TokenMinds/RQ-VAE 精确数值回 arXiv 原文核验；RQ-VAE 为图像论文，仅作 Semantic ID 方法学关联，不作推荐有效性推断。
+
+## [2026-10-09] ingest | 由 Transformer 效率演进视频推导的 10 篇论文下载并建 wiki
+
+- 来源：`raw/videos/微信视频2026-10-08_205503_975.mp4`（"55 秒看完 Transformer 效率演进时间线"，无字幕、仅画面帧）梳理出 2017–2026 时间线；据此逐篇确认真实 arXiv 论文并下载到 `raw/articles/transformer_efficiency/`（10 篇 PDF）。
+- 新增来源页（multimodal/）：
+  - Transformer（1706.03762）、Sparse Gated MoE（1701.06538）、Universal Transformers（1807.03819）、Transformers are RNNs 线性注意力（2006.16236）、DeepSeek-V2 MLA（2405.04434）、NSA（2502.11089）、MoBA（2502.13189）、Kimi Linear KDA（2510.26692）、DeepSeek-V4 CSA/HCA（2606.19348）、MiniMax MSA（2606.13392）。
+- 新增概念页 [[Transformer效率演进]]：按 Transformer 环节（打分③④ / QKV投影·KV缓存② / FFN·整体⑦）归 13 项技术，梳理"块级稀疏 / 线性定长状态 / KV 压缩"三条脉络与交叉张力。
+- 新增对照页 [[Transformer效率技术对照-2026]]：一表对照 10 项技术的年份、机构、环节、手段、量化收益与取舍。
+- 织入：`maps/研究主题导航.md` 新增 AttnEff/AttnEffCmp 节点与边；`index.md` 概念/来源/对照三处注册；`sources/_index.md` 新增批次登记 + raw/articles provenance 补 10 篇。
+- **冲突/不确定性**：视频为二手科普（无字幕），时间线日期与个别命名（如 2026 未公开的 CSA2+CED/MoBA 后续）仅作线索；各论文具体收益数字、硬件条件（H800/FLOPS/KV 内存）口径不同，横向数值不拼排行榜，精确值回各 arXiv 原文核验。KDA 页与对照页已在"线性 vs 稀疏 vs 压缩"上显式标注分歧。
+
+## [2026-10-10] ingest | 摄入 Preprints.org RSI 独立综述
+
+- 扫描 `raw/` 递归清单，识别新增未覆盖来源 `raw/articles/preprints202609.2680.v1.pdf`（RSI 独立综述，doi:10.20944/preprints202609.2680.v1，Preprints.org，2026-09-30，未同行评审）。
+- 新增来源页 `sources/agent/来源-RSI综述-Preprints-2026.md`：机制级统一框架（经验→候选→验证→保留，任务系统/改进过程双层循环+外部锚点）、自动化设计 vs 修复优化、方法簇（自训练/记忆技能/Agent设计/可编辑改进器/AI4AI）、证据协议（独立测试/预算/保留/改进器消融/外部反馈）、结论为"局部可用、开放式未证"。
+- 织入：`concepts/agent/递归自我改进与Harness自演化.md`（结论边界补该综述印证 + 三类主张/四类证据协议）；`来源-Dream-RSI-演化世界递归自我改进-2026.md` 关联该综述；`maps/研究主题导航.md` 新增 RSISurvey 节点+边 + prose 条目；`index.md`、`sources/_index.md` 注册 + provenance 补 2026-10-10。
+- **冲突**：无新冲突；该综述与既有 RSI 结论一致（不构成 contradiction），但为**未评审预印本**，精确内容回原文核验；若后续出现"宣称可靠加速 RSI"的正文需与本页对照。

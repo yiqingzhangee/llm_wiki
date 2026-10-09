@@ -52,6 +52,7 @@
 - [concepts/LLM推荐系统的分层改造与评估.md](concepts/applications/LLM%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%88%86%E5%B1%82%E6%94%B9%E9%80%A0%E4%B8%8E%E8%AF%84%E4%BC%B0.md) — 按语义增强、受约束生成与 Agent 编排组织 LLM4Rec，并给出四层验收口径
 - [concepts/LLM用户表征基础模型与场景适配.md](concepts/applications/LLM%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%9C%BA%E6%99%AF%E9%80%82%E9%85%8D.md) — 汇总未来对齐、量化长历史、条件化表示与掩码适配，并明确其在推荐等系统中的表征层边界
 - [concepts/多模态结构保真与统一对齐.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%93%E6%9E%84%E4%BF%9D%E7%9C%9F%E4%B8%8E%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90.md) — 区分共享接口与原始表示统一，按数值、时间、空间与拓扑结构组织边—环—整体评测
+- [concepts/Transformer效率演进.md](concepts/multimodal/Transformer%E6%95%88%E7%8E%87%E6%BC%94%E8%BF%9B.md) — 一条 2017–2026 主线：从全量自注意力到"块级稀疏/线性定长状态/KV 压缩"的组合式改造，按 Transformer 环节归 13 项技术
 - [concepts/Qwen异构特征接入与事件序列建模.md](concepts/applications/Qwen%E5%BC%82%E6%9E%84%E7%89%B9%E5%BE%81%E6%8E%A5%E5%85%A5%E4%B8%8E%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E5%BB%BA%E6%A8%A1.md) — 以无泄漏契约、强基线与分阶段门禁组织事件、统计特征接入 Qwen 的路线
 
 ## 领域知识 — 实体（Entities）
@@ -130,6 +131,16 @@
 - [sources/来源-IoT异常检测LLM-Agent-2025.md](sources/applications/%E6%9D%A5%E6%BA%90-IoT%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8BLLM-Agent-2025.md) — 关键 IoT 基础设施 LLM+XAI 混合异常检测，语义记忆缓冲 + SHAP/LIME 可解释，仿真 95.4% vs 82.1%
 - [sources/来源-WeMM多模态嵌入技术报告-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-WeMM%E5%A4%9A%E6%A8%A1%E6%80%81%E5%B5%8C%E5%85%A5%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A-2026.md) — WeChat 通用多模态嵌入模型族（2B/4B/9B）两阶段训练，登顶 MMEB-v2
 - [sources/来源-RQ-VAE-残差量化自回归图像生成-2022.md](sources/multimodal/%E6%9D%A5%E6%BA%90-RQ-VAE-%E6%AE%8B%E5%B7%AE%E9%87%8F%E5%8C%96%E8%87%AA%E5%9B%9E%E5%BD%92%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90-2022.md) — RQ 把连续表征折叠成短离散码栈的自回归源头，作为物品/用户 Semantic ID 序列化的方法学来源
+- [sources/来源-Transformer-Attention-Is-All-You-Need-2017.md](sources/multimodal/%E6%9D%A5%E6%BA%90-Transformer-Attention-Is-All-You-Need-2017.md) — Transformer 架构（2017），效率演进起点
+- [sources/来源-Sparse-Gated-MoE-2017.md](sources/multimodal/%E6%9D%A5%E6%BA%90-Sparse-Gated-MoE-2017.md) — 稀疏门控 MoE（2017）：参数×E、算力×k，MoBA 的思想源头
+- [sources/来源-Universal-Transformers-2018.md](sources/multimodal/%E6%9D%A5%E6%BA%90-Universal-Transformers-2018.md) — 权重共享循环 + ACT（2018）
+- [sources/来源-Transformers-are-RNNs-线性注意力-2020.md](sources/multimodal/%E6%9D%A5%E6%BA%90-Transformers-are-RNNs-%E7%BA%BF%E6%80%A7%E6%B3%A8%E6%84%8F%E5%8A%9B-2020.md) — 线性注意力：transformers 是 RNN，O(n²)→O(n)
+- [sources/来源-DeepSeek-V2-MLA-2024.md](sources/multimodal/%E6%9D%A5%E6%BA%90-DeepSeek-V2-MLA-2024.md) — MLA 低秩隐向量压缩 KV，KV−93.3%（2024）
+- [sources/来源-NSA-原生稀疏注意力-2025.md](sources/multimodal/%E6%9D%A5%E6%BA%90-NSA-%E5%8E%9F%E7%94%9F%E7%A8%80%E7%96%8F%E6%B3%A8%E6%84%8F%E5%8A%9B-2025.md) — NSA：压缩+选择+滑窗三支稀疏（DeepSeek，2025.02）
+- [sources/来源-MoBA-Mixture-of-Block-Attention-2025.md](sources/multimodal/%E6%9D%A5%E6%BA%90-MoBA-Mixture-of-Block-Attention-2025.md) — MoBA：MoE 路由思想搬进注意力（月之暗面，2025.02）
+- [sources/来源-Kimi-Linear-KDA-2025.md](sources/multimodal/%E6%9D%A5%E6%BA%90-Kimi-Linear-KDA-2025.md) — KDA 定长状态 + 细门控，全面超全注意力（月之暗面，2025.10）
+- [sources/来源-DeepSeek-V4-CSA-HCA-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-DeepSeek-V4-CSA-HCA-2026.md) — CSA 稀疏 + HCA 全量压缩 + 最近原 token，1M 上下文（DeepSeek，2026）
+- [sources/来源-MiniMax-Sparse-Attention-MSA-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-MiniMax-Sparse-Attention-MSA-2026.md) — MSA：GQA + 每组 top-16 块，1M 上下文注意力 −28.4×（MiniMax，2026）
 - [sources/来源-DeepEvidence-生物医学知识图谱深度研究-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-DeepEvidence-%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6-2026.md) — 生物医学 deep research 的 KG 驱动多 Agent 框架：BFRS/DFRS、证据图谱与统一 API 工具层
 - [sources/来源-开源多模态模型ViT视觉头与风控落地选型报告-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8BViT%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E8%90%BD%E5%9C%B0%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A-2026.md) — 开放 VLM 视觉路线、评测陷阱与风控部署边界：哪些场景适合试点，哪些不宜让 VLM 主裁决
 - [sources/来源-图像对抗攻防答辩文档-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3-2026.md) — 图像对抗攻防项目复盘：把 Illusion/对抗样本失效拆成“视觉头看不见”与“决策层判断错”，并落到增强审核触发器链路
@@ -137,6 +148,7 @@
 - [sources/来源-GRPO分组相对策略优化原理-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-GRPO%E5%88%86%E7%BB%84%E7%9B%B8%E5%AF%B9%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E5%8E%9F%E7%90%86-2026.md) — 去掉 value head、用组内相对奖励替代优势估计的推理/对齐训练方法说明
 - [sources/来源-递归自我改进与Harness自演化-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E4%B8%8EHarness%E8%87%AA%E6%BC%94%E5%8C%96-2026.md) — RSI、Harness 工程及 ASPIRE/HarnessDev/S3Gym 的批次综合，聚焦可迁移改进的证据边界
 - [sources/来源-Dream-RSI-演化世界递归自我改进-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-Dream-RSI-%E6%BC%94%E5%8C%96%E4%B8%96%E7%95%8C%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B-2026.md) — 把 discovery history 做成可回放世界，用离线"做梦"廉价评估/优化探索策略，闭合元层 RSI 循环
+- [sources/来源-RSI综述-Preprints-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-RSI%E7%BB%BC%E8%BF%B0-Preprints-2026.md) — RSI 独立综述（Preprints.org，未评审）：机制级统一框架、自动化设计 vs 修复优化、任务增益/保留/改进器增益三类主张的证据协议
 - [sources/来源-LLM推荐技术范式与落地边界-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%BE%B9%E7%95%8C-2026.md) — LLM4Rec 的语义增强、生成式推荐、智能体编排及其评测和生产约束
 - [sources/来源-FOUND可迁移可预测用户定向基础模型-2025.md](sources/applications/%E6%9D%A5%E6%BA%90-FOUND%E5%8F%AF%E8%BF%81%E7%A7%BB%E5%8F%AF%E9%A2%84%E6%B5%8B%E7%94%A8%E6%88%B7%E5%AE%9A%E5%90%91%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B-2025.md) — 以未来行为文本对齐历史多源画像的可迁移用户定向基座
 - [sources/来源-FOUNDv2统一量化用户Tokenizer-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-FOUNDv2%E7%BB%9F%E4%B8%80%E9%87%8F%E5%8C%96%E7%94%A8%E6%88%B7Tokenizer-2026.md) — 以共享/源特定码本和多尺度预训练压缩多源用户历史
@@ -168,6 +180,7 @@
 - [comparisons/多Agent论文方向对比-2026H1-arXiv.md](comparisons/agent/%E5%A4%9AAgent%E8%AE%BA%E6%96%87%E6%96%B9%E5%90%91%E5%AF%B9%E6%AF%94-2026H1-arXiv.md) — 增补 DeepEvidence 作为“共享证据图谱记忆 + 统一 KG 工具层 + 代码沙箱”的垂域多 Agent 样本
 - [comparisons/参数高效微调与对齐训练方法对照-2026-09-03.md](comparisons/reasoning-training/%E5%8F%82%E6%95%B0%E9%AB%98%E6%95%88%E5%BE%AE%E8%B0%83%E4%B8%8E%E5%AF%B9%E9%BD%90%E8%AE%AD%E7%BB%83%E6%96%B9%E6%B3%95%E5%AF%B9%E7%85%A7-2026-09-03.md) — 把 SFT、LoRA/QLoRA、DPO、GRPO 放回同一训练栈，比较各自解决的问题、成本与误用风险
 - [comparisons/LLM推荐三种系统范式对比-2026-09-11.md](comparisons/applications/LLM%E6%8E%A8%E8%8D%90%E4%B8%89%E7%A7%8D%E7%B3%BB%E7%BB%9F%E8%8C%83%E5%BC%8F%E5%AF%B9%E6%AF%94-2026-09-11.md) — 对照特征增强、受约束生成式推荐与推荐智能体的职责、风险和上线门槛
+- [comparisons/Transformer效率技术对照-2026.md](comparisons/multimodal/Transformer%E6%95%88%E7%8E%87%E6%8A%80%E6%9C%AF%E5%AF%B9%E7%85%A7-2026.md) — 一表对照 MoE/权重循环/线性注意力/MLA/MoBA/NSA/KDA/CSA-HCA/MSA 的环节、手段、量化收益与取舍
 - [comparisons/异构数据接入大模型的四档方案对比-2026.md](comparisons/multimodal/%E5%BC%82%E6%9E%84%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%9B%9B%E6%A1%A3%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%94-2026.md) — 对照文本化、软 token、独立编码器投影与端到端深融合的门禁和停止条件
 
 ## 领域知识 — 地图（Maps）

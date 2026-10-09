@@ -72,6 +72,8 @@
   - Raw：[`raw/transcripts/GRPO原理.md`](../../raw/transcripts/GRPO%E5%8E%9F%E7%90%86.md)
 - [来源-递归自我改进与Harness自演化-2026.md](agent/%E6%9D%A5%E6%BA%90-%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E4%B8%8EHarness%E8%87%AA%E6%BC%94%E5%8C%96-2026.md)
   - Raw：[`raw/articles/RSI/`（7 个双语资料：RSI 分类、对齐与监控观点、Harness Engineering、ASPIRE、HarnessDev、S3Gym）](../../raw/articles/RSI)
+- [来源-RSI综述-Preprints-2026.md](agent/%E6%9D%A5%E6%BA%90-RSI%E7%BB%BC%E8%BF%B0-Preprints-2026.md)
+  - Raw：[`raw/articles/preprints202609.2680.v1.pdf`](../../raw/articles/preprints202609.2680.v1.pdf)（Preprints.org RSI 独立综述，未同行评审）
 - [来源-LLM推荐技术范式与落地边界-2026.md](applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%BE%B9%E7%95%8C-2026.md)
   - Raw：[`raw/articles/llm4rec/LLM_For_Recommendation_技术范式_证据边界与落地路径.md`](../../raw/articles/llm4rec/LLM_For_Recommendation_%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F_%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%B7%AF%E5%BE%84.md)
 
@@ -204,6 +206,23 @@
 ## 尚未摄入
 
 - `raw/papers/`（大量论文/教程/手册仍未摄入；已额外纳入 `4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md` 作为新分支入口）— 其余继续按专题分批处理。
-- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；2026-09-01 补入 `time_series_agent/` 剩余两篇子论文（AgentFM 2504.06614、IoT 2510.03859），该综述全部子论文均已建独立来源页；2026-09-02 新增纳入 `DeepEvidence`（知识图谱驱动生物医学 deep research）、`开源多模态模型 ViT 视觉头与风控落地选型报告`（开放 VLM 选型 / 风控部署边界）与 `图像对抗攻防研究答辩文档`（图像对抗失效诊断 / 增强审核触发器链路）；2026-09-11 新增纳入 `RSI/`（递归自我改进、Harness、ASPIRE/HarnessDev/S3Gym）与 `llm4rec/`（LLM 推荐范式、评估和落地边界）。2026-10-09 补入 `RSI/` 第 8 份材料 `papers_Dream-RSI_2609.14858v1.pdf`（discovery history → replay simulator 的元层 RSI）与 `llm4rec/` 两篇 PDF（`2606.25147` TokenMinds 用户 SID token、`2203.01941` RQ-VAE 残差量化自回归并作为 Semantic ID 方法学来源）。其余子目录（如未列出的论文/报告）待后续按专题摄入。
+- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；2026-09-01 补入 `time_series_agent/` 剩余两篇子论文（AgentFM 2504.06614、IoT 2510.03859），该综述全部子论文均已建独立来源页；2026-09-02 新增纳入 `DeepEvidence`（知识图谱驱动生物医学 deep research）、`开源多模态模型 ViT 视觉头与风控落地选型报告`（开放 VLM 选型 / 风控部署边界）与 `图像对抗攻防研究答辩文档`（图像对抗失效诊断 / 增强审核触发器链路）；2026-09-11 新增纳入 `RSI/`（递归自我改进、Harness、ASPIRE/HarnessDev/S3Gym）与 `llm4rec/`（LLM 推荐范式、评估和落地边界）。2026-10-09 补入 `RSI/` 第 8 份材料 `papers_Dream-RSI_2609.14858v1.pdf`（discovery history → replay simulator 的元层 RSI）、`llm4rec/` 两篇 PDF（`2606.25147` TokenMinds 用户 SID token、`2203.01941` RQ-VAE 残差量化自回归并作为 Semantic ID 方法学来源）；同日新增 `transformer_efficiency/` 一批 10 篇（由 `raw/videos/` 的 Transformer 效率演进科普视频给出论文清单，见下方 "2026-10-09 新增批次"）。2026-10-10 扫描 `raw/` 递归清单新增纳入 `raw/articles/preprints202609.2680.v1.pdf`（Preprints.org RSI 独立综述，未评审，登记为 [[来源-RSI综述-Preprints-2026]]）。其余子目录（如未列出的论文/报告）待后续按专题摄入。
 - `raw/transcripts/` — 2026-09-03 新增纳入 `LoRA.md` 与 `GRPO原理.md`，已抽象为“参数高效微调与对齐训练”主题簇；2026-09-14 新增纳入“多模态数据统一嵌入大模型调研”专题的五模态结构对齐、推荐文本化、Qwen 事件/统计特征建模与推荐→风控迁移（LLM4Rec 同名文件仅登记为既有来源镜像），并补齐 `LLM-based User Representation Foundation Models/` 的六篇独立来源；其余未列转录仍按专题分批处理。
 - `raw/data/` — 暂未使用。
+
+### 2026-10-09 新增批次：Transformer 效率演进（`raw/articles/transformer_efficiency/`）
+
+> 来源：短视频"55 秒看完 Transformer 效率演进时间线"（`raw/videos/微信视频2026-10-08_205503_975.mp4`，仅画面帧、无字幕）梳理出 2017–2026 时间线；逐篇下载 arXiv PDF 并建来源页。核心概念页 [[Transformer效率演进]]、对照页 [[Transformer效率技术对照-2026]]。
+
+- [来源-Transformer-Attention-Is-All-You-Need-2017.md](multimodal/%E6%9D%A5%E6%BA%90-Transformer-Attention-Is-All-You-Need-2017.md) — `raw/articles/transformer_efficiency/2017-Attention-Is-All-You-Need-Transformer.pdf`
+- [来源-Sparse-Gated-MoE-2017.md](multimodal/%E6%9D%A5%E6%BA%90-Sparse-Gated-MoE-2017.md) — `raw/articles/transformer_efficiency/2017-Sparse-Gated-MoE-Outrageously-Large-NN.pdf`
+- [来源-Universal-Transformers-2018.md](multimodal/%E6%9D%A5%E6%BA%90-Universal-Transformers-2018.md) — `raw/articles/transformer_efficiency/2018-Universal-Transformers.pdf`
+- [来源-Transformers-are-RNNs-线性注意力-2020.md](multimodal/%E6%9D%A5%E6%BA%90-Transformers-are-RNNs-%E7%BA%BF%E6%80%A7%E6%B3%A8%E6%84%8F%E5%8A%9B-2020.md) — `raw/articles/transformer_efficiency/2020-Transformers-are-RNNs-Linear-Attention.pdf`
+- [来源-DeepSeek-V2-MLA-2024.md](multimodal/%E6%9D%A5%E6%BA%90-DeepSeek-V2-MLA-2024.md) — `raw/articles/transformer_efficiency/2024-DeepSeek-V2-MLA.pdf`
+- [来源-NSA-原生稀疏注意力-2025.md](multimodal/%E6%9D%A5%E6%BA%90-NSA-%E5%8E%9F%E7%94%9F%E7%A8%80%E7%96%8F%E6%B3%A8%E6%84%8F%E5%8A%9B-2025.md) — `raw/articles/transformer_efficiency/2025-NSA-Native-Sparse-Attention-DeepSeek.pdf`
+- [来源-MoBA-Mixture-of-Block-Attention-2025.md](multimodal/%E6%9D%A5%E6%BA%90-MoBA-Mixture-of-Block-Attention-2025.md) — `raw/articles/transformer_efficiency/2025-MoBA-Mixture-of-Block-Attention-Moonshot.pdf`
+- [来源-Kimi-Linear-KDA-2025.md](multimodal/%E6%9D%A5%E6%BA%90-Kimi-Linear-KDA-2025.md) — `raw/articles/transformer_efficiency/2025-Kimi-Linear-KDA-Moonshot.pdf`
+- [来源-DeepSeek-V4-CSA-HCA-2026.md](multimodal/%E6%9D%A5%E6%BA%90-DeepSeek-V4-CSA-HCA-2026.md) — `raw/articles/transformer_efficiency/2026-DeepSeek-V4-CSA-HCA.pdf`
+- [来源-MiniMax-Sparse-Attention-MSA-2026.md](multimodal/%E6%9D%A5%E6%BA%90-MiniMax-Sparse-Attention-MSA-2026.md) — `raw/articles/transformer_efficiency/2026-MiniMax-Sparse-Attention-MSA.pdf`
+- 概念页：[[Transformer效率演进]]
+- 对照页：[[Transformer效率技术对照-2026]]
