@@ -164,3 +164,24 @@ Append-only log of all wiki operations.
 **冲突/不确定性**：
 - 两篇均为 preliminary / 仿真口径，非成熟系统级定论；IoT "97%" 为峰值、"95.4%"为主对照口径，已在来源页与对照页标注。
 - 两篇均未明确开源（与 AD-Agent BSD-2 形成对照），复现需回原文核验。
+
+## [2026-09-14] ingest | 补齐 LLM 用户表征基础模型六篇转录来源
+
+- 摄入 `raw/transcripts/LLM-based User Representation Foundation Models/` 的 FOUND、FOUNDv2、Query as Anchor、用户行为致密律、Decoder-Only 掩码与 InstructUE 六篇独立阅读稿，分别建立来源页与 raw 路径登记。
+- 新增 [[LLM用户表征基础模型与场景适配]]，并更新 LLM 推荐分层、掩码概念、推荐范式对比与研究主题导航；明确这些工作属于表征层，不替代召回、排序、目录与政策控制面。
+- 修复同步遗漏：此前采用有界候选筛选并按主题去重，低语义 `paper_zh_*` 嵌套目录被“已有 LLM4Rec 覆盖”误判；后续以递归 raw 路径清单逐项记录处理状态。
+
+## [2026-10-09] ingest | 深度摄入 Dream-RSI + llm4rec 两篇 PDF 并跨域织入
+
+- 扫描 `raw/` 全量递归；识别三份此前未总结来源：`raw/articles/RSI/papers_Dream-RSI_2609.14858v1.pdf`（RSI 第 8 份材料）、`raw/articles/llm4rec/2606.25147v1.pdf`（TokenMinds 用户 SID token）、`raw/articles/llm4rec/2203.01941v2.pdf`（RQ-VAE）。视频 `raw/videos/微信视频2026-10-08_205503_975.mp4` 无文本镜像，跳过（建议转录后补摄入）。
+- 新增来源页：
+  - `sources/agent/来源-Dream-RSI-演化世界递归自我改进-2026.md`（discovery history → replay simulator，三阶段框架、CONTINUE(v)/replay 评分形式化、三域 8 任务结果）。
+  - `sources/applications/来源-TokenMinds-预训练用户Token-2026.md`（LLM encoder-decoder + 共享 SID 词表，双输出离散 token+稠密 embedding，跨长/短视频统一，YouTube 全量上线）。
+  - `sources/multimodal/来源-RQ-VAE-残差量化自回归图像生成-2022.md`（残差量化折叠连续表征成短离散码栈，作为 Semantic ID 序列化方法学来源）。
+- 知识织入：
+  - `concepts/agent/递归自我改进与Harness自演化.md`：新增“第三种改进基底——经验重放驱动的元策略优化”小节 + 对比表；Dream-RSI 收益被限定在固定历史平均分/递归轮内+任务内，不推翻既有“留出迁移不稳定”边界。
+  - `concepts/applications/LLM用户表征基础模型与场景适配.md`：四路线表 +“离散用户表示+跨场景统一”行；证据边界改为七篇来源口径。
+  - `sources/agent/来源-递归自我改进与Harness自演化-2026.md`：题头改为 8 份材料，标注 Dream-RSI 单独成页。
+  - `maps/研究主题导航.md`：新增 Dream-RSI/DreamRSISrc 节点与 RSIHarness→Dream-RSI 边；用户表征 & RSI 条目补链。
+  - `index.md`、`sources/_index.md`：各 +3 来源页注册；raw/articles provenance 补 2026-10-09 批次说明。
+- **冲突/不确定性**：Dream-RSI 收益仅递归轮内、任务内成立，跨模型/新世界泛化未证（replay 评分超参敏感度未展开）；TokenMinds/RQ-VAE 精确数值回 arXiv 原文核验；RQ-VAE 为图像论文，仅作 Semantic ID 方法学关联，不作推荐有效性推断。
