@@ -7,133 +7,222 @@
 ## 论文与文章（`raw/`）
 
 
-- [paper-agent-ai-survey-2401-03568.md](paper-agent-ai-survey-2401-03568.md)
+- [paper-agent-ai-survey-2401-03568.md](agent/paper-agent-ai-survey-2401-03568.md)
   - Raw：[`raw/articles/MinerU_markdown_2401.03568v2_2043246523466801152.md`](../../raw/articles/MinerU_markdown_2401.03568v2_2043246523466801152.md)
 
-- [来源-小学算术基准污染检验-GSM1k-2024.md](来源-小学算术基准污染检验-GSM1k-2024.md)
+- [来源-小学算术基准污染检验-GSM1k-2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-%E5%B0%8F%E5%AD%A6%E7%AE%97%E6%9C%AF%E5%9F%BA%E5%87%86%E6%B1%A1%E6%9F%93%E6%A3%80%E9%AA%8C-GSM1k-2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Careful_Examination_of_Large_Language_Model_Performance_on_Grade_School_Arithmetic.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Careful_Examination_of_Large_Language_Model_Performance_on_Grade_School_Arithmetic.md)
-- [来源-Neuro-Symbolic推理捷径基准-rsbench-2024.md](来源-Neuro-Symbolic推理捷径基准-rsbench-2024.md)
+- [来源-Neuro-Symbolic推理捷径基准-rsbench-2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-Neuro-Symbolic%E6%8E%A8%E7%90%86%E6%8D%B7%E5%BE%84%E5%9F%BA%E5%87%86-rsbench-2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Benchmark_Suite_for_Systematically_Evaluating_Reasoning_Shortcuts.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Benchmark_Suite_for_Systematically_Evaluating_Reasoning_Shortcuts.md)
-- [来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md](来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md)
+- [来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-DS-Agent-%E6%A1%88%E4%BE%8B%E6%8E%A8%E7%90%86%E9%A9%B1%E5%8A%A8%E8%87%AA%E5%8A%A8%E5%8C%96%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_DS-Agent_Automated_Data_Science_by_Empowering_Large_Language_Models_with_Case-Based_Reasoning.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_DS-Agent_Automated_Data_Science_by_Empowering_Large_Language_Models_with_Case-Based_Reasoning.md)
-- [来源-多智能体辩论提升事实性与推理-ICML2024.md](来源-多智能体辩论提升事实性与推理-ICML2024.md)
+- [来源-多智能体辩论提升事实性与推理-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E8%BE%A9%E8%AE%BA%E6%8F%90%E5%8D%87%E4%BA%8B%E5%AE%9E%E6%80%A7%E4%B8%8E%E6%8E%A8%E7%90%86-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Improving_Factuality_and_Reasoning_in_Language_Models_through_Multiagent_Debate.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Improving_Factuality_and_Reasoning_in_Language_Models_through_Multiagent_Debate.md)
-- [来源-LATS-统一推理行动规划-ICML2024.md](来源-LATS-统一推理行动规划-ICML2024.md)
+- [来源-LATS-统一推理行动规划-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-LATS-%E7%BB%9F%E4%B8%80%E6%8E%A8%E7%90%86%E8%A1%8C%E5%8A%A8%E8%A7%84%E5%88%92-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Language_Agent_Tree_Search_Unifies_Reasoning,_Acting,_and_Planning_in_Language_Models.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Language_Agent_Tree_Search_Unifies_Reasoning,_Acting,_and_Planning_in_Language_Models.md)
-- [来源-Chain-of-Code-代码模拟混合推理-ICML2024.md](来源-Chain-of-Code-代码模拟混合推理-ICML2024.md)
+- [来源-Chain-of-Code-代码模拟混合推理-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-Chain-of-Code-%E4%BB%A3%E7%A0%81%E6%A8%A1%E6%8B%9F%E6%B7%B7%E5%90%88%E6%8E%A8%E7%90%86-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Chain_of_Code_Reasoning_with_a_Language_Model-Augmented_Code_Emulator.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Chain_of_Code_Reasoning_with_a_Language_Model-Augmented_Code_Emulator.md)
-- [来源-Thought-Rollback-自适应回滚推理-ICML2024.md](来源-Thought-Rollback-自适应回滚推理-ICML2024.md)
+- [来源-Thought-Rollback-自适应回滚推理-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-Thought-Rollback-%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%9E%E6%BB%9A%E6%8E%A8%E7%90%86-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Toward_Adaptive_Reasoning_in_Large_Language_Models_with_Thought_Rollback.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Toward_Adaptive_Reasoning_in_Large_Language_Models_with_Thought_Rollback.md)
-- [来源-SELF-DISCOVER-自组装推理结构-NeurIPS2024.md](来源-SELF-DISCOVER-自组装推理结构-NeurIPS2024.md)
+- [来源-SELF-DISCOVER-自组装推理结构-NeurIPS2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-SELF-DISCOVER-%E8%87%AA%E7%BB%84%E8%A3%85%E6%8E%A8%E7%90%86%E7%BB%93%E6%9E%84-NeurIPS2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_SELF-DISCOVER_Large_Language_Models_Self-Compose_Reasoning_Structures.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_SELF-DISCOVER_Large_Language_Models_Self-Compose_Reasoning_Structures.md)
-- [来源-MR-Ben-元推理基准-System2-NeurIPS2024.md](来源-MR-Ben-元推理基准-System2-NeurIPS2024.md)
+- [来源-MR-Ben-元推理基准-System2-NeurIPS2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-MR-Ben-%E5%85%83%E6%8E%A8%E7%90%86%E5%9F%BA%E5%87%86-System2-NeurIPS2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_MR-Ben_A_Meta-Reasoning_Benchmark_for_Evaluating_System-2_Thinking_in_LLMs.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_MR-Ben_A_Meta-Reasoning_Benchmark_for_Evaluating_System-2_Thinking_in_LLMs.md)
-- [来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024.md](来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024.md)
+- [来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-Buffer-of-Thoughts-%E6%80%9D%E7%BB%B4%E6%A8%A1%E6%9D%BF%E7%BC%93%E5%86%B2-NeurIPS2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_Buffer_of_Thoughts_Thought-Augmented_Reasoning_with_Large_Language_Models.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_Buffer_of_Thoughts_Thought-Augmented_Reasoning_with_Large_Language_Models.md)
-- [来源-GLoRe-全局局部联合修正-ICML2024.md](来源-GLoRe-全局局部联合修正-ICML2024.md)
+- [来源-GLoRe-全局局部联合修正-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-GLoRe-%E5%85%A8%E5%B1%80%E5%B1%80%E9%83%A8%E8%81%94%E5%90%88%E4%BF%AE%E6%AD%A3-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_GLoRe_When,_Where,_and_How_to_Improve_LLM_Reasoning_via_Global_and_Local_Refinements.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_GLoRe_When,_Where,_and_How_to_Improve_LLM_Reasoning_via_Global_and_Local_Refinements.md)
-- [来源-Reverse-Curriculum-RL-逆课程推理强化-ICML2024.md](来源-Reverse-Curriculum-RL-逆课程推理强化-ICML2024.md)
+- [来源-Reverse-Curriculum-RL-逆课程推理强化-ICML2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-Reverse-Curriculum-RL-%E9%80%86%E8%AF%BE%E7%A8%8B%E6%8E%A8%E7%90%86%E5%BC%BA%E5%8C%96-ICML2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Training_Large_Language_Models_for_Reasoning_through_Reverse_Curriculum_Reinforcement_Learning.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/icml_2024_Training_Large_Language_Models_for_Reasoning_through_Reverse_Curriculum_Reinforcement_Learning.md)
-- [来源-AdaProp-自适应传播路径-KDD2024.md](来源-AdaProp-自适应传播路径-KDD2024.md)
+- [来源-AdaProp-自适应传播路径-KDD2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-AdaProp-%E8%87%AA%E9%80%82%E5%BA%94%E4%BC%A0%E6%92%AD%E8%B7%AF%E5%BE%84-KDD2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_AdaProp_Learning_Adaptive_Propagation_for_Graph_Neural_Network_based_Knowledge_Graph_Reasoning.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_AdaProp_Learning_Adaptive_Propagation_for_Graph_Neural_Network_based_Knowledge_Graph_Reasoning.md)
-- [来源-NRN-实体与数值联合推理-KDD2024.md](来源-NRN-实体与数值联合推理-KDD2024.md)
+- [来源-NRN-实体与数值联合推理-KDD2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-NRN-%E5%AE%9E%E4%BD%93%E4%B8%8E%E6%95%B0%E5%80%BC%E8%81%94%E5%90%88%E6%8E%A8%E7%90%86-KDD2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_Knowledge_Graph_Reasoning_over_Entities_and_Numerical_Values.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/kdd_2024_Knowledge_Graph_Reasoning_over_Entities_and_Numerical_Values.md)
+- [来源-可信图神经网络综述-2022.md](applications/%E6%9D%A5%E6%BA%90-%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BB%BC%E8%BF%B0-2022.md)
+  - Raw：[`raw/papers/4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md`](../../raw/papers/4_Other_ML/%E5%8F%AF%E4%BF%A1AI/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E5%8F%AF%E4%BF%A1GNN%EF%BC%9F%E6%9C%80%E6%96%B0%E7%BB%BC%E8%BF%B0%E6%9D%A5%E4%BA%86%EF%BC%81%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%9A%E7%BB%B4%E5%BA%A6%EF%BC%8C%E6%96%B9%E6%B3%95%EF%BC%8C%E8%B6%8B%E5%8A%BF.md)
+- [来源-Agent记忆综述-2026.md](agent/%E6%9D%A5%E6%BA%90-Agent%E8%AE%B0%E5%BF%86%E7%BB%BC%E8%BF%B0-2026.md)
+  - Raw：[`raw/articles/agent_memory/2026-Review-A Survey of Agent Memory in the Second Half Towards Self-Evolving and Long-Horizon Agents.pdf.md`](../../raw/articles/agent_memory/2026-Review-A%20Survey%20of%20Agent%20Memory%20in%20the%20Second%20Half%20Towards%20Self-Evolving%20and%20Long-Horizon%20Agents.pdf.md)（含 ZH/Dual/EN 三版 PDF）
+- [来源-视频审核与电商风控GUI-Agent批次-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E8%A7%86%E9%A2%91%E5%AE%A1%E6%A0%B8%E4%B8%8E%E7%94%B5%E5%95%86%E9%A3%8E%E6%8E%A7GUI-Agent%E6%89%B9%E6%AC%A1-2026.md)
+  - Raw：[`raw/articles/video_moderation/`](../../raw/articles/video_moderation)（UNIVID / IPS / RiskWebWorld / RISK / VideoModerator，含 dual/ZH/translated 版本）
+- [来源-时间序列LLM智能体综述-2026.md](applications/%E6%9D%A5%E6%BA%90-%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97LLM%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-2026.md)
+  - Raw：[`raw/articles/time_series_agent/`](../../raw/articles/time_series_agent)（综述 + AD-Agent/ARGOS/CALM/SAGE/AgentFM/IoT 论文 + 代码 `papers/llm-tsfd_code/`）
+- [来源-AD-Agent多Agent异常检测-2025.md](agent/%E6%9D%A5%E6%BA%90-AD-Agent%E5%A4%9AAgent%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B-2025.md)
+  - Raw：[`raw/articles/time_series_agent/2505.12594v1.pdf`](../../raw/articles/time_series_agent/2505.12594v1.pdf)（开源 `github.com/USC-FORTIS/AD-AGENT`）
+- [来源-ARGOS自主规则时序异常检测-2025.md](applications/%E6%9D%A5%E6%BA%90-ARGOS%E8%87%AA%E4%B8%BB%E8%A7%84%E5%88%99%E6%97%B6%E5%BA%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B-2025.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2501.14170.pdf`](../../raw/articles/time_series_agent/papers/2501.14170.pdf)
+- [来源-CALM流式异常检测LLM裁判-2025.md](applications/%E6%9D%A5%E6%BA%90-CALM%E6%B5%81%E5%BC%8F%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8BLLM%E8%A3%81%E5%88%A4-2025.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2508.21273.pdf`](../../raw/articles/time_series_agent/papers/2508.21273.pdf)
+- [来源-SAGE专家式多Agent时序诊断-2026.md](applications/%E6%9D%A5%E6%BA%90-SAGE%E4%B8%93%E5%AE%B6%E5%BC%8F%E5%A4%9AAgent%E6%97%B6%E5%BA%8F%E8%AF%8A%E6%96%AD-2026.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2605.05725.pdf`](../../raw/articles/time_series_agent/papers/2605.05725.pdf)
+- [来源-AgentFM-数据库故障管理Agent-2025.md](agent/%E6%9D%A5%E6%BA%90-AgentFM-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%85%E9%9A%9C%E7%AE%A1%E7%90%86Agent-2025.md)
+  - Raw：[`raw/articles/time_series_agent/papers/2504.06614v1.pdf`](../../raw/articles/time_series_agent/papers/2504.06614v1.pdf)
+- [来源-IoT异常检测LLM-Agent-2025.md](applications/%E6%9D%A5%E6%BA%90-IoT%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8BLLM-Agent-2025.md)
+  - Raw：[`raw/articles/time_series_agent/2510.03859v1.pdf`](../../raw/articles/time_series_agent/2510.03859v1.pdf)
+- [来源-WeMM多模态嵌入技术报告-2026.md](multimodal/%E6%9D%A5%E6%BA%90-WeMM%E5%A4%9A%E6%A8%A1%E6%80%81%E5%B5%8C%E5%85%A5%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A-2026.md)
+  - Raw：[`raw/articles/multimodal_embed/2026-WeMM-Embedding WeChat Multi-Modal Embedding Technical Report.pdf`](../../raw/articles/multimodal_embed/2026-WeMM-Embedding%20WeChat%20Multi-Modal%20Embedding%20Technical%20Report.pdf)
+- [来源-DeepEvidence-生物医学知识图谱深度研究-2026.md](agent/%E6%9D%A5%E6%BA%90-DeepEvidence-%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6-2026.md)
+  - Raw：[`raw/articles/2026-DeepEvidence Empowering Biomedical Discovery with Deep Knowledge Graph Research.pdf`](../../raw/articles/2026-DeepEvidence%20Empowering%20Biomedical%20Discovery%20with%20Deep%20Knowledge%20Graph%20Research.pdf)；[`raw/articles/DeepEvidence：以深度知识图谱研究赋能生物医学发现（中文译本）.md`](../../raw/articles/DeepEvidence%EF%BC%9A%E4%BB%A5%E6%B7%B1%E5%BA%A6%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E7%A0%94%E7%A9%B6%E8%B5%8B%E8%83%BD%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E5%8F%91%E7%8E%B0%EF%BC%88%E4%B8%AD%E6%96%87%E8%AF%91%E6%9C%AC%EF%BC%89.md)
+- [来源-开源多模态模型ViT视觉头与风控落地选型报告-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8BViT%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E8%90%BD%E5%9C%B0%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A-2026.md)
+  - Raw：[`raw/articles/开源多模态模型 ViT 视觉头与风控落地选型报告.md`](../../raw/articles/%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%20ViT%20%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E8%90%BD%E5%9C%B0%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A.md)
+- [来源-图像对抗攻防答辩文档-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3-2026.md)
+  - Raw：[`raw/articles/图像对抗攻防研究答辩文档/图像对抗攻防研究答辩文档.md`](../../raw/articles/%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%A0%94%E7%A9%B6%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3/%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%A0%94%E7%A9%B6%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3.md)
+- [来源-LoRA低秩适配原理-2026.md](reasoning-training/%E6%9D%A5%E6%BA%90-LoRA%E4%BD%8E%E7%A7%A9%E9%80%82%E9%85%8D%E5%8E%9F%E7%90%86-2026.md)
+  - Raw：[`raw/transcripts/LoRA.md`](../../raw/transcripts/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80/LoRA.md)
+- [来源-GRPO分组相对策略优化原理-2026.md](reasoning-training/%E6%9D%A5%E6%BA%90-GRPO%E5%88%86%E7%BB%84%E7%9B%B8%E5%AF%B9%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E5%8E%9F%E7%90%86-2026.md)
+  - Raw：[`raw/transcripts/GRPO原理.md`](../../raw/transcripts/GRPO%E5%8E%9F%E7%90%86.md)
+- [来源-递归自我改进与Harness自演化-2026.md](agent/%E6%9D%A5%E6%BA%90-%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E4%B8%8EHarness%E8%87%AA%E6%BC%94%E5%8C%96-2026.md)
+  - Raw：[`raw/articles/RSI/`（7 个双语资料：RSI 分类、对齐与监控观点、Harness Engineering、ASPIRE、HarnessDev、S3Gym）](../../raw/articles/RSI)
+- [来源-RSI综述-Preprints-2026.md](agent/%E6%9D%A5%E6%BA%90-RSI%E7%BB%BC%E8%BF%B0-Preprints-2026.md)
+  - Raw：[`raw/articles/preprints202609.2680.v1.pdf`](../../raw/articles/preprints202609.2680.v1.pdf)（Preprints.org RSI 独立综述，未同行评审）
+- [来源-LLM推荐技术范式与落地边界-2026.md](applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%BE%B9%E7%95%8C-2026.md)
+  - Raw：[`raw/articles/llm4rec/LLM_For_Recommendation_技术范式_证据边界与落地路径.md`](../../raw/articles/llm4rec/LLM_For_Recommendation_%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F_%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%B7%AF%E5%BE%84.md)
+
+### 2026-09-14 新增：多模态数据统一嵌入调研（`raw/transcripts/`）
+
+- [来源-五模态数据统一对齐技术调研-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E4%BA%94%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94-2026.md)
+  - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/多模态大模型输入对齐技术_深度调研.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%BE%93%E5%85%A5%E5%AF%B9%E9%BD%90%E6%8A%80%E6%9C%AF_%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94.md)
+- [来源-RecFormer-P5-M6Rec推荐数据文本化-2026.md](applications/%E6%9D%A5%E6%BA%90-RecFormer-P5-M6Rec%E6%8E%A8%E8%8D%90%E6%95%B0%E6%8D%AE%E6%96%87%E6%9C%AC%E5%8C%96-2026.md)
+  - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/RecFormer、P5 与 M6-Rec 推荐数据如何变成文本.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/RecFormer%E3%80%81P5%20%E4%B8%8E%20M6-Rec%20%E6%8E%A8%E8%8D%90%E6%95%B0%E6%8D%AE%E5%A6%82%E4%BD%95%E5%8F%98%E6%88%90%E6%96%87%E6%9C%AC.md)
+- [来源-Qwen事件序列分类最小PoC-2026.md](applications/%E6%9D%A5%E6%BA%90-Qwen%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E5%88%86%E7%B1%BB%E6%9C%80%E5%B0%8FPoC-2026.md)
+  - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/Qwen 事件序列分类 架构与最小 PoC 方案.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/Qwen%20%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E5%88%86%E7%B1%BB%20%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%9C%80%E5%B0%8F%20PoC%20%E6%96%B9%E6%A1%88.md)
+- [来源-Qwen事件序列与统计特征融合方案-2026.md](applications/%E6%9D%A5%E6%BA%90-Qwen%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E4%B8%8E%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E8%9E%8D%E5%90%88%E6%96%B9%E6%A1%88-2026.md)
+  - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/事件序列与统计特征接入 Qwen 微调可行性与工程方案.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E4%B8%8E%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E6%8E%A5%E5%85%A5%20Qwen%20%E5%BE%AE%E8%B0%83%E5%8F%AF%E8%A1%8C%E6%80%A7%E4%B8%8E%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%A1%88.md)`；[`统计特征作为输入重训 Qwen 系列模型 可行性、方案与实验路线.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E4%BD%9C%E4%B8%BA%E8%BE%93%E5%85%A5%E9%87%8D%E8%AE%AD%20Qwen%20%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9E%8B%20%E5%8F%AF%E8%A1%8C%E6%80%A7%E3%80%81%E6%96%B9%E6%A1%88%E4%B8%8E%E5%AE%9E%E9%AA%8C%E8%B7%AF%E7%BA%BF.md)
+- [来源-LLM推荐向风控迁移机制与验证路径-2026.md](applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E5%90%91%E9%A3%8E%E6%8E%A7%E8%BF%81%E7%A7%BB%E6%9C%BA%E5%88%B6%E4%B8%8E%E9%AA%8C%E8%AF%81%E8%B7%AF%E5%BE%84-2026.md)
+  - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/LLM for Recommendation 向风控模型迁移 机制、架构与验证路径.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/LLM%20for%20Recommendation%20%E5%90%91%E9%A3%8E%E6%8E%A7%E6%A8%A1%E5%9E%8B%E8%BF%81%E7%A7%BB%20%E6%9C%BA%E5%88%B6%E3%80%81%E6%9E%B6%E6%9E%84%E4%B8%8E%E9%AA%8C%E8%AF%81%E8%B7%AF%E5%BE%84.md)
+- [来源-多模态统一嵌入调研批次-2026.md](applications/%E6%9D%A5%E6%BA%90-%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E8%B0%83%E7%A0%94%E6%89%B9%E6%AC%A1-2026.md)
+  - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94)（五个主题来源；LLM4Rec 同名文件仅为既有来源镜像）
+
+### 2026-09-14 新增：LLM 用户表征基础模型（`raw/transcripts/LLM-based User Representation Foundation Models/`）
+
+- [来源-FOUND可迁移可预测用户定向基础模型-2025.md](applications/%E6%9D%A5%E6%BA%90-FOUND%E5%8F%AF%E8%BF%81%E7%A7%BB%E5%8F%AF%E9%A2%84%E6%B5%8B%E7%94%A8%E6%88%B7%E5%AE%9A%E5%90%91%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B-2025.md)
+  - Raw：[`paper_zh_15_FOUND.md`](../../raw/transcripts/LLM-based%20User%20Representation%20Foundation%20Models/paper_zh_15_FOUND.md)
+- [来源-FOUNDv2统一量化用户Tokenizer-2026.md](applications/%E6%9D%A5%E6%BA%90-FOUNDv2%E7%BB%9F%E4%B8%80%E9%87%8F%E5%8C%96%E7%94%A8%E6%88%B7Tokenizer-2026.md)
+  - Raw：[`paper_zh_11_FOUNDv2.md`](../../raw/transcripts/LLM-based%20User%20Representation%20Foundation%20Models/paper_zh_11_FOUNDv2.md)
+- [来源-Query-as-Anchor场景自适应用户表征-2026.md](applications/%E6%9D%A5%E6%BA%90-Query-as-Anchor%E5%9C%BA%E6%99%AF%E8%87%AA%E9%80%82%E5%BA%94%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81-2026.md)
+  - Raw：[`paper_zh_12_Query_as_Anchor.md`](../../raw/transcripts/LLM-based%20User%20Representation%20Foundation%20Models/paper_zh_12_Query_as_Anchor.md)
+- [来源-用户行为致密律与自适应Token化-2026.md](applications/%E6%9D%A5%E6%BA%90-%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E8%87%B4%E5%AF%86%E5%BE%8B%E4%B8%8E%E8%87%AA%E9%80%82%E5%BA%94Token%E5%8C%96-2026.md)
+  - Raw：[`paper_zh_13_Densing_Law.md`](../../raw/transcripts/LLM-based%20User%20Representation%20Foundation%20Models/paper_zh_13_Densing_Law.md)
+- [来源-DecoderOnly用户表征注意力掩码-2026.md](applications/%E6%9D%A5%E6%BA%90-DecoderOnly%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%8E%A9%E7%A0%81-2026.md)
+  - Raw：[`paper_zh_14_Decoder_Only_LLM_Masking.md`](../../raw/transcripts/LLM-based%20User%20Representation%20Foundation%20Models/paper_zh_14_Decoder_Only_LLM_Masking.md)
+- [来源-InstructUE指令感知用户嵌入-2025.md](applications/%E6%9D%A5%E6%BA%90-InstructUE%E6%8C%87%E4%BB%A4%E6%84%9F%E7%9F%A5%E7%94%A8%E6%88%B7%E5%B5%8C%E5%85%A5-2025.md)
+  - Raw：[`paper_zh_16_InstructUE.md`](../../raw/transcripts/LLM-based%20User%20Representation%20Foundation%20Models/paper_zh_16_InstructUE.md)
 
 ## 代码镜像（`raw/code/`）
 
 
-- [repo-claude-code-best-practice.md](repo-claude-code-best-practice.md)
-  - Raw：[`raw/code/claude-code-best-practice/`](../../raw/code/claude-code-best-practice/)
-- [repo-langgraph.md](repo-langgraph.md)
-  - Raw：[`raw/code/langgraph/`](../../raw/code/langgraph/)
-- [repo-gstack.md](repo-gstack.md)
-  - Raw：[`raw/code/gstack/`](../../raw/code/gstack/)
+- [repo-claude-code-best-practice.md](code/repo-claude-code-best-practice.md)
+  - Raw：[`raw/code/claude-code-best-practice/`](../../raw/code/claude-code-best-practice)
+- [repo-langgraph.md](code/repo-langgraph.md)
+  - Raw：[`raw/code/langgraph/`](../../raw/code/langgraph)
+- [repo-gstack.md](code/repo-gstack.md)
+  - Raw：[`raw/code/gstack/`](../../raw/code/gstack)
 
 ## 转录来源（`raw/transcripts/`）
 
 
-- [来源-Kimi-Agent-自主持续优化研究报告.md](来源-Kimi-Agent-自主持续优化研究报告.md)
-  - Raw：[`raw/transcripts/Kimi_Agent_自主智能代理综述/autoresearch.agent.final.md`](../../raw/transcripts/Kimi_Agent_自主智能代理综述/autoresearch.agent.final.md)
-- [来源-表格数据Transformer模型综述与实践.md](来源-表格数据Transformer模型综述与实践.md)
-  - Raw：[`raw/transcripts/处理表格数据的深度学习模型/处理表格数据的Transformers结构模型.md`](../../raw/transcripts/处理表格数据的深度学习模型/处理表格数据的Transformers结构模型.md)
+- [来源-Kimi-Agent-自主持续优化研究报告.md](agent/%E6%9D%A5%E6%BA%90-Kimi-Agent-%E8%87%AA%E4%B8%BB%E6%8C%81%E7%BB%AD%E4%BC%98%E5%8C%96%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.md)
+  - Raw：[`raw/transcripts/Kimi_Agent_自主智能代理综述/autoresearch.agent.final.md`](../../raw/transcripts/Kimi_Agent_%E8%87%AA%E4%B8%BB%E6%99%BA%E8%83%BD%E4%BB%A3%E7%90%86%E7%BB%BC%E8%BF%B0/autoresearch.agent.final.md)
+- [来源-表格数据Transformer模型综述与实践.md](applications/%E6%9D%A5%E6%BA%90-%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AETransformer%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0%E4%B8%8E%E5%AE%9E%E8%B7%B5.md)
+  - Raw：[`raw/transcripts/处理表格数据的深度学习模型/处理表格数据的Transformers结构模型.md`](../../raw/transcripts/%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B/%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E7%9A%84Transformers%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B.md)
 
 ## 搜索归档（`raw/search/`）
 
 
-- [来源-搜索归档-Agent框架-2026-06-20.md](来源-搜索归档-Agent框架-2026-06-20.md)
-  - Raw：[`raw/search/agent-framework/2026-06-20/`（14 个页面）](../../raw/search/agent-framework/2026-06-20/)
-- [来源-搜索归档-Claude-Code-Minimal-Stack-2026-06-20.md](来源-搜索归档-Claude-Code-Minimal-Stack-2026-06-20.md)
+- [来源-搜索归档-Agent框架-2026-06-20.md](agent/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-Agent%E6%A1%86%E6%9E%B6-2026-06-20.md)
+  - Raw：[`raw/search/agent-framework/2026-06-20/`（14 个页面）](../../raw/search/agent-framework/2026-06-20)
+- [来源-搜索归档-Claude-Code-Minimal-Stack-2026-06-20.md](agent/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-Claude-Code-Minimal-Stack-2026-06-20.md)
   - Raw：[`raw/search/last30days/claude-code-agent-minimal-stack-2026-06-20.md`](../../raw/search/last30days/claude-code-agent-minimal-stack-2026-06-20.md)
-- [来源-搜索归档-多Agent-arXiv-2026-06-20.md](来源-搜索归档-多Agent-arXiv-2026-06-20.md)
+- [来源-搜索归档-多Agent-arXiv-2026-06-20.md](agent/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-%E5%A4%9AAgent-arXiv-2026-06-20.md)
   - Raw：[`raw/search/multi-agent-arxiv/2026-06-20/multi-agent-arxiv-latest-2026-06-20.md`](../../raw/search/multi-agent-arxiv/2026-06-20/multi-agent-arxiv-latest-2026-06-20.md)
-- [来源-搜索归档-流量风控skills-2026-06-20.md](来源-搜索归档-流量风控skills-2026-06-20.md)
-  - Raw：[`raw/search/traffic-risk-control-skills/2026-06-20/`（10 个页面）](../../raw/search/traffic-risk-control-skills/2026-06-20/)
-- [来源-搜索归档-Agent风控情报Watch-2026-06-21.md](来源-搜索归档-Agent风控情报Watch-2026-06-21.md)
+- [来源-搜索归档-流量风控skills-2026-06-20.md](applications/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-%E6%B5%81%E9%87%8F%E9%A3%8E%E6%8E%A7skills-2026-06-20.md)
+  - Raw：[`raw/search/traffic-risk-control-skills/2026-06-20/`（10 个页面）](../../raw/search/traffic-risk-control-skills/2026-06-20)
+- [来源-搜索归档-Agent风控情报Watch-2026-06-21.md](applications/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-Agent%E9%A3%8E%E6%8E%A7%E6%83%85%E6%8A%A5Watch-2026-06-21.md)
   - Raw：[`raw/search/traffic-risk-control-watch/2026-06-21/agent-fengkong-watch-2026-06-21-1847.md`](../../raw/search/traffic-risk-control-watch/2026-06-21/agent-fengkong-watch-2026-06-21-1847.md)
-- [来源-构建Agent的四个问题-2026-06-21.md](来源-构建Agent的四个问题-2026-06-21.md)
+- [来源-搜索归档-Agent风控情报Watch-2026-06-27.md](applications/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-Agent%E9%A3%8E%E6%8E%A7%E6%83%85%E6%8A%A5Watch-2026-06-27.md)
+  - Raw：[`raw/search/traffic-risk-control-watch/2026-06-27/agent-fengkong-watch-2026-06-27-1234.md`](../../raw/search/traffic-risk-control-watch/2026-06-27/agent-fengkong-watch-2026-06-27-1234.md)
+- [来源-构建Agent的四个问题-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-%E6%9E%84%E5%BB%BAAgent%E7%9A%84%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98-2026-06-21.md)
   - Raw：[`raw/transcripts/4 problems for building agent.md`](../../raw/transcripts/4%20problems%20for%20building%20agent.md)
-- [来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md](来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md)
+- [来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-TCE%E9%83%A8%E7%BD%B2ClaudeCodeAgent%E6%93%8D%E4%BD%9C%E6%B8%85%E5%8D%95-2026-06-21.md)
   - Raw：[`raw/transcripts/TCE 部署 Claude Code Agent 完整操作清单.md`](../../raw/transcripts/TCE%20%E9%83%A8%E7%BD%B2%20Claude%20Code%20Agent%20%E5%AE%8C%E6%95%B4%E6%93%8D%E4%BD%9C%E6%B8%85%E5%8D%95.md)
-- [来源-基于控制论的内容风控系统全流程方案-2026-06-21.md](来源-基于控制论的内容风控系统全流程方案-2026-06-21.md)
+- [来源-基于控制论的内容风控系统全流程方案-2026-06-21.md](applications/%E6%9D%A5%E6%BA%90-%E5%9F%BA%E4%BA%8E%E6%8E%A7%E5%88%B6%E8%AE%BA%E7%9A%84%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E7%B3%BB%E7%BB%9F%E5%85%A8%E6%B5%81%E7%A8%8B%E6%96%B9%E6%A1%88-2026-06-21.md)
   - Raw：[`raw/transcripts/基于控制论的内容风控系统全流程方案.md`](../../raw/transcripts/%E5%9F%BA%E4%BA%8E%E6%8E%A7%E5%88%B6%E8%AE%BA%E7%9A%84%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E7%B3%BB%E7%BB%9F%E5%85%A8%E6%B5%81%E7%A8%8B%E6%96%B9%E6%A1%88.md)
-- [来源-Qwen2.5与Qwen3微调深度调研-2026-06-21.md](来源-Qwen2.5与Qwen3微调深度调研-2026-06-21.md)
+- [来源-Qwen2.5与Qwen3微调深度调研-2026-06-21.md](reasoning-training/%E6%9D%A5%E6%BA%90-Qwen2.5%E4%B8%8EQwen3%E5%BE%AE%E8%B0%83%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94-2026-06-21.md)
   - Raw：[`raw/transcripts/Qwen 2.5 与 Qwen 3 系列微调深度调研.md`](../../raw/transcripts/Qwen%202.5%20%E4%B8%8E%20Qwen%203%20%E7%B3%BB%E5%88%97%E5%BE%AE%E8%B0%83%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94.md)
-- [来源-AIAgent常见框架深度介绍-2026-06-21.md](来源-AIAgent常见框架深度介绍-2026-06-21.md)
+- [来源-AIAgent常见框架深度介绍-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-AIAgent%E5%B8%B8%E8%A7%81%E6%A1%86%E6%9E%B6%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D-2026-06-21.md)
   - Raw：[`raw/transcripts/AI Agent 常见框架深度介绍.md`](../../raw/transcripts/AI%20Agent%20%E5%B8%B8%E8%A7%81%E6%A1%86%E6%9E%B6%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D.md)
-- [来源-内容风控与机审算法面试题详解-2026-06-21.md](来源-内容风控与机审算法面试题详解-2026-06-21.md)
+- [来源-内容风控与机审算法面试题详解-2026-06-21.md](applications/%E6%9D%A5%E6%BA%90-%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E4%B8%8E%E6%9C%BA%E5%AE%A1%E7%AE%97%E6%B3%95%E9%9D%A2%E8%AF%95%E9%A2%98%E8%AF%A6%E8%A7%A3-2026-06-21.md)
   - Raw：[`raw/transcripts/内容风控与机审算法面试题目及算法详解.md`](../../raw/transcripts/%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E4%B8%8E%E6%9C%BA%E5%AE%A1%E7%AE%97%E6%B3%95%E9%9D%A2%E8%AF%95%E9%A2%98%E7%9B%AE%E5%8F%8A%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3.md)
-- [来源-AIAgent面试题详解-2026-06-21.md](来源-AIAgent面试题详解-2026-06-21.md)
+- [来源-AIAgent面试题详解-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-AIAgent%E9%9D%A2%E8%AF%95%E9%A2%98%E8%AF%A6%E8%A7%A3-2026-06-21.md)
   - Raw：[`raw/transcripts/AI Agent 面试题详细解答 — 小白友好版.md`](../../raw/transcripts/AI%20Agent%20%E9%9D%A2%E8%AF%95%E9%A2%98%E8%AF%A6%E7%BB%86%E8%A7%A3%E7%AD%94%20%E2%80%94%20%E5%B0%8F%E7%99%BD%E5%8F%8B%E5%A5%BD%E7%89%88.md)
-- [来源-对抗样本生成与检测调研实验-2026-06-21.md](来源-对抗样本生成与检测调研实验-2026-06-21.md)
+- [来源-对抗样本生成与检测调研实验-2026-06-21.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%AF%B9%E6%8A%97%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E8%B0%83%E7%A0%94%E5%AE%9E%E9%AA%8C-2026-06-21.md)
   - Raw：[`raw/transcripts/Adversarial Example Generation and Detection_ Survey and Experiments __ 对抗样本生成与检测：调研与实验.md`](../../raw/transcripts/Adversarial%20Example%20Generation%20and%20Detection_%20Survey%20and%20Experiments%20__%20%E5%AF%B9%E6%8A%97%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E4%B8%8E%E6%A3%80%E6%B5%8B%EF%BC%9A%E8%B0%83%E7%A0%94%E4%B8%8E%E5%AE%9E%E9%AA%8C.md)
-- [来源-Agent时代的K8S与AgentOS形态设想-2026-06-21.md](来源-Agent时代的K8S与AgentOS形态设想-2026-06-21.md)
+- [来源-Agent时代的K8S与AgentOS形态设想-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-Agent%E6%97%B6%E4%BB%A3%E7%9A%84K8S%E4%B8%8EAgentOS%E5%BD%A2%E6%80%81%E8%AE%BE%E6%83%B3-2026-06-21.md)
   - Raw：[`raw/transcripts/Agent时代的K8S——AgentOS会长啥样？.md`](../../raw/transcripts/Agent%E6%97%B6%E4%BB%A3%E7%9A%84K8S%E2%80%94%E2%80%94AgentOS%E4%BC%9A%E9%95%BF%E5%95%A5%E6%A0%B7%EF%BC%9F.md)
-- [来源-AIAgent学习与智能诊断落地路线图-2026-06-21.md](来源-AIAgent学习与智能诊断落地路线图-2026-06-21.md)
+- [来源-AIAgent学习与智能诊断落地路线图-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-AIAgent%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%99%BA%E8%83%BD%E8%AF%8A%E6%96%AD%E8%90%BD%E5%9C%B0%E8%B7%AF%E7%BA%BF%E5%9B%BE-2026-06-21.md)
   - Raw：[`raw/transcripts/AI Agent Study.md`](../../raw/transcripts/AI%20Agent%20Study.md)
-- [来源-论文调研与对抗检测方向笔记-2026-06-21.md](来源-论文调研与对抗检测方向笔记-2026-06-21.md)
+- [来源-论文调研与对抗检测方向笔记-2026-06-21.md](applications/%E6%9D%A5%E6%BA%90-%E8%AE%BA%E6%96%87%E8%B0%83%E7%A0%94%E4%B8%8E%E5%AF%B9%E6%8A%97%E6%A3%80%E6%B5%8B%E6%96%B9%E5%90%91%E7%AC%94%E8%AE%B0-2026-06-21.md)
   - Raw：[`raw/transcripts/论文调研.md`](../../raw/transcripts/%E8%AE%BA%E6%96%87%E8%B0%83%E7%A0%94.md)
-- [来源-经典Agent综述论文翻译第二批-2026-06-21.md](来源-经典Agent综述论文翻译第二批-2026-06-21.md)
+- [来源-经典Agent综述论文翻译第二批-2026-06-21.md](batches/%E6%9D%A5%E6%BA%90-%E7%BB%8F%E5%85%B8Agent%E7%BB%BC%E8%BF%B0%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E7%AC%AC%E4%BA%8C%E6%89%B9-2026-06-21.md)
   - Raw：[`raw/transcripts/经典Agent综述论文全文中文翻译（第二批）.md`](../../raw/transcripts/%E7%BB%8F%E5%85%B8Agent%E7%BB%BC%E8%BF%B0%E8%AE%BA%E6%96%87%E5%85%A8%E6%96%87%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%EF%BC%88%E7%AC%AC%E4%BA%8C%E6%89%B9%EF%BC%89.md)
-- [来源-raw-transcripts增量批次-2026-06-21.md](来源-raw-transcripts增量批次-2026-06-21.md)
-  - Raw：[`raw/transcripts/`（本轮识别 24 个新增候选）](../../raw/transcripts/)
+- [来源-raw-transcripts增量批次-2026-06-21.md](batches/%E6%9D%A5%E6%BA%90-raw-transcripts%E5%A2%9E%E9%87%8F%E6%89%B9%E6%AC%A1-2026-06-21.md)
+  - Raw：[`raw/transcripts/`（本轮识别 24 个新增候选）](../../raw/transcripts)
 
 ### 2026-06-23 新增：论文翻译（`raw/transcripts/output_paper*_translation.md`）
 
-- [来源-LLM自主智能体综述-Renmin-2025.md](来源-LLM自主智能体综述-Renmin-2025.md)
-  - Raw：[`raw/transcripts/output_paper1_translation.md`](../../raw/transcripts/output_paper1_translation.md)
+- [来源-LLM自主智能体综述-Renmin-2025.md](agent/%E6%9D%A5%E6%BA%90-LLM%E8%87%AA%E4%B8%BB%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-Renmin-2025.md)
+  - Raw：[`raw/transcripts/output_paper1_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper1_translation.md)
 - ~~来源-LLM智能体兴起与潜力综述-FudanNLP.md~~（2026-06-23 已删除：原始翻译质量严重不可用，术语崩溃、OCR 伪影、句子断裂，无法修复）
-  - Raw：[`raw/transcripts/output_paper2_translation.md`](../../raw/transcripts/output_paper2_translation.md) — 已废弃
-- [来源-CoALA-语言代理认知架构-Princeton.md](来源-CoALA-语言代理认知架构-Princeton.md)
-  - Raw：[`raw/transcripts/output_paper3_translation.md`](../../raw/transcripts/output_paper3_translation.md)
-- [来源-AgentAI-多模态交互综述-Stanford-Microsoft.md](来源-AgentAI-多模态交互综述-Stanford-Microsoft.md)
-  - Raw：[`raw/transcripts/output_paper4_translation.md`](../../raw/transcripts/output_paper4_translation.md)
-- [来源-GUI-Agent综述-LLM-Brained-2025.md](来源-GUI-Agent综述-LLM-Brained-2025.md)
-  - Raw：[`raw/transcripts/output_paper5_translation.md`](../../raw/transcripts/output_paper5_translation.md)
-- [来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md](来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md)
-  - Raw：[`raw/transcripts/output_paper6_translation.md`](../../raw/transcripts/output_paper6_translation.md)
-- [来源-增强语言模型综述-ALM-MetaAI-2026-06-23.md](来源-增强语言模型综述-ALM-MetaAI-2026-06-23.md)
-  - Raw：[`raw/transcripts/output_paper7_translation.md`](../../raw/transcripts/output_paper7_translation.md)
-- [来源-LLM多智能体综述-NotreDame-2026-06-23.md](来源-LLM多智能体综述-NotreDame-2026-06-23.md)
-  - Raw：[`raw/transcripts/output_paper8_translation.md`](../../raw/transcripts/output_paper8_translation.md)
-- [来源-LLM智能体规划综述-USTC-Huawei-2026-06-23.md](来源-LLM智能体规划综述-USTC-Huawei-2026-06-23.md)
-  - Raw：[`raw/transcripts/output_paper9_translation.md`](../../raw/transcripts/output_paper9_translation.md)
-- [来源-个人LLM智能体综述-Tsinghua-AIR-2026-06-23.md](来源-个人LLM智能体综述-Tsinghua-AIR-2026-06-23.md)
-  - Raw：[`raw/transcripts/output_paper10_translation.md`](../../raw/transcripts/output_paper10_translation.md)
+  - Raw：[`raw/transcripts/output_paper2_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper2_translation.md) — 已废弃
+- [来源-CoALA-语言代理认知架构-Princeton.md](agent/%E6%9D%A5%E6%BA%90-CoALA-%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%90%86%E8%AE%A4%E7%9F%A5%E6%9E%B6%E6%9E%84-Princeton.md)
+  - Raw：[`raw/transcripts/output_paper3_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper3_translation.md)
+- [来源-AgentAI-多模态交互综述-Stanford-Microsoft.md](agent/%E6%9D%A5%E6%BA%90-AgentAI-%E5%A4%9A%E6%A8%A1%E6%80%81%E4%BA%A4%E4%BA%92%E7%BB%BC%E8%BF%B0-Stanford-Microsoft.md)
+  - Raw：[`raw/transcripts/output_paper4_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper4_translation.md)
+- [来源-GUI-Agent综述-LLM-Brained-2025.md](agent/%E6%9D%A5%E6%BA%90-GUI-Agent%E7%BB%BC%E8%BF%B0-LLM-Brained-2025.md)
+  - Raw：[`raw/transcripts/output_paper5_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper5_translation.md)
+- [来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md](agent/%E6%9D%A5%E6%BA%90-%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0-Tsinghua-2026-06-23.md)
+  - Raw：[`raw/transcripts/output_paper6_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper6_translation.md)
+- [来源-增强语言模型综述-ALM-MetaAI-2026-06-23.md](language/%E6%9D%A5%E6%BA%90-%E5%A2%9E%E5%BC%BA%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0-ALM-MetaAI-2026-06-23.md)
+  - Raw：[`raw/transcripts/output_paper7_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper7_translation.md)
+- [来源-LLM多智能体综述-NotreDame-2026-06-23.md](agent/%E6%9D%A5%E6%BA%90-LLM%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-NotreDame-2026-06-23.md)
+  - Raw：[`raw/transcripts/output_paper8_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper8_translation.md)
+- [来源-LLM智能体规划综述-USTC-Huawei-2026-06-23.md](agent/%E6%9D%A5%E6%BA%90-LLM%E6%99%BA%E8%83%BD%E4%BD%93%E8%A7%84%E5%88%92%E7%BB%BC%E8%BF%B0-USTC-Huawei-2026-06-23.md)
+  - Raw：[`raw/transcripts/output_paper9_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper9_translation.md)
+- [来源-个人LLM智能体综述-Tsinghua-AIR-2026-06-23.md](agent/%E6%9D%A5%E6%BA%90-%E4%B8%AA%E4%BA%BALLM%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-Tsinghua-AIR-2026-06-23.md)
+  - Raw：[`raw/transcripts/output_paper10_translation.md`](../../raw/transcripts/Agent%E8%B0%83%E7%A0%94/output_paper10_translation.md)
 
 ### 2026-06-23 新增：技术调研与工程实践（`raw/transcripts/`）
 
-- [来源-Stable-Diffusion微调技术深度调研-2026-06-23.md](来源-Stable-Diffusion微调技术深度调研-2026-06-23.md)
+- [来源-Stable-Diffusion微调技术深度调研-2026-06-23.md](multimodal/%E6%9D%A5%E6%BA%90-Stable-Diffusion%E5%BE%AE%E8%B0%83%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94-2026-06-23.md)
   - Raw：[`raw/transcripts/Stable Diffusion 视觉大模型微调技术深度调研.md`](../../raw/transcripts/Stable%20Diffusion%20%E8%A7%86%E8%A7%89%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94.md)
-- [来源-Stable-Diffusion架构代表性工作与原理深度解析-2026-06-23.md](来源-Stable-Diffusion架构代表性工作与原理深度解析-2026-06-23.md)
+- [来源-Stable-Diffusion架构代表性工作与原理深度解析-2026-06-23.md](multimodal/%E6%9D%A5%E6%BA%90-Stable-Diffusion%E6%9E%B6%E6%9E%84%E4%BB%A3%E8%A1%A8%E6%80%A7%E5%B7%A5%E4%BD%9C%E4%B8%8E%E5%8E%9F%E7%90%86%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90-2026-06-23.md)
   - Raw：[`raw/transcripts/基于 Stable Diffusion 架构的视觉大模型代表性工作与原理深度解析.md`](../../raw/transcripts/%E5%9F%BA%E4%BA%8E%20Stable%20Diffusion%20%E6%9E%B6%E6%9E%84%E7%9A%84%E8%A7%86%E8%A7%89%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%A3%E8%A1%A8%E6%80%A7%E5%B7%A5%E4%BD%9C%E4%B8%8E%E5%8E%9F%E7%90%86%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.md)
-- [来源-视频透明图层提取技术方案-2026-06-23.md](来源-视频透明图层提取技术方案-2026-06-23.md)
+- [来源-视频透明图层提取技术方案-2026-06-23.md](multimodal/%E6%9D%A5%E6%BA%90-%E8%A7%86%E9%A2%91%E9%80%8F%E6%98%8E%E5%9B%BE%E5%B1%82%E6%8F%90%E5%8F%96%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88-2026-06-23.md)
   - Raw：[`raw/transcripts/视频透明图层提取技术方案 — 模型与代码详解.md`](../../raw/transcripts/%E8%A7%86%E9%A2%91%E9%80%8F%E6%98%8E%E5%9B%BE%E5%B1%82%E6%8F%90%E5%8F%96%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%20%E2%80%94%20%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3.md)
-- [来源-对抗图像样本生成原理与实践-2026-06-23.md](来源-对抗图像样本生成原理与实践-2026-06-23.md)
-  - Raw：[`raw/transcripts/Principles_and_Practice_of_Generating_Adversarial_Image_Sample.md`](../../raw/transcripts/Principles_and_Practice_of_Generating_Adversarial_Image_Sample.md)
-- [来源-风控工程实战案例面试问题答案-2026-06-23.md](来源-风控工程实战案例面试问题答案-2026-06-23.md)
+- [来源-对抗图像样本生成原理与实践-2026-06-23.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%AF%B9%E6%8A%97%E5%9B%BE%E5%83%8F%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E8%B7%B5-2026-06-23.md)
+  - Raw：[`raw/transcripts/Principles_and_Practice_of_Generating_Adversarial_Image_Sample.md`](../../raw/transcripts/%E5%9B%BE%E7%89%87%E5%AF%B9%E6%8A%97%E8%B0%83%E7%A0%94%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/Principles_and_Practice_of_Generating_Adversarial_Image_Sample.md)
+- [来源-风控工程实战案例面试问题答案-2026-06-23.md](applications/%E6%9D%A5%E6%BA%90-%E9%A3%8E%E6%8E%A7%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E7%AD%94%E6%A1%88-2026-06-23.md)
   - Raw：[`raw/transcripts/面试问题答案.md`](../../raw/transcripts/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E7%AD%94%E6%A1%88.md)
 
 ## 尚未摄入
 
-- `raw/papers/`（~680 篇论文列表，已摄入 reasoning 子目录 14 篇）— 其余继续分批处理。
+- `raw/papers/`（大量论文/教程/手册仍未摄入；已额外纳入 `4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md` 作为新分支入口）— 其余继续按专题分批处理。
+- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；2026-09-01 补入 `time_series_agent/` 剩余两篇子论文（AgentFM 2504.06614、IoT 2510.03859），该综述全部子论文均已建独立来源页；2026-09-02 新增纳入 `DeepEvidence`（知识图谱驱动生物医学 deep research）、`开源多模态模型 ViT 视觉头与风控落地选型报告`（开放 VLM 选型 / 风控部署边界）与 `图像对抗攻防研究答辩文档`（图像对抗失效诊断 / 增强审核触发器链路）；2026-09-11 新增纳入 `RSI/`（递归自我改进、Harness、ASPIRE/HarnessDev/S3Gym）与 `llm4rec/`（LLM 推荐范式、评估和落地边界）。2026-10-09 补入 `RSI/` 第 8 份材料 `papers_Dream-RSI_2609.14858v1.pdf`（discovery history → replay simulator 的元层 RSI）、`llm4rec/` 两篇 PDF（`2606.25147` TokenMinds 用户 SID token、`2203.01941` RQ-VAE 残差量化自回归并作为 Semantic ID 方法学来源）；同日新增 `transformer_efficiency/` 一批 10 篇（由 `raw/videos/` 的 Transformer 效率演进科普视频给出论文清单，见下方 "2026-10-09 新增批次"）。2026-10-10 扫描 `raw/` 递归清单新增纳入 `raw/articles/preprints202609.2680.v1.pdf`（Preprints.org RSI 独立综述，未评审，登记为 [[来源-RSI综述-Preprints-2026]]）。其余子目录（如未列出的论文/报告）待后续按专题摄入。
+- `raw/transcripts/` — 2026-09-03 新增纳入 `LoRA.md` 与 `GRPO原理.md`，已抽象为“参数高效微调与对齐训练”主题簇；2026-09-14 新增纳入“多模态数据统一嵌入大模型调研”专题的五模态结构对齐、推荐文本化、Qwen 事件/统计特征建模与推荐→风控迁移（LLM4Rec 同名文件仅登记为既有来源镜像），并补齐 `LLM-based User Representation Foundation Models/` 的六篇独立来源；其余未列转录仍按专题分批处理。
 - `raw/data/` — 暂未使用。
+
+### 2026-10-09 新增批次：Transformer 效率演进（`raw/articles/transformer_efficiency/`）
+
+> 来源：短视频"55 秒看完 Transformer 效率演进时间线"（`raw/videos/微信视频2026-10-08_205503_975.mp4`，仅画面帧、无字幕）梳理出 2017–2026 时间线；逐篇下载 arXiv PDF 并建来源页。核心概念页 [[Transformer效率演进]]、对照页 [[Transformer效率技术对照-2026]]。
+
+- [来源-Transformer-Attention-Is-All-You-Need-2017.md](multimodal/%E6%9D%A5%E6%BA%90-Transformer-Attention-Is-All-You-Need-2017.md) — `raw/articles/transformer_efficiency/2017-Attention-Is-All-You-Need-Transformer.pdf`
+- [来源-Sparse-Gated-MoE-2017.md](multimodal/%E6%9D%A5%E6%BA%90-Sparse-Gated-MoE-2017.md) — `raw/articles/transformer_efficiency/2017-Sparse-Gated-MoE-Outrageously-Large-NN.pdf`
+- [来源-Universal-Transformers-2018.md](multimodal/%E6%9D%A5%E6%BA%90-Universal-Transformers-2018.md) — `raw/articles/transformer_efficiency/2018-Universal-Transformers.pdf`
+- [来源-Transformers-are-RNNs-线性注意力-2020.md](multimodal/%E6%9D%A5%E6%BA%90-Transformers-are-RNNs-%E7%BA%BF%E6%80%A7%E6%B3%A8%E6%84%8F%E5%8A%9B-2020.md) — `raw/articles/transformer_efficiency/2020-Transformers-are-RNNs-Linear-Attention.pdf`
+- [来源-DeepSeek-V2-MLA-2024.md](multimodal/%E6%9D%A5%E6%BA%90-DeepSeek-V2-MLA-2024.md) — `raw/articles/transformer_efficiency/2024-DeepSeek-V2-MLA.pdf`
+- [来源-NSA-原生稀疏注意力-2025.md](multimodal/%E6%9D%A5%E6%BA%90-NSA-%E5%8E%9F%E7%94%9F%E7%A8%80%E7%96%8F%E6%B3%A8%E6%84%8F%E5%8A%9B-2025.md) — `raw/articles/transformer_efficiency/2025-NSA-Native-Sparse-Attention-DeepSeek.pdf`
+- [来源-MoBA-Mixture-of-Block-Attention-2025.md](multimodal/%E6%9D%A5%E6%BA%90-MoBA-Mixture-of-Block-Attention-2025.md) — `raw/articles/transformer_efficiency/2025-MoBA-Mixture-of-Block-Attention-Moonshot.pdf`
+- [来源-Kimi-Linear-KDA-2025.md](multimodal/%E6%9D%A5%E6%BA%90-Kimi-Linear-KDA-2025.md) — `raw/articles/transformer_efficiency/2025-Kimi-Linear-KDA-Moonshot.pdf`
+- [来源-DeepSeek-V4-CSA-HCA-2026.md](multimodal/%E6%9D%A5%E6%BA%90-DeepSeek-V4-CSA-HCA-2026.md) — `raw/articles/transformer_efficiency/2026-DeepSeek-V4-CSA-HCA.pdf`
+- [来源-MiniMax-Sparse-Attention-MSA-2026.md](multimodal/%E6%9D%A5%E6%BA%90-MiniMax-Sparse-Attention-MSA-2026.md) — `raw/articles/transformer_efficiency/2026-MiniMax-Sparse-Attention-MSA.pdf`
+- 概念页：[[Transformer效率演进]]
+- 对照页：[[Transformer效率技术对照-2026]]
