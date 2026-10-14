@@ -10,6 +10,17 @@
 - [paper-agent-ai-survey-2401-03568.md](agent/paper-agent-ai-survey-2401-03568.md)
   - Raw：[`raw/articles/MinerU_markdown_2401.03568v2_2043246523466801152.md`](../../raw/articles/MinerU_markdown_2401.03568v2_2043246523466801152.md)
 
+- [来源-文本与数值冲突下的LLM证据仲裁-2026.md](applications/%E6%9D%A5%E6%BA%90-%E6%96%87%E6%9C%AC%E4%B8%8E%E6%95%B0%E5%80%BC%E5%86%B2%E7%AA%81%E4%B8%8B%E7%9A%84LLM%E8%AF%81%E6%8D%AE%E4%BB%B2%E8%A3%81-2026.md)
+  - Raw：[`raw/articles/evidence_arbitration/2608.20116v1.pdf`](../../raw/articles/evidence_arbitration/2608.20116v1.pdf)
+- [来源-M3市场微观结构状态事件生成模型-2026.md](applications/%E6%9D%A5%E6%BA%90-M3%E5%B8%82%E5%9C%BA%E5%BE%AE%E8%A7%82%E7%BB%93%E6%9E%84%E7%8A%B6%E6%80%81%E4%BA%8B%E4%BB%B6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B-2026.md)
+  - Raw：[`raw/articles/market_microstructure/2608.19227v1.pdf`](../../raw/articles/market_microstructure/2608.19227v1.pdf)
+- [来源-LLM在策略蒸馏综述-2026.md](reasoning-training/%E6%9D%A5%E6%BA%90-LLM%E5%9C%A8%E7%AD%96%E7%95%A5%E8%92%B8%E9%A6%8F%E7%BB%BC%E8%BF%B0-2026.md)
+  - Raw：[`raw/articles/MinerU_markdown_2604.00626v1_2043709519930482688.md`](../../raw/articles/MinerU_markdown_2604.00626v1_2043709519930482688.md)
+- [来源-TableGPT2表格数据多模态接入-2026.md](applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md)
+  - Raw：[`raw/transcripts/处理表格数据的深度学习模型/TableGPT2.md`](../../raw/transcripts/%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B/TableGPT2.md)
+- [来源-社区风控欺诈Agent判定数据-2026.md](applications/%E6%9D%A5%E6%BA%90-%E7%A4%BE%E5%8C%BA%E9%A3%8E%E6%8E%A7%E6%AC%BA%E8%AF%88Agent%E5%88%A4%E5%AE%9A%E6%95%B0%E6%8D%AE-2026.md)
+  - Raw：[`raw/data/社区风控_欺诈_杀猪盘数据.md`](../../raw/data/%E7%A4%BE%E5%8C%BA%E9%A3%8E%E6%8E%A7_%E6%AC%BA%E8%AF%88_%E6%9D%80%E7%8C%AA%E7%9B%98%E6%95%B0%E6%8D%AE.md)
+
 - [来源-小学算术基准污染检验-GSM1k-2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-%E5%B0%8F%E5%AD%A6%E7%AE%97%E6%9C%AF%E5%9F%BA%E5%87%86%E6%B1%A1%E6%9F%93%E6%A3%80%E9%AA%8C-GSM1k-2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Careful_Examination_of_Large_Language_Model_Performance_on_Grade_School_Arithmetic.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Careful_Examination_of_Large_Language_Model_Performance_on_Grade_School_Arithmetic.md)
 - [来源-Neuro-Symbolic推理捷径基准-rsbench-2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-Neuro-Symbolic%E6%8E%A8%E7%90%86%E6%8D%B7%E5%BE%84%E5%9F%BA%E5%87%86-rsbench-2024.md)
@@ -206,9 +217,9 @@
 ## 尚未摄入
 
 - `raw/papers/`（大量论文/教程/手册仍未摄入；已额外纳入 `4_Other_ML/可信AI/如何构建可信GNN？最新综述来了！可信图神经网络：维度，方法，趋势.md` 作为新分支入口）— 其余继续按专题分批处理。
-- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；2026-09-01 补入 `time_series_agent/` 剩余两篇子论文（AgentFM 2504.06614、IoT 2510.03859），该综述全部子论文均已建独立来源页；2026-09-02 新增纳入 `DeepEvidence`（知识图谱驱动生物医学 deep research）、`开源多模态模型 ViT 视觉头与风控落地选型报告`（开放 VLM 选型 / 风控部署边界）与 `图像对抗攻防研究答辩文档`（图像对抗失效诊断 / 增强审核触发器链路）；2026-09-11 新增纳入 `RSI/`（递归自我改进、Harness、ASPIRE/HarnessDev/S3Gym）与 `llm4rec/`（LLM 推荐范式、评估和落地边界）。2026-10-09 补入 `RSI/` 第 8 份材料 `papers_Dream-RSI_2609.14858v1.pdf`（discovery history → replay simulator 的元层 RSI）、`llm4rec/` 两篇 PDF（`2606.25147` TokenMinds 用户 SID token、`2203.01941` RQ-VAE 残差量化自回归并作为 Semantic ID 方法学来源）；同日新增 `transformer_efficiency/` 一批 10 篇（由 `raw/videos/` 的 Transformer 效率演进科普视频给出论文清单，见下方 "2026-10-09 新增批次"）。2026-10-10 扫描 `raw/` 递归清单新增纳入 `raw/articles/preprints202609.2680.v1.pdf`（Preprints.org RSI 独立综述，未评审，登记为 [[来源-RSI综述-Preprints-2026]]）。其余子目录（如未列出的论文/报告）待后续按专题摄入。
-- `raw/transcripts/` — 2026-09-03 新增纳入 `LoRA.md` 与 `GRPO原理.md`，已抽象为“参数高效微调与对齐训练”主题簇；2026-09-14 新增纳入“多模态数据统一嵌入大模型调研”专题的五模态结构对齐、推荐文本化、Qwen 事件/统计特征建模与推荐→风控迁移（LLM4Rec 同名文件仅登记为既有来源镜像），并补齐 `LLM-based User Representation Foundation Models/` 的六篇独立来源；其余未列转录仍按专题分批处理。
-- `raw/data/` — 暂未使用。
+- `raw/articles/` — 2026-08-31 已纳入 `agent_memory/`、`video_moderation/`、`time_series_agent/`、`multimodal_embed/` 四批；2026-09-01 补入 `time_series_agent/` 剩余两篇子论文（AgentFM 2504.06614、IoT 2510.03859），该综述全部子论文均已建独立来源页；2026-09-02 新增纳入 `DeepEvidence`（知识图谱驱动生物医学 deep research）、`开源多模态模型 ViT 视觉头与风控落地选型报告`（开放 VLM 选型 / 风控部署边界）与 `图像对抗攻防研究答辩文档`（图像对抗失效诊断 / 增强审核触发器链路）；2026-09-11 新增纳入 `RSI/`（递归自我改进、Harness、ASPIRE/HarnessDev/S3Gym）与 `llm4rec/`（LLM 推荐范式、评估和落地边界）。2026-10-09 补入 `RSI/` 第 8 份材料 `papers_Dream-RSI_2609.14858v1.pdf`（discovery history → replay simulator 的元层 RSI）、`llm4rec/` 两篇 PDF（`2606.25147` TokenMinds 用户 SID token、`2203.01941` RQ-VAE 残差量化自回归并作为 Semantic ID 方法学来源）；同日新增 `transformer_efficiency/` 一批 10 篇（由 `raw/videos/` 的 Transformer 效率演进科普视频给出论文清单，见下方 "2026-10-09 新增批次"）。2026-10-10 扫描 `raw/` 递归清单新增纳入 `raw/articles/preprints202609.2680.v1.pdf`（Preprints.org RSI 独立综述，未评审，登记为 [[来源-RSI综述-Preprints-2026]]）；2026-10-14 补入 `MinerU_markdown_2604.00626v1_2043709519930482688.md`（LLM 在策略蒸馏综述）。其余子目录（如未列出的论文/报告）待后续按专题摄入。
+- `raw/transcripts/` — 2026-09-03 新增纳入 `LoRA.md` 与 `GRPO原理.md`，已抽象为“参数高效微调与对齐训练”主题簇；2026-09-14 新增纳入“多模态数据统一嵌入大模型调研”专题的五模态结构对齐、推荐文本化、Qwen 事件/统计特征建模与推荐→风控迁移（LLM4Rec 同名文件仅登记为既有来源镜像），并补齐 `LLM-based User Representation Foundation Models/` 的六篇独立来源；2026-10-14 补入 `处理表格数据的深度学习模型/TableGPT2.md`，作为表格独立模态/编码器投影路线的 E2 二手线索；其余未列转录仍按专题分批处理。
+- `raw/data/` — 2026-10-14 纳入 `社区风控_欺诈_杀猪盘数据.md` 的字段级数据契约与治理抽象；原始说明受限，不在本索引暴露可点击访问路径。
 
 ### 2026-10-09 新增批次：Transformer 效率演进（`raw/articles/transformer_efficiency/`）
 
