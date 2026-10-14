@@ -54,6 +54,9 @@
 - [concepts/多模态结构保真与统一对齐.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%93%E6%9E%84%E4%BF%9D%E7%9C%9F%E4%B8%8E%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90.md) — 区分共享接口与原始表示统一，按数值、时间、空间与拓扑结构组织边—环—整体评测
 - [concepts/Transformer效率演进.md](concepts/multimodal/Transformer%E6%95%88%E7%8E%87%E6%BC%94%E8%BF%9B.md) — 一条 2017–2026 主线：从全量自注意力到"块级稀疏/线性定长状态/KV 压缩"的组合式改造，按 Transformer 环节归 13 项技术
 - [concepts/Qwen异构特征接入与事件序列建模.md](concepts/applications/Qwen%E5%BC%82%E6%9E%84%E7%89%B9%E5%BE%81%E6%8E%A5%E5%85%A5%E4%B8%8E%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E5%BB%BA%E6%A8%A1.md) — 以无泄漏契约、强基线与分阶段门禁组织事件、统计特征接入 Qwen 的路线
+- [concepts/LLM表征与对齐总统简报-2026.md](concepts/applications/LLM%E8%A1%A8%E5%BE%81%E4%B8%8E%E5%AF%B9%E9%BD%90%E6%80%BB%E7%BB%9F%E7%AE%80%E6%8A%A5-2026.md) — 以表征—对齐—行动分层和安全门禁组织的决策总览（含待核外部研究线索）
+- [concepts/LLM统计特征编码的证据仲裁.md](concepts/applications/LLM%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E7%BC%96%E7%A0%81%E7%9A%84%E8%AF%81%E6%8D%AE%E4%BB%B2%E8%A3%81.md) — 组织统计值、口径、时间、来源与缺失的可审计冲突状态，并以受控文本—数值—工具冲突预印本补强压力测试边界
+- [concepts/状态—事件混合生成与M3.md](concepts/applications/%E7%8A%B6%E6%80%81%E2%80%94%E4%BA%8B%E4%BB%B6%E6%B7%B7%E5%90%88%E7%94%9F%E6%88%90%E4%B8%8EM3.md) — 拆分状态条件、事件候选生成与确定性回放，并以 M3 市场微观结构预印本作为领域特定实例
 
 ## 领域知识 — 实体（Entities）
 
@@ -66,6 +69,11 @@
 
 - [sources/_index.md](sources/_index.md) — 来源总表
 - [sources/paper-agent-ai-survey-2401-03568.md](sources/agent/paper-agent-ai-survey-2401-03568.md) — Agent AI 综述（`raw/articles/`）
+- [sources/来源-文本与数值冲突下的LLM证据仲裁-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E6%96%87%E6%9C%AC%E4%B8%8E%E6%95%B0%E5%80%BC%E5%86%B2%E7%AA%81%E4%B8%8B%E7%9A%84LLM%E8%AF%81%E6%8D%AE%E4%BB%B2%E8%A3%81-2026.md) — arXiv 预印本（作者报告、未同行评审）：受控测量文本、数值、时效、可靠性与工具预测冲突下的模型仲裁偏好
+- [sources/来源-M3市场微观结构状态事件生成模型-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-M3%E5%B8%82%E5%9C%BA%E5%BE%AE%E8%A7%82%E7%BB%93%E6%9E%84%E7%8A%B6%E6%80%81%E4%BA%8B%E4%BB%B6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B-2026.md) — arXiv 预印本（作者报告、未同行评审）：以 LOB 状态前缀、离散订单事件和撮合回放生成市场微观结构轨迹
+- [sources/来源-LLM在策略蒸馏综述-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-LLM%E5%9C%A8%E7%AD%96%E7%95%A5%E8%92%B8%E9%A6%8F%E7%BB%BC%E8%BF%B0-2026.md) — 在策略蒸馏综述：用学生自身 rollout 的反馈缓解长程生成分布错配
+- [sources/来源-TableGPT2表格数据多模态接入-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md) — TableGPT2 二手解读：表格编码器 + 投影器接入语言主干，数值待回原文核验
+- [sources/来源-社区风控欺诈Agent判定数据-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E7%A4%BE%E5%8C%BA%E9%A3%8E%E6%8E%A7%E6%AC%BA%E8%AF%88Agent%E5%88%A4%E5%AE%9A%E6%95%B0%E6%8D%AE-2026.md) — 社区欺诈 Agent 的日粒度判定状态、证据与人工复核数据契约
 - [sources/repo-claude-code-best-practice.md](sources/code/repo-claude-code-best-practice.md) — Claude Code 最佳实践仓库
 - [sources/repo-langgraph.md](sources/code/repo-langgraph.md) — LangGraph 仓库
 - [sources/repo-gstack.md](sources/code/repo-gstack.md) — GStack 仓库
