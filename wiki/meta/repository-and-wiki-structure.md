@@ -23,6 +23,10 @@ wiki-root/
 └── assets/                   # 可选；也可放在 raw/ 下
 ```
 
+**全文译文归档**
+
+全文译文位于 `raw/translations/`；它们是受控归档材料，由对应的 `wiki/sources/` 页面链接。除非人类明确要求，代理不主动写入或修改该目录。
+
 **代理阅读顺序**
 
 - **做领域内容**：[Wiki 索引](../index.md) → `sources/` → `entities/` / `concepts/` → 跟随链接。

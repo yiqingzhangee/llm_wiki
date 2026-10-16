@@ -16,10 +16,7 @@
   - Raw：[`raw/articles/market_microstructure/2608.19227v1.pdf`](../../raw/articles/market_microstructure/2608.19227v1.pdf)
 - [来源-LLM在策略蒸馏综述-2026.md](reasoning-training/%E6%9D%A5%E6%BA%90-LLM%E5%9C%A8%E7%AD%96%E7%95%A5%E8%92%B8%E9%A6%8F%E7%BB%BC%E8%BF%B0-2026.md)
   - Raw：[`raw/articles/MinerU_markdown_2604.00626v1_2043709519930482688.md`](../../raw/articles/MinerU_markdown_2604.00626v1_2043709519930482688.md)
-- [来源-TableGPT2表格数据多模态接入-2026.md](applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md)
   - Raw：[`raw/transcripts/处理表格数据的深度学习模型/TableGPT2.md`](../../raw/transcripts/%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B/TableGPT2.md)
-- [来源-社区风控欺诈Agent判定数据-2026.md](applications/%E6%9D%A5%E6%BA%90-%E7%A4%BE%E5%8C%BA%E9%A3%8E%E6%8E%A7%E6%AC%BA%E8%AF%88Agent%E5%88%A4%E5%AE%9A%E6%95%B0%E6%8D%AE-2026.md)
-  - Raw：[`raw/data/社区风控_欺诈_杀猪盘数据.md`](../../raw/data/%E7%A4%BE%E5%8C%BA%E9%A3%8E%E6%8E%A7_%E6%AC%BA%E8%AF%88_%E6%9D%80%E7%8C%AA%E7%9B%98%E6%95%B0%E6%8D%AE.md)
 
 - [来源-小学算术基准污染检验-GSM1k-2024.md](reasoning-training/%E6%9D%A5%E6%BA%90-%E5%B0%8F%E5%AD%A6%E7%AE%97%E6%9C%AF%E5%9F%BA%E5%87%86%E6%B1%A1%E6%9F%93%E6%A3%80%E9%AA%8C-GSM1k-2024.md)
   - Raw：[`raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Careful_Examination_of_Large_Language_Model_Performance_on_Grade_School_Arithmetic.md`](../../raw/papers/2_LLM_NLP/LLM_paper_list/reasoning/nips_2024_A_Careful_Examination_of_Large_Language_Model_Performance_on_Grade_School_Arithmetic.md)
@@ -75,8 +72,6 @@
   - Raw：[`raw/articles/2026-DeepEvidence Empowering Biomedical Discovery with Deep Knowledge Graph Research.pdf`](../../raw/articles/2026-DeepEvidence%20Empowering%20Biomedical%20Discovery%20with%20Deep%20Knowledge%20Graph%20Research.pdf)；[`raw/articles/DeepEvidence：以深度知识图谱研究赋能生物医学发现（中文译本）.md`](../../raw/articles/DeepEvidence%EF%BC%9A%E4%BB%A5%E6%B7%B1%E5%BA%A6%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E7%A0%94%E7%A9%B6%E8%B5%8B%E8%83%BD%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E5%8F%91%E7%8E%B0%EF%BC%88%E4%B8%AD%E6%96%87%E8%AF%91%E6%9C%AC%EF%BC%89.md)
 - [来源-开源多模态模型ViT视觉头与风控落地选型报告-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8BViT%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E8%90%BD%E5%9C%B0%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A-2026.md)
   - Raw：[`raw/articles/开源多模态模型 ViT 视觉头与风控落地选型报告.md`](../../raw/articles/%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%20ViT%20%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E8%90%BD%E5%9C%B0%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A.md)
-- [来源-图像对抗攻防答辩文档-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3-2026.md)
-  - Raw：[`raw/articles/图像对抗攻防研究答辩文档/图像对抗攻防研究答辩文档.md`](../../raw/articles/%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%A0%94%E7%A9%B6%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3/%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%A0%94%E7%A9%B6%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3.md)
 - [来源-LoRA低秩适配原理-2026.md](reasoning-training/%E6%9D%A5%E6%BA%90-LoRA%E4%BD%8E%E7%A7%A9%E9%80%82%E9%85%8D%E5%8E%9F%E7%90%86-2026.md)
   - Raw：[`raw/transcripts/LoRA.md`](../../raw/transcripts/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80/LoRA.md)
 - [来源-GRPO分组相对策略优化原理-2026.md](reasoning-training/%E6%9D%A5%E6%BA%90-GRPO%E5%88%86%E7%BB%84%E7%9B%B8%E5%AF%B9%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E5%8E%9F%E7%90%86-2026.md)
@@ -85,8 +80,6 @@
   - Raw：[`raw/articles/RSI/`（7 个双语资料：RSI 分类、对齐与监控观点、Harness Engineering、ASPIRE、HarnessDev、S3Gym）](../../raw/articles/RSI)
 - [来源-RSI综述-Preprints-2026.md](agent/%E6%9D%A5%E6%BA%90-RSI%E7%BB%BC%E8%BF%B0-Preprints-2026.md)
   - Raw：[`raw/articles/preprints202609.2680.v1.pdf`](../../raw/articles/preprints202609.2680.v1.pdf)（Preprints.org RSI 独立综述，未同行评审）
-- [来源-LLM推荐技术范式与落地边界-2026.md](applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%BE%B9%E7%95%8C-2026.md)
-  - Raw：[`raw/articles/llm4rec/LLM_For_Recommendation_技术范式_证据边界与落地路径.md`](../../raw/articles/llm4rec/LLM_For_Recommendation_%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F_%E8%AF%81%E6%8D%AE%E8%BE%B9%E7%95%8C%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%B7%AF%E5%BE%84.md)
 
 ### 2026-09-14 新增：多模态数据统一嵌入调研（`raw/transcripts/`）
 
@@ -153,8 +146,6 @@
   - Raw：[`raw/search/traffic-risk-control-watch/2026-06-27/agent-fengkong-watch-2026-06-27-1234.md`](../../raw/search/traffic-risk-control-watch/2026-06-27/agent-fengkong-watch-2026-06-27-1234.md)
 - [来源-构建Agent的四个问题-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-%E6%9E%84%E5%BB%BAAgent%E7%9A%84%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98-2026-06-21.md)
   - Raw：[`raw/transcripts/4 problems for building agent.md`](../../raw/transcripts/4%20problems%20for%20building%20agent.md)
-- [来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md](agent/%E6%9D%A5%E6%BA%90-TCE%E9%83%A8%E7%BD%B2ClaudeCodeAgent%E6%93%8D%E4%BD%9C%E6%B8%85%E5%8D%95-2026-06-21.md)
-  - Raw：[`raw/transcripts/TCE 部署 Claude Code Agent 完整操作清单.md`](../../raw/transcripts/TCE%20%E9%83%A8%E7%BD%B2%20Claude%20Code%20Agent%20%E5%AE%8C%E6%95%B4%E6%93%8D%E4%BD%9C%E6%B8%85%E5%8D%95.md)
 - [来源-基于控制论的内容风控系统全流程方案-2026-06-21.md](applications/%E6%9D%A5%E6%BA%90-%E5%9F%BA%E4%BA%8E%E6%8E%A7%E5%88%B6%E8%AE%BA%E7%9A%84%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E7%B3%BB%E7%BB%9F%E5%85%A8%E6%B5%81%E7%A8%8B%E6%96%B9%E6%A1%88-2026-06-21.md)
   - Raw：[`raw/transcripts/基于控制论的内容风控系统全流程方案.md`](../../raw/transcripts/%E5%9F%BA%E4%BA%8E%E6%8E%A7%E5%88%B6%E8%AE%BA%E7%9A%84%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E7%B3%BB%E7%BB%9F%E5%85%A8%E6%B5%81%E7%A8%8B%E6%96%B9%E6%A1%88.md)
 - [来源-Qwen2.5与Qwen3微调深度调研-2026-06-21.md](reasoning-training/%E6%9D%A5%E6%BA%90-Qwen2.5%E4%B8%8EQwen3%E5%BE%AE%E8%B0%83%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94-2026-06-21.md)
@@ -211,7 +202,6 @@
   - Raw：[`raw/transcripts/视频透明图层提取技术方案 — 模型与代码详解.md`](../../raw/transcripts/%E8%A7%86%E9%A2%91%E9%80%8F%E6%98%8E%E5%9B%BE%E5%B1%82%E6%8F%90%E5%8F%96%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%20%E2%80%94%20%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3.md)
 - [来源-对抗图像样本生成原理与实践-2026-06-23.md](multimodal/%E6%9D%A5%E6%BA%90-%E5%AF%B9%E6%8A%97%E5%9B%BE%E5%83%8F%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E8%B7%B5-2026-06-23.md)
   - Raw：[`raw/transcripts/Principles_and_Practice_of_Generating_Adversarial_Image_Sample.md`](../../raw/transcripts/%E5%9B%BE%E7%89%87%E5%AF%B9%E6%8A%97%E8%B0%83%E7%A0%94%E4%B8%8E%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/Principles_and_Practice_of_Generating_Adversarial_Image_Sample.md)
-- [来源-风控工程实战案例面试问题答案-2026-06-23.md](applications/%E6%9D%A5%E6%BA%90-%E9%A3%8E%E6%8E%A7%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E7%AD%94%E6%A1%88-2026-06-23.md)
   - Raw：[`raw/transcripts/面试问题答案.md`](../../raw/transcripts/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E7%AD%94%E6%A1%88.md)
 
 ## 尚未摄入

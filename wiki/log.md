@@ -218,3 +218,21 @@ Append-only log of all wiki operations.
 - 新增来源页：[[来源-文本与数值冲突下的LLM证据仲裁-2026]]（`raw/articles/evidence_arbitration/2608.20116v1.pdf`）与 [[来源-M3市场微观结构状态事件生成模型-2026]]（`raw/articles/market_microstructure/2608.19227v1.pdf`）。两页均按实验设计、相关工作、关键图表、作者报告、局限与分阶段复现计划整理。
 - 织入：[[LLM统计特征编码的证据仲裁]] 增加合成文本—数值—工具冲突基准及错误工具预测压力测试；[[状态—事件混合生成与M3]] 以 LOB 状态前缀、VQ 订单事件、decoder-only 生成和撮合回放深化“候选生成—确定性回放”模板；同步 sources 索引、全局索引与研究主题导航。
 - **冲突/不确定性**：两篇均为作者报告的 arXiv 预印本。证据仲裁只覆盖合成二元风险任务，提示顺序与时效线索存在交互；M3 只覆盖特定中国 A 股市场、训练/留出期与撮合规则，代码/权重入口不等于端到端复现。两处 raw README 仍保留建目录时的占位文字，未改动以遵守 raw 不可变规则。
+
+## [2026-10-16] query | Filed: EviState 评论文本与图片证据 SQL
+
+- 新增 [[EviState评论文本与图片证据SQL]]，总结 `dim_evistate_mvp_user_di` 驱动、`dwd_evistate_anchor_increment_di` 取数的评论文本与图片 7 天证据链路。
+- 固化锚点时点截断、证据 ID 去重、内容级精确去重、文本 32 条/图片 16 张限额、结构体数组、空模态保留和审计计数口径。
+- 记录性能策略、部署前门禁及 Hive `EXPLAIN` 证据；明确未执行建表或分区写入。
+- **限制**：源表仅提供一个 `as_of_time`，当前降级为 `content_time` 与 `available_time`；签名图片 URL 不是稳定训练资产；文本精确哈希尚未覆盖 Unicode 规范化或语义近重复。
+
+## [2026-10-16] query | 调整 EviState 页面目录
+
+- 将 `EviState评论文本与图片证据SQL.md` 从 `wiki/concepts/applications/` 根目录移动到 `wiki/concepts/applications/evistate/`。
+- 同步修正 `wiki/index.md` 链接；页面正文与 `raw/` 内容未修改。
+
+## [2026-10-16] query | 迁移字节内部项目资料
+
+- 将已确认的内部数据、项目资料和对应 Wiki 派生页统一迁移到被 Git 忽略的 `bytedance/` 目录。
+- 保留项目根目录的规则文件与历史日志；相关 Wiki 索引项已移除。
+- 本次按用户临时授权移动 `raw/` 中的指定内部项目资料，未移动其他 Raw 来源。

@@ -36,11 +36,8 @@
 - [concepts/TabLLM.md](concepts/applications/TabLLM.md) — TabLLM 方法要点、适用场景与风险
 - [concepts/Agent框架选型与工程维度.md](concepts/agent/Agent%E6%A1%86%E6%9E%B6%E9%80%89%E5%9E%8B%E4%B8%8E%E5%B7%A5%E7%A8%8B%E7%BB%B4%E5%BA%A6.md) — Agent 框架选型中的分层能力与工程治理维度
 - [concepts/多Agent系统研究趋势与工程映射.md](concepts/agent/%E5%A4%9AAgent%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6%E8%B6%8B%E5%8A%BF%E4%B8%8E%E5%B7%A5%E7%A8%8B%E6%98%A0%E5%B0%84.md) — 连接多Agent论文趋势与工程落地能力的映射框架
-- [concepts/流量风控技能栈与Agent治理.md](concepts/applications/%E6%B5%81%E9%87%8F%E9%A3%8E%E6%8E%A7%E6%8A%80%E8%83%BD%E6%A0%88%E4%B8%8EAgent%E6%B2%BB%E7%90%86.md) — 从传统反作弊扩展到 Agent 调用链治理的分层技能栈（含对抗样本分层防御小节）
 - [concepts/Agent任务分流：工作流与智能体边界.md](concepts/agent/Agent%E4%BB%BB%E5%8A%A1%E5%88%86%E6%B5%81%EF%BC%9A%E5%B7%A5%E4%BD%9C%E6%B5%81%E4%B8%8E%E6%99%BA%E8%83%BD%E4%BD%93%E8%BE%B9%E7%95%8C.md) — 用复杂度/价值/可执行性/错误成本四问划分 workflow 与 agent 的适用边界
 - [concepts/Stable-Diffusion微调技术矩阵.md](concepts/multimodal/Stable-Diffusion%E5%BE%AE%E8%B0%83%E6%8A%80%E6%9C%AF%E7%9F%A9%E9%98%B5.md) — SD 微调方法全景对比（LoRA/DreamBooth/ControlNet/IP-Adapter 等）与选型决策
-- [concepts/对抗样本攻击原理与实践.md](concepts/multimodal/%E5%AF%B9%E6%8A%97%E6%A0%B7%E6%9C%AC%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E8%B7%B5.md) — VLM 对抗攻击三类方法（迁移型/多尺度/扩散生成）的 ASR 实测与防御量化
-- [concepts/风控工程实战案例-ByteDance.md](concepts/applications/%E9%A3%8E%E6%8E%A7%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B-ByteDance.md) — 字节电商+内容风控一线工程复盘（双 Runtime Agent、闪帧治理、团伙挖掘、统一大盘）
 - [concepts/可信图神经网络.md](concepts/graph/%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md) — 从图学习视角整理鲁棒性/可解释性/隐私/公平/问责/环境福祉六维治理框架
 - [concepts/Agent记忆系统与自我演进.md](concepts/agent/Agent%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F%E4%B8%8E%E8%87%AA%E6%88%91%E6%BC%94%E8%BF%9B.md) — Foundation Agent Memory 三维分类法（基底/认知机制/主体），记忆从被动存储到可学习策略的自我演进
 - [concepts/时间序列LLM智能体分类法.md](concepts/applications/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97LLM%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%86%E7%B1%BB%E6%B3%95.md) — 时序 Agent 问题驱动四分类 + 架构/工具/记忆三维度（异常检测子域方法谱）
@@ -73,7 +70,6 @@
 - [sources/来源-M3市场微观结构状态事件生成模型-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-M3%E5%B8%82%E5%9C%BA%E5%BE%AE%E8%A7%82%E7%BB%93%E6%9E%84%E7%8A%B6%E6%80%81%E4%BA%8B%E4%BB%B6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B-2026.md) — arXiv 预印本（作者报告、未同行评审）：以 LOB 状态前缀、离散订单事件和撮合回放生成市场微观结构轨迹
 - [sources/来源-LLM在策略蒸馏综述-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-LLM%E5%9C%A8%E7%AD%96%E7%95%A5%E8%92%B8%E9%A6%8F%E7%BB%BC%E8%BF%B0-2026.md) — 在策略蒸馏综述：用学生自身 rollout 的反馈缓解长程生成分布错配
 - [sources/来源-TableGPT2表格数据多模态接入-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md) — TableGPT2 二手解读：表格编码器 + 投影器接入语言主干，数值待回原文核验
-- [sources/来源-社区风控欺诈Agent判定数据-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E7%A4%BE%E5%8C%BA%E9%A3%8E%E6%8E%A7%E6%AC%BA%E8%AF%88Agent%E5%88%A4%E5%AE%9A%E6%95%B0%E6%8D%AE-2026.md) — 社区欺诈 Agent 的日粒度判定状态、证据与人工复核数据契约
 - [sources/repo-claude-code-best-practice.md](sources/code/repo-claude-code-best-practice.md) — Claude Code 最佳实践仓库
 - [sources/repo-langgraph.md](sources/code/repo-langgraph.md) — LangGraph 仓库
 - [sources/repo-gstack.md](sources/code/repo-gstack.md) — GStack 仓库
@@ -86,7 +82,6 @@
 - [sources/来源-搜索归档-Agent风控情报Watch-2026-06-21.md](sources/applications/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-Agent%E9%A3%8E%E6%8E%A7%E6%83%85%E6%8A%A5Watch-2026-06-21.md) — Agent+风控定时情报批次的证据质量分层与平台偏移说明
 - [sources/来源-搜索归档-Agent风控情报Watch-2026-06-27.md](sources/applications/%E6%9D%A5%E6%BA%90-%E6%90%9C%E7%B4%A2%E5%BD%92%E6%A1%A3-Agent%E9%A3%8E%E6%8E%A7%E6%83%85%E6%8A%A5Watch-2026-06-27.md) — 06-27 情报批次：行动链风险治理、Agent 双重角色、Berkeley/Microsoft/Oracle 治理框架与平台治理信号
 - [sources/来源-构建Agent的四个问题-2026-06-21.md](sources/agent/%E6%9D%A5%E6%BA%90-%E6%9E%84%E5%BB%BAAgent%E7%9A%84%E5%9B%9B%E4%B8%AA%E9%97%AE%E9%A2%98-2026-06-21.md) — “复杂度/价值/可执行性/错误成本”四问框架的来源归档与边界说明
-- [sources/来源-TCE部署ClaudeCodeAgent操作清单-2026-06-21.md](sources/agent/%E6%9D%A5%E6%BA%90-TCE%E9%83%A8%E7%BD%B2ClaudeCodeAgent%E6%93%8D%E4%BD%9C%E6%B8%85%E5%8D%95-2026-06-21.md) — TCE + 飞书 + Claude Code 的企业内网部署清单与运维要点
 - [sources/来源-基于控制论的内容风控系统全流程方案-2026-06-21.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%9F%BA%E4%BA%8E%E6%8E%A7%E5%88%B6%E8%AE%BA%E7%9A%84%E5%86%85%E5%AE%B9%E9%A3%8E%E6%8E%A7%E7%B3%BB%E7%BB%9F%E5%85%A8%E6%B5%81%E7%A8%8B%E6%96%B9%E6%A1%88-2026-06-21.md) — 将内容风控建模为传感器-控制器-执行器-反馈回路的闭环方案
 - [sources/来源-Qwen2.5与Qwen3微调深度调研-2026-06-21.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-Qwen2.5%E4%B8%8EQwen3%E5%BE%AE%E8%B0%83%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94-2026-06-21.md) — Qwen2.5 到 Qwen3 微调范式演进与框架选型对照
 - [sources/来源-AIAgent常见框架深度介绍-2026-06-21.md](sources/agent/%E6%9D%A5%E6%BA%90-AIAgent%E5%B8%B8%E8%A7%81%E6%A1%86%E6%9E%B6%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D-2026-06-21.md) — Agent 框架全景综述与“确定性编排+局部自主”趋势判断
@@ -122,7 +117,6 @@
 - [sources/来源-Stable-Diffusion架构代表性工作与原理深度解析-2026-06-23.md](sources/multimodal/%E6%9D%A5%E6%BA%90-Stable-Diffusion%E6%9E%B6%E6%9E%84%E4%BB%A3%E8%A1%A8%E6%80%A7%E5%B7%A5%E4%BD%9C%E4%B8%8E%E5%8E%9F%E7%90%86%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90-2026-06-23.md) — SD 架构演进深度解析（LDM→SDXL→SD3/MMDiT→FLUX，含关键代码实现）
 - [sources/来源-视频透明图层提取技术方案-2026-06-23.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E8%A7%86%E9%A2%91%E9%80%8F%E6%98%8E%E5%9B%BE%E5%B1%82%E6%8F%90%E5%8F%96%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88-2026-06-23.md) — 视频抠图/层分解完整技术方案（RVM/MODNet/MatAnyone + 生成式前沿）
 - [sources/来源-对抗图像样本生成原理与实践-2026-06-23.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E5%AF%B9%E6%8A%97%E5%9B%BE%E5%83%8F%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E8%B7%B5-2026-06-23.md) — 对抗攻击实践（MPCAttack 92% ASR + 扩散净化防御 + 线上部署代码）
-- [sources/来源-风控工程实战案例面试问题答案-2026-06-23.md](sources/applications/%E6%9D%A5%E6%BA%90-%E9%A3%8E%E6%8E%A7%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E7%AD%94%E6%A1%88-2026-06-23.md) — 字节电商+TikTok 风控面试复盘（双 Runtime Agent、闪帧治理、团伙挖掘、统一大盘架构）
 - [sources/来源-LLM智能体规划综述-USTC-Huawei-2026-06-23.md](sources/agent/%E6%9D%A5%E6%BA%90-LLM%E6%99%BA%E8%83%BD%E4%BD%93%E8%A7%84%E5%88%92%E7%BB%BC%E8%BF%B0-USTC-Huawei-2026-06-23.md) — USTC/华为：LLM 智能体规划五大方向（分解/选择/外部/反思/记忆）系统综述
 - [sources/来源-个人LLM智能体综述-Tsinghua-AIR-2026-06-23.md](sources/agent/%E6%9D%A5%E6%BA%90-%E4%B8%AA%E4%BA%BALLM%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-Tsinghua-AIR-2026-06-23.md) — 清华AIR：个人LLM智能体体系结构、L1-L5智能等级与边-云协同专家共识
 - [sources/来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md](sources/agent/%E6%9D%A5%E6%BA%90-%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0-Tsinghua-2026-06-23.md) — 清华大学主导：基于基础模型的工具学习统一框架（控制器-工具-环境-感知器）及其认知起源、训练策略与安全挑战
@@ -151,13 +145,11 @@
 - [sources/来源-MiniMax-Sparse-Attention-MSA-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-MiniMax-Sparse-Attention-MSA-2026.md) — MSA：GQA + 每组 top-16 块，1M 上下文注意力 −28.4×（MiniMax，2026）
 - [sources/来源-DeepEvidence-生物医学知识图谱深度研究-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-DeepEvidence-%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6-2026.md) — 生物医学 deep research 的 KG 驱动多 Agent 框架：BFRS/DFRS、证据图谱与统一 API 工具层
 - [sources/来源-开源多模态模型ViT视觉头与风控落地选型报告-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8BViT%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E8%90%BD%E5%9C%B0%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A-2026.md) — 开放 VLM 视觉路线、评测陷阱与风控部署边界：哪些场景适合试点，哪些不宜让 VLM 主裁决
-- [sources/来源-图像对抗攻防答辩文档-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E5%9B%BE%E5%83%8F%E5%AF%B9%E6%8A%97%E6%94%BB%E9%98%B2%E7%AD%94%E8%BE%A9%E6%96%87%E6%A1%A3-2026.md) — 图像对抗攻防项目复盘：把 Illusion/对抗样本失效拆成“视觉头看不见”与“决策层判断错”，并落到增强审核触发器链路
 - [sources/来源-LoRA低秩适配原理-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-LoRA%E4%BD%8E%E7%A7%A9%E9%80%82%E9%85%8D%E5%8E%9F%E7%90%86-2026.md) — LoRA 最小原理骨架：冻结主干，只训练低秩增量 `A/B`，合并部署时几乎不增加推理时延
 - [sources/来源-GRPO分组相对策略优化原理-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-GRPO%E5%88%86%E7%BB%84%E7%9B%B8%E5%AF%B9%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E5%8E%9F%E7%90%86-2026.md) — 去掉 value head、用组内相对奖励替代优势估计的推理/对齐训练方法说明
 - [sources/来源-递归自我改进与Harness自演化-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E4%B8%8EHarness%E8%87%AA%E6%BC%94%E5%8C%96-2026.md) — RSI、Harness 工程及 ASPIRE/HarnessDev/S3Gym 的批次综合，聚焦可迁移改进的证据边界
 - [sources/来源-Dream-RSI-演化世界递归自我改进-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-Dream-RSI-%E6%BC%94%E5%8C%96%E4%B8%96%E7%95%8C%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B-2026.md) — 把 discovery history 做成可回放世界，用离线"做梦"廉价评估/优化探索策略，闭合元层 RSI 循环
 - [sources/来源-RSI综述-Preprints-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-RSI%E7%BB%BC%E8%BF%B0-Preprints-2026.md) — RSI 独立综述（Preprints.org，未评审）：机制级统一框架、自动化设计 vs 修复优化、任务增益/保留/改进器增益三类主张的证据协议
-- [sources/来源-LLM推荐技术范式与落地边界-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F%E4%B8%8E%E8%90%BD%E5%9C%B0%E8%BE%B9%E7%95%8C-2026.md) — LLM4Rec 的语义增强、生成式推荐、智能体编排及其评测和生产约束
 - [sources/来源-FOUND可迁移可预测用户定向基础模型-2025.md](sources/applications/%E6%9D%A5%E6%BA%90-FOUND%E5%8F%AF%E8%BF%81%E7%A7%BB%E5%8F%AF%E9%A2%84%E6%B5%8B%E7%94%A8%E6%88%B7%E5%AE%9A%E5%90%91%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B-2025.md) — 以未来行为文本对齐历史多源画像的可迁移用户定向基座
 - [sources/来源-FOUNDv2统一量化用户Tokenizer-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-FOUNDv2%E7%BB%9F%E4%B8%80%E9%87%8F%E5%8C%96%E7%94%A8%E6%88%B7Tokenizer-2026.md) — 以共享/源特定码本和多尺度预训练压缩多源用户历史
 - [sources/来源-Query-as-Anchor场景自适应用户表征-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-Query-as-Anchor%E5%9C%BA%E6%99%AF%E8%87%AA%E9%80%82%E5%BA%94%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81-2026.md) — 以尾部 query 重锚定用户表示，并复用用户前缀 KV cache

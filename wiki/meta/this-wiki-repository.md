@@ -9,4 +9,4 @@
 - **文章**：Agent AI 综述（MinerU 导出的 MD），位于 `raw/articles/`。
 - **代码镜像**：`raw/code/claude-code-best-practice`、`raw/code/langgraph`、`raw/code/gstack` — 只读；领域笔记在 `wiki/sources/repo-*.md` 及关联的 `wiki/concepts/`、`wiki/entities/`。
 
-**相关**：[三层架构](three-layer-architecture.md)、[仓库结构示意](repository-and-wiki-structure.md)、[CLAUDE.md 摘要](schema-claude-md.md)、[Agent AI（领域）](../concepts/agent-ai-and-multimodal-agents.md)。
+**相关**：[三层架构](three-layer-architecture.md)、[仓库结构示意](repository-and-wiki-structure.md)、[CLAUDE.md 摘要](schema-claude-md.md)、[Agent AI（领域）](../concepts/agent/agent-ai-and-multimodal-agents.md)。

@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "obsidian_app",
+      "label": "app.json",
+      "file_type": "code",
+      "source_file": "wiki/.obsidian/app.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "obsidian_app_promptdelete",
+      "label": "promptDelete",
+      "file_type": "code",
+      "source_file": "wiki/.obsidian/app.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "obsidian_app",
+      "target": "obsidian_app_promptdelete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wiki/.obsidian/app.json",
+      "source_location": "L2",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
