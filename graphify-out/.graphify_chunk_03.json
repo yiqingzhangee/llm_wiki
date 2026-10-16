@@ -1,0 +1,838 @@
+{
+  "nodes": [
+    {
+      "id": "concept_agent_frameworks",
+      "label": "Agent框架与工程实践",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_reasoning_methods",
+      "label": "LLM推理方法与结构",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_knowledge_distillation",
+      "label": "知识蒸馏",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_multilingual_llm",
+      "label": "多语言大模型研究",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_multimodal_moderation",
+      "label": "多模态内容审核",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_survey_methodology",
+      "label": "综述与证据规范",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "meta_x_page",
+      "label": "证据分级与引用规范",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_index_page",
+      "label": "_index",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/_index.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_paper_agent_ai_survey_2401_03568_page",
+      "label": "paper-agent-ai-survey-2401-03568",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/paper-agent-ai-survey-2401-03568.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_repo_claude_code_best_practice_page",
+      "label": "repo-claude-code-best-practice",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-claude-code-best-practice.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_repo_gstack_page",
+      "label": "repo-gstack",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-gstack.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_repo_langgraph_page",
+      "label": "repo-langgraph",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-langgraph.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_kuaimod_vlm_page",
+      "label": "分节详解-KuaiMod-VLM-短视频审核",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-KuaiMod-VLM-短视频审核.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_2025_huang_page",
+      "label": "分节详解-多语言大语言模型综述-2025-Huang",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-多语言大语言模型综述-2025-Huang.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_2025_page",
+      "label": "分节详解-大小语言模型协同综述-2025",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大小语言模型协同综述-2025.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_ccl_2024_page",
+      "label": "分节详解-大模型时代多语言研究综述-CCL-2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大模型时代多语言研究综述-CCL-2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_x_page",
+      "label": "分节详解-大语言模型在策略蒸馏综述",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型在策略蒸馏综述.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_2024_page",
+      "label": "分节详解-大语言模型知识蒸馏综述-2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型知识蒸馏综述-2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_2021_gou_page",
+      "label": "分节详解-知识蒸馏综述-2021-Gou",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-知识蒸馏综述-2021-Gou.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_aiagent_2026_06_21_page",
+      "label": "来源-AIAgent学习与智能诊断落地路线图-2026-06-21",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent学习与智能诊断落地路线图-2026-06-21.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_adaprop_kdd2024_page",
+      "label": "来源-AdaProp-自适应传播路径-KDD2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AdaProp-自适应传播路径-KDD2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_agent_k8s_agentos_2026_06_21_page",
+      "label": "来源-Agent时代的K8S与AgentOS形态设想-2026-06-21",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Agent时代的K8S与AgentOS形态设想-2026-06-21.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_buffer_of_thoughts_neurips2024_page",
+      "label": "来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_chain_of_code_icml2024_page",
+      "label": "来源-Chain-of-Code-代码模拟混合推理-ICML2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Chain-of-Code-代码模拟混合推理-ICML2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_ds_agent_icml2024_page",
+      "label": "来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sources_glore_icml2024_page",
+      "label": "来源-GLoRe-全局局部联合修正-ICML2024",
+      "file_type": "document",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-GLoRe-全局局部联合修正-ICML2024.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "entity_claude_code",
+      "label": "Claude Code",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-claude-code-best-practice.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "entity_gstack",
+      "label": "gstack",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-gstack.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "entity_langgraph",
+      "label": "LangGraph",
+      "file_type": "concept",
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-langgraph.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "meta_x_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/meta/证据分级与引用规范.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_index_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/_index.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_paper_agent_ai_survey_2401_03568_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/paper-agent-ai-survey-2401-03568.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_paper_agent_ai_survey_2401_03568_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/paper-agent-ai-survey-2401-03568.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_claude_code_best_practice_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-claude-code-best-practice.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_gstack_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-gstack.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_gstack_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-gstack.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_langgraph_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-langgraph.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_langgraph_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-langgraph.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_kuaimod_vlm_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-KuaiMod-VLM-短视频审核.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_kuaimod_vlm_page",
+      "target": "concept_multimodal_moderation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-KuaiMod-VLM-短视频审核.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2025_huang_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-多语言大语言模型综述-2025-Huang.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2025_huang_page",
+      "target": "concept_multilingual_llm",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-多语言大语言模型综述-2025-Huang.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2025_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大小语言模型协同综述-2025.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ccl_2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大模型时代多语言研究综述-CCL-2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ccl_2024_page",
+      "target": "concept_multilingual_llm",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大模型时代多语言研究综述-CCL-2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_x_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型在策略蒸馏综述.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_x_page",
+      "target": "concept_knowledge_distillation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型在策略蒸馏综述.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型知识蒸馏综述-2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2024_page",
+      "target": "concept_knowledge_distillation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型知识蒸馏综述-2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2021_gou_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-知识蒸馏综述-2021-Gou.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2021_gou_page",
+      "target": "concept_knowledge_distillation",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-知识蒸馏综述-2021-Gou.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_aiagent_2026_06_21_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent学习与智能诊断落地路线图-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_aiagent_2026_06_21_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent学习与智能诊断落地路线图-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_aiagent_2026_06_21_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent常见框架深度介绍-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_aiagent_2026_06_21_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent常见框架深度介绍-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_aiagent_2026_06_21_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent面试题详解-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_aiagent_2026_06_21_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AIAgent面试题详解-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_adaprop_kdd2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-AdaProp-自适应传播路径-KDD2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_agent_k8s_agentos_2026_06_21_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Agent时代的K8S与AgentOS形态设想-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_agent_k8s_agentos_2026_06_21_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Agent时代的K8S与AgentOS形态设想-2026-06-21.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_buffer_of_thoughts_neurips2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_buffer_of_thoughts_neurips2024_page",
+      "target": "concept_reasoning_methods",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Buffer-of-Thoughts-思维模板缓冲-NeurIPS2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_chain_of_code_icml2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Chain-of-Code-代码模拟混合推理-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_chain_of_code_icml2024_page",
+      "target": "concept_reasoning_methods",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Chain-of-Code-代码模拟混合推理-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ds_agent_icml2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ds_agent_icml2024_page",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ds_agent_icml2024_page",
+      "target": "concept_reasoning_methods",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-DS-Agent-案例推理驱动自动化数据科学-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_glore_icml2024_page",
+      "target": "concept_survey_methodology",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-GLoRe-全局局部联合修正-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_glore_icml2024_page",
+      "target": "concept_reasoning_methods",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-GLoRe-全局局部联合修正-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_claude_code_best_practice_page",
+      "target": "entity_claude_code",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-claude-code-best-practice.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "entity_claude_code",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-claude-code-best-practice.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_gstack_page",
+      "target": "entity_gstack",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-gstack.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "entity_gstack",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-gstack.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_repo_langgraph_page",
+      "target": "entity_langgraph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-langgraph.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "entity_langgraph",
+      "target": "concept_agent_frameworks",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/repo-langgraph.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2025_huang_page",
+      "target": "sources_ccl_2024_page",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-多语言大语言模型综述-2025-Huang.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_x_page",
+      "target": "sources_2024_page",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型在策略蒸馏综述.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_x_page",
+      "target": "sources_2021_gou_page",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型在策略蒸馏综述.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_2024_page",
+      "target": "sources_2021_gou_page",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/分节详解-大语言模型知识蒸馏综述-2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_chain_of_code_icml2024_page",
+      "target": "sources_ds_agent_icml2024_page",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/bytedance/Documents/2_llm_wiki/wiki/sources/来源-Chain-of-Code-代码模拟混合推理-ICML2024.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

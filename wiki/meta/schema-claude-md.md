@@ -13,4 +13,4 @@
 - `wiki/index.md` 为内容目录；`wiki/log.md` 仅追加，条目标题为 `## [YYYY-MM-DD] ingest | …` 等形式。
 - **`wiki/meta/`** 存放工作区/模式类说明；**领域**知识主要在 `concepts/`、`sources/` 等目录。
 
-**与本 wiki 互联的页面**：[三层架构](three-layer-architecture.md)、[Wiki 运维](wiki-operations.md)、[仓库结构示意](repository-and-wiki-structure.md)、[Agent AI 与多模态智能体](../concepts/agent-ai-and-multimodal-agents.md)（领域，来自 `raw/`）。
+**与本 wiki 互联的页面**：[三层架构](three-layer-architecture.md)、[Wiki 运维](wiki-operations.md)、[仓库结构示意](repository-and-wiki-structure.md)、[Agent AI 与多模态智能体](../concepts/agent/agent-ai-and-multimodal-agents.md)（领域，来自 `raw/`）。

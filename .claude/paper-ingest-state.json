@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "scope": "raw/papers/2_LLM_NLP/LLM_paper_list/**/*.md",
+  "limits": {
+    "maxPapersPerBatch": 3,
+    "maxInputCharacters": 90000,
+    "maxWikiPagesTouched": 18,
+    "maxConsecutiveBatchesPerTopic": 2
+  },
+  "nextTopic": "reasoning",
+  "topicStreak": {
+    "topic": null,
+    "count": 0
+  },
+  "papers": {}
+}
