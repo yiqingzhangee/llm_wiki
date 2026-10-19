@@ -236,3 +236,9 @@ Append-only log of all wiki operations.
 - 将已确认的内部数据、项目资料和对应 Wiki 派生页统一迁移到被 Git 忽略的 `bytedance/` 目录。
 - 保留项目根目录的规则文件与历史日志；相关 Wiki 索引项已移除。
 - 本次按用户临时授权移动 `raw/` 中的指定内部项目资料，未移动其他 Raw 来源。
+
+## [2026-10-19] query | 整理 Agent 本体论调研
+
+- 新增 `concepts/agent/Agent本体论.md`，区分经典 Agent 理论、OASIS 2 形式本体、CoALA 认知架构、LLM Agent 方法、A2A/MCP 协议和身份委托治理。
+- 提出面向 LLM Agent 的主体—心智—能力—任务—行动—记忆—交互—溯源分层模型，并补充与 Workflow 的边界和工程落地建议。
+- 同步 `wiki/index.md`；本页外部来源均保留原始论文、规范或官方文档链接，未修改 `raw/`。

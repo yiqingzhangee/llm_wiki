@@ -40,7 +40,8 @@
 - [concepts/Stable-Diffusion微调技术矩阵.md](concepts/multimodal/Stable-Diffusion%E5%BE%AE%E8%B0%83%E6%8A%80%E6%9C%AF%E7%9F%A9%E9%98%B5.md) — SD 微调方法全景对比（LoRA/DreamBooth/ControlNet/IP-Adapter 等）与选型决策
 - [concepts/可信图神经网络.md](concepts/graph/%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md) — 从图学习视角整理鲁棒性/可解释性/隐私/公平/问责/环境福祉六维治理框架
 - [concepts/Agent记忆系统与自我演进.md](concepts/agent/Agent%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F%E4%B8%8E%E8%87%AA%E6%88%91%E6%BC%94%E8%BF%9B.md) — Foundation Agent Memory 三维分类法（基底/认知机制/主体），记忆从被动存储到可学习策略的自我演进
-- [concepts/时间序列LLM智能体分类法.md](concepts/applications/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97LLM%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%86%E7%B1%BB%E6%B3%95.md) — 时序 Agent 问题驱动四分类 + 架构/工具/记忆三维度（异常检测子域方法谱）
+- [concepts/Agent本体论.md](concepts/agent/Agent%E6%9C%AC%E4%BD%93%E8%AE%BA.md) — 从主体、心智、能力、行动、记忆、交互到授权溯源的 Agent 分层概念模型
+- [concepts/时间序列LLM智能体分类法.md](concepts/applications/%E6%97%B6%E9%97%B4%E5%BA%8FLLM%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%86%E7%B1%BB%E6%B3%95.md) — 时序 Agent 问题驱动四分类 + 架构/工具/记忆三维度（异常检测子域方法谱）
 - [concepts/多模态嵌入与检索基座.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%B5%8C%E5%85%A5%E4%B8%8E%E6%A3%80%E7%B4%A2%E5%9F%BA%E5%BA%A7.md) — CLIP→MLLM 隐藏状态→通用多模态嵌入模型族演进与 WeMM 两阶段训练范式
 - [concepts/知识图谱驱动的深度研究Agent.md](concepts/agent/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6Agent.md) — 以证据图谱、统一 KG 工具层与可执行分析环境组织 deep research 的 Agent 形态
 - [concepts/多模态模型视觉头与风控部署边界.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E9%83%A8%E7%BD%B2%E8%BE%B9%E7%95%8C.md) — 把视觉头能力、整模型表现与风控系统 KPI 三层拆开，明确 VLM 在风控中的语义证据层定位
