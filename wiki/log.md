@@ -242,3 +242,20 @@ Append-only log of all wiki operations.
 - 新增 `concepts/agent/Agent本体论.md`，区分经典 Agent 理论、OASIS 2 形式本体、CoALA 认知架构、LLM Agent 方法、A2A/MCP 协议和身份委托治理。
 - 提出面向 LLM Agent 的主体—心智—能力—任务—行动—记忆—交互—溯源分层模型，并补充与 Workflow 的边界和工程落地建议。
 - 同步 `wiki/index.md`；本页外部来源均保留原始论文、规范或官方文档链接，未修改 `raw/`。
+
+## [2026-10-20] query | 检索并整理 Jev 相关分享
+
+- 新增 `concepts/agent/Jev决策模型与Agent架构.md`：总结 Jev 的结构化决策定位、与强 LLM/代码/Harness/人工的分工、TrueForge 案例、阈值策略、评测和上线门禁。
+- 新增 `sources/agent/来源-Jev内部分享与工程实践-2026.md`：登记本地可访问的飞书/社区分享、原始转载和 TypeSafe/LangChain/TrueForge 交叉资料。
+- 明确证据边界：本地未发现字节内部 Jev 源代码或内部研发原始数据；飞书页面属于可访问的转载/社区内容，性能数字按具体工作流口径保留。
+- 关联 `Agent本体论`、`Agent框架选型与工程维度` 和 `Agent任务分流：工作流与智能体边界`；未修改 `raw/`。
+- 用户补充 ByteTech 优先来源链接；该路由需要登录，已登记链接并标注正文待授权读取，未据此新增未经核实的结论。
+
+## [2026-10-20] query | 深度读取 ByteTech 9 月榜单并聚类 Agent 工程实践
+
+- 登录并读取 `ByteTech 月度最佳榜单｜2026 年 9月`，覆盖 10 篇最佳文章和 4 场最佳分享；AutoResearch 文章与活动视为同一实践的两种载体。
+- 新增 [[来源-ByteTech-2026年9月最佳AI与Agent内容]]，逐项记录标题、作者/讲师、榜单口径、正文摘要、读取状态和证据限制。
+- 新增 [[ByteTech-2026年9月Agent工程实践聚类]]，将内容聚为决策模型与能力分层、Harness/编排/持续进化、领域工作流与知识闭环、个人 AI Coding 方法四条主线。
+- 更新 [[Jev决策模型与Agent架构]] 与 [[来源-Jev内部分享与工程实践-2026]]：补入 ByteTech 两篇内部文章、真实接口测试、Seed 2.0 Lite 对照和失效边界；此前“ByteTech 正文待读取”的状态已被本次结果取代。
+- 更新 [[递归自我改进与Harness自演化]]：加入 AutoResearch 内部案例，但保留“任务内局部收益不等于开放式 RSI”的结论。
+- **证据边界**：GPT 6 Astra 正文未成功加载；AutoResearch 文章正文未加载，但同主题活动页提供完整议题和量化结果；活动动态人数不与榜单评选期 UV 混用；未修改 `raw/`。
