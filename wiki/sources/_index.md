@@ -4,6 +4,13 @@
 
 **工作区模式说明**（不在 `raw/` 内）：见 [CLAUDE.md 摘要](../meta/schema-claude-md.md)。
 
+## 网络与飞书分享（非 `raw/` 来源）
+
+- [来源-Jev内部分享与工程实践-2026.md](agent/%E6%9D%A5%E6%BA%90-Jev%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-2026.md)
+  - 来源：ByteTech《一文讲清 Jev》《Jev 实测》、TypeSafe 官方资料、LangChain 工程文章与 TrueForge 开源仓库
+- [来源-ByteTech-2026年9月最佳AI与Agent内容.md](agent/%E6%9D%A5%E6%BA%90-ByteTech-2026%E5%B9%B49%E6%9C%88%E6%9C%80%E4%BD%B3AI%E4%B8%8EAgent%E5%86%85%E5%AE%B9.md)
+  - 来源：ByteTech 2026 年 9 月最佳榜单、10 篇最佳文章和 4 场最佳分享
+
 ## 论文与文章（`raw/`）
 
 

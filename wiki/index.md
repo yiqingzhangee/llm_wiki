@@ -41,6 +41,8 @@
 - [concepts/可信图神经网络.md](concepts/graph/%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md) — 从图学习视角整理鲁棒性/可解释性/隐私/公平/问责/环境福祉六维治理框架
 - [concepts/Agent记忆系统与自我演进.md](concepts/agent/Agent%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F%E4%B8%8E%E8%87%AA%E6%88%91%E6%BC%94%E8%BF%9B.md) — Foundation Agent Memory 三维分类法（基底/认知机制/主体），记忆从被动存储到可学习策略的自我演进
 - [concepts/Agent本体论.md](concepts/agent/Agent%E6%9C%AC%E4%BD%93%E8%AE%BA.md) — 从主体、心智、能力、行动、记忆、交互到授权溯源的 Agent 分层概念模型
+- [concepts/Jev决策模型与Agent架构.md](concepts/agent/Jev%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B%E4%B8%8EAgent%E6%9E%B6%E6%9E%84.md) — Jev 在模型路由、工具门控、结果验证和高频评测中的决策模型定位
+- [concepts/ByteTech-2026年9月Agent工程实践聚类.md](concepts/agent/ByteTech-2026%E5%B9%B49%E6%9C%88Agent%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5%E8%81%9A%E7%B1%BB.md) — 将 ByteTech 9 月榜单聚为决策模型、Harness、自演化、领域知识闭环和 AI Coding 四条工程主线
 - [concepts/时间序列LLM智能体分类法.md](concepts/applications/%E6%97%B6%E9%97%B4%E5%BA%8FLLM%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%86%E7%B1%BB%E6%B3%95.md) — 时序 Agent 问题驱动四分类 + 架构/工具/记忆三维度（异常检测子域方法谱）
 - [concepts/多模态嵌入与检索基座.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%B5%8C%E5%85%A5%E4%B8%8E%E6%A3%80%E7%B4%A2%E5%9F%BA%E5%BA%A7.md) — CLIP→MLLM 隐藏状态→通用多模态嵌入模型族演进与 WeMM 两阶段训练范式
 - [concepts/知识图谱驱动的深度研究Agent.md](concepts/agent/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6Agent.md) — 以证据图谱、统一 KG 工具层与可执行分析环境组织 deep research 的 Agent 形态
@@ -123,6 +125,8 @@
 - [sources/来源-工具学习与基础模型综述-Tsinghua-2026-06-23.md](sources/agent/%E6%9D%A5%E6%BA%90-%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0-Tsinghua-2026-06-23.md) — 清华大学主导：基于基础模型的工具学习统一框架（控制器-工具-环境-感知器）及其认知起源、训练策略与安全挑战
 - [sources/来源-增强语言模型综述-ALM-MetaAI-2026-06-23.md](sources/language/%E6%9D%A5%E6%BA%90-%E5%A2%9E%E5%BC%BA%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%BB%BC%E8%BF%B0-ALM-MetaAI-2026-06-23.md) — Meta AI（Yann LeCun 参与）：增强语言模型 ALM 综述，推理+工具双重增强打破纯统计语言建模范式
 - [sources/来源-LLM多智能体综述-NotreDame-2026-06-23.md](sources/agent/%E6%9D%A5%E6%BA%90-LLM%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-NotreDame-2026-06-23.md) — 圣母大学主导：LLM 多智能体系统四维度框架（接口/画像/通信/能力获取）与问题求解+世界模拟双模式全景
+- [sources/agent/来源-Jev内部分享与工程实践-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-Jev%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-2026.md) — ByteTech 两篇 Jev 内部文章、真实接口测试与公开资料的交叉证据
+- [sources/agent/来源-ByteTech-2026年9月最佳AI与Agent内容.md](sources/agent/%E6%9D%A5%E6%BA%90-ByteTech-2026%E5%B9%B49%E6%9C%88%E6%9C%80%E4%BD%B3AI%E4%B8%8EAgent%E5%86%85%E5%AE%B9.md) — ByteTech 9 月榜单 10 篇文章和 4 场分享的逐项摘要、读取状态与统计边界
 - [sources/来源-Agent记忆综述-2026.md](sources/agent/%E6%9D%A5%E6%BA%90-Agent%E8%AE%B0%E5%BF%86%E7%BB%BC%E8%BF%B0-2026.md) — Foundation Agent Memory 综述：基底/认知机制/主体三维分类法与自我演进开放挑战（`raw/articles/agent_memory/`）
 - [sources/来源-视频审核与电商风控GUI-Agent批次-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E8%A7%86%E9%A2%91%E5%AE%A1%E6%A0%B8%E4%B8%8E%E7%94%B5%E5%95%86%E9%A3%8E%E6%8E%A7GUI-Agent%E6%89%B9%E6%AC%A1-2026.md) — UNIVID/IPS/VideoModerator 审核演进 + RISK/RiskWebWorld 电商风控 GUI Agent 框架与基准
 - [sources/来源-时间序列LLM智能体综述-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97LLM%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%BC%E8%BF%B0-2026.md) — 时序 LLM Agent 综述四分类 + AD-Agent/ARGOS/CALM/SAGE/AgentFM 等子论文（`raw/articles/time_series_agent/`）
