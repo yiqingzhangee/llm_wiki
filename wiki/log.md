@@ -267,3 +267,11 @@ Append-only log of all wiki operations.
 - 新增 [[跨模态连接器实现方案对照-2026]]：对照 linear / MLP、空间压缩、查询式压缩、局部粗到细、多塔聚合、深层交叉注意力、连续早期融合、离散 token 和工具外置路线。
 - 织入 [[多模态结构保真与统一对齐]]、[[多模态模型视觉头与风控部署边界]]、[[异构数据接入大模型的四档方案对比-2026]] 与 [[研究主题导航]]，同步全局和来源索引。
 - **核心裁决**：现有证据反对把 projector 视为唯一语义对齐者或默认越复杂越好；独立复杂 connector 并非必要，但连续 patch embedding、离散 tokenizer 或工具接口等表示转换通常仍不可避免。不同论文受视觉 token 数、分辨率、冻结策略、数据和任务粒度影响，不能组成无条件排行榜。
+
+## [2026-10-21] query | Filed: 万物皆可 Tokenization——统一接口、离散化与连续建模
+
+- 新增 [[万物皆可Tokenization：统一接口、离散化与连续建模]]，严格限定 2025-10-21 至 2026-10-21，覆盖视觉、音频、动作、时序、推荐、图结构与完全连续多模态建模。
+- 区分固定分块、连续 latent、离散量化码、Semantic ID 和动作/结构输出词表五种含义，整理统一训练、压缩、约束与层级生成的支持论点，以及量化损失、表达限制、串行延迟和连续建模反例。
+- 代表工作包括 Kelix、SemHiTok、MANZANO、UniFlow、UniAudio 2.0、ActionCodec、X-Tokenizer、RotVLA、UniTok、TimeTok、ACERec、CapsID、ChronoSID、PRQ-KMeans、FLASH、VesselTok、EDT-Former、Lost in Tokenization、Multimodal Flow 与 FreyaTTS。
+- 织入 [[多模态大模型跨模态投影与连接器]]、[[LLM推荐系统的分层改造与评估]] 和 [[研究主题导航]]，同步 `wiki/index.md`；未修改 `raw/`。
+- **核心裁决**：tokenization 是通用接口和信息瓶颈设计工具，但全离散 token 不是所有模态的统一最优解。除页面中已标明会议状态的论文外，多数 2026 年结果仍为作者报告的预印本，不据此构造无条件性能排行榜。
