@@ -90,6 +90,8 @@
 
 ### 2026-09-14 新增：多模态数据统一嵌入调研（`raw/transcripts/`）
 
+- [来源-跨模态投影与连接器研究-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8%E7%A0%94%E7%A9%B6-2026.md)
+  - 公开研究综合：跨 20 余篇论文整理 projector / connector 的正反证据、实现分类、训练制度与公平比较边界
 - [来源-五模态数据统一对齐技术调研-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E4%BA%94%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94-2026.md)
   - Raw：[`raw/transcripts/多模态数据统一嵌入大模型调研/多模态大模型输入对齐技术_深度调研.md`](../../raw/transcripts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%A0%94/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%BE%93%E5%85%A5%E5%AF%B9%E9%BD%90%E6%8A%80%E6%9C%AF_%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94.md)
 - [来源-RecFormer-P5-M6Rec推荐数据文本化-2026.md](applications/%E6%9D%A5%E6%BA%90-RecFormer-P5-M6Rec%E6%8E%A8%E8%8D%90%E6%95%B0%E6%8D%AE%E6%96%87%E6%9C%AC%E5%8C%96-2026.md)

@@ -52,6 +52,7 @@
 - [concepts/LLM推荐系统的分层改造与评估.md](concepts/applications/LLM%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%88%86%E5%B1%82%E6%94%B9%E9%80%A0%E4%B8%8E%E8%AF%84%E4%BC%B0.md) — 按语义增强、受约束生成与 Agent 编排组织 LLM4Rec，并给出四层验收口径
 - [concepts/LLM用户表征基础模型与场景适配.md](concepts/applications/LLM%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%9C%BA%E6%99%AF%E9%80%82%E9%85%8D.md) — 汇总未来对齐、量化长历史、条件化表示与掩码适配，并明确其在推荐等系统中的表征层边界
 - [concepts/多模态结构保真与统一对齐.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%93%E6%9E%84%E4%BF%9D%E7%9C%9F%E4%B8%8E%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90.md) — 区分共享接口与原始表示统一，按数值、时间、空间与拓扑结构组织边—环—整体评测
+- [concepts/多模态大模型跨模态投影与连接器.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8.md) — 区分维度接口、token 压缩、信息选择和语义对齐，整理独立 connector 的正反证据与选型门禁
 - [concepts/Transformer效率演进.md](concepts/multimodal/Transformer%E6%95%88%E7%8E%87%E6%BC%94%E8%BF%9B.md) — 一条 2017–2026 主线：从全量自注意力到"块级稀疏/线性定长状态/KV 压缩"的组合式改造，按 Transformer 环节归 13 项技术
 - [concepts/Qwen异构特征接入与事件序列建模.md](concepts/applications/Qwen%E5%BC%82%E6%9E%84%E7%89%B9%E5%BE%81%E6%8E%A5%E5%85%A5%E4%B8%8E%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E5%BB%BA%E6%A8%A1.md) — 以无泄漏契约、强基线与分阶段门禁组织事件、统计特征接入 Qwen 的路线
 - [concepts/LLM表征与对齐总统简报-2026.md](concepts/applications/LLM%E8%A1%A8%E5%BE%81%E4%B8%8E%E5%AF%B9%E9%BD%90%E6%80%BB%E7%BB%9F%E7%AE%80%E6%8A%A5-2026.md) — 以表征—对齐—行动分层和安全门禁组织的决策总览（含待核外部研究线索）
@@ -168,6 +169,7 @@
 - [sources/来源-Qwen事件序列与统计特征融合方案-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-Qwen%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E4%B8%8E%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E8%9E%8D%E5%90%88%E6%96%B9%E6%A1%88-2026.md) — 从文本化、软 token 到深融合的 Qwen 异构输入工程门禁
 - [sources/来源-LLM推荐向风控迁移机制与验证路径-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E5%90%91%E9%A3%8E%E6%8E%A7%E8%BF%81%E7%A7%BB%E6%9C%BA%E5%88%B6%E4%B8%8E%E9%AA%8C%E8%AF%81%E8%B7%AF%E5%BE%84-2026.md) — 推荐机制向风控的受控迁移：离线教师、在线校准和策略执行分离
 - [sources/来源-多模态统一嵌入调研批次-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E8%B0%83%E7%A0%94%E6%89%B9%E6%AC%A1-2026.md) — 本轮多模态结构对齐、推荐文本化、Qwen 融合与风控迁移的专题导航
+- [sources/来源-跨模态投影与连接器研究-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8%E7%A0%94%E7%A9%B6-2026.md) — 汇总 LLaVA、BLIP-2、MM1、Honeybee、DeCo、TokenPacker、Cambrian-1、SOLO、Chameleon、Emu3 等一手证据
 
 ## 领域知识 — 对比（Comparisons）
 
@@ -187,6 +189,7 @@
 - [comparisons/LLM推荐三种系统范式对比-2026-09-11.md](comparisons/applications/LLM%E6%8E%A8%E8%8D%90%E4%B8%89%E7%A7%8D%E7%B3%BB%E7%BB%9F%E8%8C%83%E5%BC%8F%E5%AF%B9%E6%AF%94-2026-09-11.md) — 对照特征增强、受约束生成式推荐与推荐智能体的职责、风险和上线门槛
 - [comparisons/Transformer效率技术对照-2026.md](comparisons/multimodal/Transformer%E6%95%88%E7%8E%87%E6%8A%80%E6%9C%AF%E5%AF%B9%E7%85%A7-2026.md) — 一表对照 MoE/权重循环/线性注意力/MLA/MoBA/NSA/KDA/CSA-HCA/MSA 的环节、手段、量化收益与取舍
 - [comparisons/异构数据接入大模型的四档方案对比-2026.md](comparisons/multimodal/%E5%BC%82%E6%9E%84%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%9B%9B%E6%A1%A3%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%94-2026.md) — 对照文本化、软 token、独立编码器投影与端到端深融合的门禁和停止条件
+- [comparisons/跨模态连接器实现方案对照-2026.md](comparisons/multimodal/%E8%B7%A8%E6%A8%A1%E6%80%81%E8%BF%9E%E6%8E%A5%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E5%AF%B9%E7%85%A7-2026.md) — 对照 linear / MLP、空间压缩、查询压缩、多塔聚合、深层融合、统一 token 与工具外置路线
 
 ## 领域知识 — 地图（Maps）
 
