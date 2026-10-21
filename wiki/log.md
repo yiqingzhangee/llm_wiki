@@ -275,3 +275,10 @@ Append-only log of all wiki operations.
 - 代表工作包括 Kelix、SemHiTok、MANZANO、UniFlow、UniAudio 2.0、ActionCodec、X-Tokenizer、RotVLA、UniTok、TimeTok、ACERec、CapsID、ChronoSID、PRQ-KMeans、FLASH、VesselTok、EDT-Former、Lost in Tokenization、Multimodal Flow 与 FreyaTTS。
 - 织入 [[多模态大模型跨模态投影与连接器]]、[[LLM推荐系统的分层改造与评估]] 和 [[研究主题导航]]，同步 `wiki/index.md`；未修改 `raw/`。
 - **核心裁决**：tokenization 是通用接口和信息瓶颈设计工具，但全离散 token 不是所有模态的统一最优解。除页面中已标明会议状态的论文外，多数 2026 年结果仍为作者报告的预印本，不据此构造无条件性能排行榜。
+
+## [2026-10-21] query | 补齐 Tokenization 来源综述与候选附录
+
+- 新增 [[来源-万物皆可Tokenization研究-2026]]：记录时间口径、纳入与排除标准、A—D 证据等级，并按视觉、音频、动作、时序、推荐和图结构整理核心来源矩阵。
+- 新增 [[Tokenization候选工作附录-2026]]：归档 KVAE、UniWeTok、UniAR、EvoTok、RoboOmni、PhysBrain 1.5、OpenFAST、Wall-OSS、DiscreteRTC、DFM-VLA、TiWeaver、Qwen-Audio-3.0-TTS、Semantic Subword Tokenization 等直接候选。
+- 将 STARFlow2、FlowInOne、FREPix、LongCat-AudioDiT、dots.tts、XYZFlow 归为连续建模邻近反例；将 DaV-Gen 标为弱相关，将首次公开早于时间窗的 Discrete Diffusion VLA 标为超窗前史。
+- 更新 Tokenization 主概念页、研究主题导航和全局索引；未修改 `raw/`，未纳入或提交 `assets/` 变动。
