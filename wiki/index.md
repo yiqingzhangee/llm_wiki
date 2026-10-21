@@ -171,6 +171,7 @@
 - [sources/来源-LLM推荐向风控迁移机制与验证路径-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E5%90%91%E9%A3%8E%E6%8E%A7%E8%BF%81%E7%A7%BB%E6%9C%BA%E5%88%B6%E4%B8%8E%E9%AA%8C%E8%AF%81%E8%B7%AF%E5%BE%84-2026.md) — 推荐机制向风控的受控迁移：离线教师、在线校准和策略执行分离
 - [sources/来源-多模态统一嵌入调研批次-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E8%B0%83%E7%A0%94%E6%89%B9%E6%AC%A1-2026.md) — 本轮多模态结构对齐、推荐文本化、Qwen 融合与风控迁移的专题导航
 - [sources/来源-跨模态投影与连接器研究-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8%E7%A0%94%E7%A9%B6-2026.md) — 汇总 LLaVA、BLIP-2、MM1、Honeybee、DeCo、TokenPacker、Cambrian-1、SOLO、Chameleon、Emu3 等一手证据
+- [sources/来源-万物皆可Tokenization研究-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AFTokenization%E7%A0%94%E7%A9%B6-2026.md) — 最近一年视觉、音频、动作、时序、推荐和图结构 Tokenization 的证据协议、核心来源矩阵与争议边界
 
 ## 领域知识 — 对比（Comparisons）
 
@@ -191,6 +192,7 @@
 - [comparisons/Transformer效率技术对照-2026.md](comparisons/multimodal/Transformer%E6%95%88%E7%8E%87%E6%8A%80%E6%9C%AF%E5%AF%B9%E7%85%A7-2026.md) — 一表对照 MoE/权重循环/线性注意力/MLA/MoBA/NSA/KDA/CSA-HCA/MSA 的环节、手段、量化收益与取舍
 - [comparisons/异构数据接入大模型的四档方案对比-2026.md](comparisons/multimodal/%E5%BC%82%E6%9E%84%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%9B%9B%E6%A1%A3%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%94-2026.md) — 对照文本化、软 token、独立编码器投影与端到端深融合的门禁和停止条件
 - [comparisons/跨模态连接器实现方案对照-2026.md](comparisons/multimodal/%E8%B7%A8%E6%A8%A1%E6%80%81%E8%BF%9E%E6%8E%A5%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E5%AF%B9%E7%85%A7-2026.md) — 对照 linear / MLP、空间压缩、查询压缩、多塔聚合、深层融合、统一 token 与工具外置路线
+- [comparisons/Tokenization候选工作附录-2026.md](comparisons/multimodal/Tokenization%E5%80%99%E9%80%89%E5%B7%A5%E4%BD%9C%E9%99%84%E5%BD%95-2026.md) — 归档视觉、动作、时序、音频、推荐和连续生成候选，记录核验状态、未晋级原因与超窗前史
 
 ## 领域知识 — 地图（Maps）
 
