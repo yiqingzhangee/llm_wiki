@@ -20,3 +20,6 @@ ehthumbs.db
 
 # Node (if applicable)
 node_modules/
+
+# ByteDance internal materials (kept outside Git commits)
+/bytedance/

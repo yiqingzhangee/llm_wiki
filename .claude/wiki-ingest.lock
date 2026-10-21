@@ -1,0 +1,11 @@
+{
+  "protocol": "shared wiki ingest lock",
+  "active": false,
+  "task": null,
+  "batchId": null,
+  "startedAt": null,
+  "heartbeatAt": null,
+  "workingDirectory": null,
+  "staleAfterSeconds": 7200,
+  "note": "由 /wiki-sync 与 /paper-batch-sync 在写入前维护；active=true 且 heartbeatAt 未过期时，其他任务必须无副作用退出。"
+}

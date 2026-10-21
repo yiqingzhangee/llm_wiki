@@ -12,5 +12,5 @@
 
 ## 在本 wiki 中
 
-- 来源摘要：[repo-langgraph.md](../sources/repo-langgraph.md)
-- 概念语境：[Agent AI 与多模态智能体](../concepts/agent-ai-and-multimodal-agents.md)
+- 来源摘要：[repo-langgraph.md](../sources/code/repo-langgraph.md)
+- 概念语境：[Agent AI 与多模态智能体](../concepts/agent/agent-ai-and-multimodal-agents.md)
