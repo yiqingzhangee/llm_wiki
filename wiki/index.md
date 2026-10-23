@@ -41,6 +41,7 @@
 - [concepts/可信图神经网络.md](concepts/graph/%E5%8F%AF%E4%BF%A1%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md) — 从图学习视角整理鲁棒性/可解释性/隐私/公平/问责/环境福祉六维治理框架
 - [concepts/Agent记忆系统与自我演进.md](concepts/agent/Agent%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F%E4%B8%8E%E8%87%AA%E6%88%91%E6%BC%94%E8%BF%9B.md) — Foundation Agent Memory 三维分类法（基底/认知机制/主体），记忆从被动存储到可学习策略的自我演进
 - [concepts/Agent本体论.md](concepts/agent/Agent%E6%9C%AC%E4%BD%93%E8%AE%BA.md) — 从主体、心智、能力、行动、记忆、交互到授权溯源的 Agent 分层概念模型
+- [concepts/Agent对抗安全：从briccli攻击面出发的调研与启动方案.md](concepts/agent/Agent%E5%AF%B9%E6%8A%97%E5%AE%89%E5%85%A8%EF%BC%9A%E4%BB%8Ebriccli%E6%94%BB%E5%87%BB%E9%9D%A2%E5%87%BA%E5%8F%91%E7%9A%84%E8%B0%83%E7%A0%94%E4%B8%8E%E5%90%AF%E5%8A%A8%E6%96%B9%E6%A1%88.md) — 从 briccli 不可信返回值、工具滥用、数据外泄、记忆与技能投毒出发的防御性研究方案
 - [concepts/Jev决策模型与Agent架构.md](concepts/agent/Jev%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B%E4%B8%8EAgent%E6%9E%B6%E6%9E%84.md) — Jev 在模型路由、工具门控、结果验证和高频评测中的决策模型定位
 - [concepts/ByteTech-2026年9月Agent工程实践聚类.md](concepts/agent/ByteTech-2026%E5%B9%B49%E6%9C%88Agent%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5%E8%81%9A%E7%B1%BB.md) — 将 ByteTech 9 月榜单聚为决策模型、Harness、自演化、领域知识闭环和 AI Coding 四条工程主线
 - [concepts/时间序列LLM智能体分类法.md](concepts/applications/%E6%97%B6%E9%97%B4%E5%BA%8FLLM%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%86%E7%B1%BB%E6%B3%95.md) — 时序 Agent 问题驱动四分类 + 架构/工具/记忆三维度（异常检测子域方法谱）
@@ -193,6 +194,7 @@
 - [comparisons/异构数据接入大模型的四档方案对比-2026.md](comparisons/multimodal/%E5%BC%82%E6%9E%84%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%9B%9B%E6%A1%A3%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%94-2026.md) — 对照文本化、软 token、独立编码器投影与端到端深融合的门禁和停止条件
 - [comparisons/跨模态连接器实现方案对照-2026.md](comparisons/multimodal/%E8%B7%A8%E6%A8%A1%E6%80%81%E8%BF%9E%E6%8E%A5%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88%E5%AF%B9%E7%85%A7-2026.md) — 对照 linear / MLP、空间压缩、查询压缩、多塔聚合、深层融合、统一 token 与工具外置路线
 - [comparisons/Tokenization候选工作附录-2026.md](comparisons/multimodal/Tokenization%E5%80%99%E9%80%89%E5%B7%A5%E4%BD%9C%E9%99%84%E5%BD%95-2026.md) — 归档视觉、动作、时序、音频、推荐和连续生成候选，记录核验状态、未晋级原因与超窗前史
+- [comparisons/AI-Safety项目组合-2026.md](comparisons/agent/AI-Safety%E9%A1%B9%E7%9B%AE%E7%BB%84%E5%90%88-2026.md) — 以 BRIC-SafeAct、MM-SafeRoute 和 EviGuard 组织 0—12 个月递进项目、验收指标与停止条件
 
 ## 领域知识 — 地图（Maps）
 
@@ -201,6 +203,7 @@
 - [maps/表格建模选型决策树.md](maps/%E8%A1%A8%E6%A0%BC%E5%BB%BA%E6%A8%A1%E9%80%89%E5%9E%8B%E5%86%B3%E7%AD%96%E6%A0%91.md) — 按样本量、预算与线上约束选择建模路线
 - [maps/多Agent研究与工程落地地图.md](maps/%E5%A4%9AAgent%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E8%90%BD%E5%9C%B0%E5%9C%B0%E5%9B%BE.md) — 连接多Agent论文趋势与框架工程实践的主题地图
 - [maps/研究主题导航.md](maps/%E7%A0%94%E7%A9%B6%E4%B8%BB%E9%A2%98%E5%AF%BC%E8%88%AA.md) — 主题关系总览，已补入 Agent 记忆 / 时序 Agent / 多模态嵌入 / 视频审核与电商风控 GUI Agent 批次 / 知识图谱驱动 deep research，以及 PEFT-对齐训练分层节点
+- [maps/AI-Safety长期研究与项目路线图.md](maps/AI-Safety%E9%95%BF%E6%9C%9F%E7%A0%94%E7%A9%B6%E4%B8%8E%E9%A1%B9%E7%9B%AE%E8%B7%AF%E7%BA%BF%E5%9B%BE.md) — 以可审计 Agentic AI Safety 为主轴，规划行动、感知和长期状态安全的一年、三年与五年目标
 
 ## 运维
 
