@@ -282,3 +282,11 @@ Append-only log of all wiki operations.
 - 新增 [[Tokenization候选工作附录-2026]]：归档 KVAE、UniWeTok、UniAR、EvoTok、RoboOmni、PhysBrain 1.5、OpenFAST、Wall-OSS、DiscreteRTC、DFM-VLA、TiWeaver、Qwen-Audio-3.0-TTS、Semantic Subword Tokenization 等直接候选。
 - 将 STARFlow2、FlowInOne、FREPix、LongCat-AudioDiT、dots.tts、XYZFlow 归为连续建模邻近反例；将 DaV-Gen 标为弱相关，将首次公开早于时间窗的 Discrete Diffusion VLA 标为超窗前史。
 - 更新 Tokenization 主概念页、研究主题导航和全局索引；未修改 `raw/`，未纳入或提交 `assets/` 变动。
+
+## [2026-10-22] query | Filed: AI Safety 长期研究与项目路线图
+
+- 新增 [[AI-Safety项目组合-2026]]：设计 BRIC-SafeAct、MM-SafeRoute 与 EviGuard 三个递进项目，分别覆盖 Agent 行动安全、多模态注入与规避路由、长期记忆与证据状态安全。
+- 新增 [[AI-Safety长期研究与项目路线图]]：将个人方向收敛为“可审计的 Agentic AI Safety”，制定一年、三年和五年目标、成果组合、季度复盘指标与未来四周启动清单。
+- 外部证据覆盖 AgentDojo、NIST Agent Hijacking 与 Agent Standards Initiative、CaMeL、VPI-Bench、EVADE-Bench、AgentPoison、PoisonedRAG、HoH、RAGuard 与 TREC RAG。
+- **核心决策**：只批准 BRIC-SafeAct 作为 0—3 个月主项目；后续项目复用其场景、证据事件、影响评分、策略和审计回放，不同时启动。
+- **安全边界**：攻击实验限于 mock、dry-run、合成或脱敏沙箱；不同基准的攻击成功率不直接横比；未修改 `raw/`，`assets/` 未纳入本批次。
