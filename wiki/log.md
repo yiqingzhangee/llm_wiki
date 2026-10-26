@@ -290,3 +290,30 @@ Append-only log of all wiki operations.
 - 外部证据覆盖 AgentDojo、NIST Agent Hijacking 与 Agent Standards Initiative、CaMeL、VPI-Bench、EVADE-Bench、AgentPoison、PoisonedRAG、HoH、RAGuard 与 TREC RAG。
 - **核心决策**：只批准 BRIC-SafeAct 作为 0—3 个月主项目；后续项目复用其场景、证据事件、影响评分、策略和审计回放，不同时启动。
 - **安全边界**：攻击实验限于 mock、dry-run、合成或脱敏沙箱；不同基准的攻击成功率不直接横比；未修改 `raw/`，`assets/` 未纳入本批次。
+
+## [2026-10-26] query | Filed: Qwen3-VL 统计特征编码器选型
+
+- 新增 [[来源-Qwen3-VL统计特征编码器调研-2026]]，核验 Qwen3-VL-4B 的 2560 维语言接口、视觉 embedding 替换顺序、M-RoPE 位置处理及标准推理服务边界。
+- 新增 [[Qwen3-VL统计特征编码器选型-2026]]：快速验证选择类别 embedding + 数值/missing/age + 两层 MLP，成熟常用方案选择 FT-Transformer，创新方案选择 PLE/周期编码 + 治理元数据 + 浅层 FT + learned-query 压缩。
+- 明确不存在公开证据支持接入 Qwen3-VL 后的普适最优编码器；CatBoost/LightGBM、TabM、确定性文本化和同预算 late fusion 保留为强基线。
+- 更新 [[Qwen异构特征接入与事件序列建模]] 与 [[LLM统计特征编码的证据仲裁]]，同步全局和来源索引；未修改 `raw/`，未纳入 `assets/`。
+
+## [2026-10-26] query | Filed: 固定字段描述的离线语义编码
+
+- 更新 [[Qwen3-VL统计特征编码器选型-2026]]：固定英文描述由冻结 Qwen3-VL 文本主干离线编码并版本化缓存，在线只运行数值/枚举值编码器。
+- 将快速方案升级为字段级语义条件融合：用 FiLM 联合“字段是什么”和“当前值是什么”，再以 8 个 learned queries 压缩为 `[B,8,2560]` soft token。
+- 补充枚举标签语义缓存、无语义内部 ID 边界、默认参数和描述错配等必做消融；同步 [[Qwen异构特征接入与事件序列建模]] 与全局索引。
+- 未修改 `raw/`，未纳入或处理 `assets/` 及其他无关工作区变更。
+
+## [2026-10-26] query | Filed: 统计与事件序列的最小连续编码方案
+
+- 修正 [[Qwen3-VL统计特征编码器选型-2026]]：最低成本方案先以字段描述/ID/取值加法融合和两层 MLP 输出 `stat_vector:[B,256]`，仅在接入 Qwen 时由独立 projector 生成一个 2560 维 token；FiLM、查询压缩与多 token 移到后续升级。
+- 新增 [[来源-Qwen3-VL事件序列编码器调研-2026]] 与 [[Qwen3-VL事件序列编码器选型-2026]]：约 8 步事件序列采用描述/ID/时间/payload 加法融合、单层 GRU 和最后有效状态读出，主输出为 `sequence_vector:[B,128]`，可选生成一个 Qwen token。
+- 更新 [[Qwen异构特征接入与事件序列建模]]、全局索引与来源索引；统计与事件首版各保留独立连续向量和独立占位 token，便于直接分类、late fusion 与通道消融。
+- **证据边界**：这是短序列、固定 schema 和最低工程成本目标下的决策，不是公开 benchmark 证明的普适性能最优；未修改 `raw/`，未纳入 `assets/`。
+
+## [2026-10-26] query | Filed: 统计与事件序列编码器算法示意图
+
+- 将自包含 HTML 图解 [统计特征与事件序列编码器算法示意图](../encoder-algorithm-diagrams/encoder-algorithm-diagrams.html) 接入 [[Qwen异构特征接入与事件序列建模]] 与全局索引。
+- 图解并排呈现统计 MLP 与事件 GRU 的最小工程链路，明确连续向量是主输出，Qwen soft token 是独立可选 projector 的输出。
+- 未修改 `raw/`，未提交 Git。

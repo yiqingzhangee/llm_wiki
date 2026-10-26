@@ -1,6 +1,6 @@
 # Qwen 异构特征接入与事件序列建模
 
-> 关联来源：[[来源-Qwen事件序列分类最小PoC-2026]]、[[来源-Qwen事件序列与统计特征融合方案-2026]]、[[来源-RecFormer-P5-M6Rec推荐数据文本化-2026]]。
+> 关联来源：[[来源-Qwen事件序列分类最小PoC-2026]]、[[来源-Qwen事件序列与统计特征融合方案-2026]]、[[来源-Qwen3-VL统计特征编码器调研-2026]]、[[来源-Qwen3-VL事件序列编码器调研-2026]]、[[来源-RecFormer-P5-M6Rec推荐数据文本化-2026]]。
 
 ## 核心命题
 
@@ -24,6 +24,27 @@
 | P3 | 少数层交叉注意力或有限主干改造 | 是否存在可复现的动态交互容量瓶颈 | 输入软 token 与参数量匹配侧路 |
 
 `adapter/projector` 负责把外部连续特征接入模型；`LoRA` 负责低秩更新主干对输入的利用方式。它们的职责不同，可联合训练而不可互相替代。
+
+## Qwen3-VL-4B 的连续向量与可选 token 接口
+
+> 可视化：打开 [统计特征与事件序列编码器算法示意图](../../../encoder-algorithm-diagrams/encoder-algorithm-diagrams.html)，查看两条最小工程链路、连续向量输出、可选 token projector 与联合接入方式。
+
+统计与事件编码器首先输出独立、可复用的连续向量，而不是直接绑定 Qwen token：
+
+```text
+统计字段 → 字段语义/ID/取值加法融合 → 两层 MLP → stat_vector [B,256]
+事件序列 → 描述/ID/时间/payload 加法融合 → 单层 GRU → sequence_vector [B,128]
+```
+
+这两个向量可以直接接专用分类头或 late fusion。只有需要 Qwen3-VL 联合建模时，才分别通过独立 zero-gated projector 生成一个 `[B,1,2560]` soft token。完整选型见 [[Qwen3-VL统计特征编码器选型-2026]] 与 [[Qwen3-VL事件序列编码器选型-2026]]。
+
+最低成本统计方案采用字段级直接加法和固定顺序拼接，不使用 FiLM 或查询压缩。最低成本事件方案用单层 GRU 的最后有效 hidden state，不使用 attention pooling、Transformer、Mamba 或 TPP。固定英文描述均由冻结文本编码器离线计算并版本化缓存；可训练字段/事件 ID embedding 保留任务特定校正能力。
+
+首版为统计和事件各保留一个独立占位 token，便于分别消融。官方配置中语言主干 `hidden_size=2560`，因此只有可选 projector 的输出需要对齐 2560；编码器内部维度不需要对齐视觉塔或语言主干。
+
+推荐由 wrapper 在 embedding 层替换两个独立占位。图像/视频与自定义 token 并存时，应先用原始 `input_ids`、多模态 token 类型和视觉网格计算 M-RoPE 位置，再替换 embedding 并显式传入 `position_ids`。不要把连续向量伪装成图片。
+
+当前没有 Qwen3-VL 直接 benchmark 支持某一方案普适最优。标准 Transformers `forward()` 可由 wrapper 接入，但 `generate()`、vLLM 和 SGLang 的自定义 embedding 链路必须单独验证。
 
 ## 读出、损失与确定性边界
 
