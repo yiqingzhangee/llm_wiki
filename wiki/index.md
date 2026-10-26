@@ -169,6 +169,8 @@
 - [sources/来源-RecFormer-P5-M6Rec推荐数据文本化-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-RecFormer-P5-M6Rec%E6%8E%A8%E8%8D%90%E6%95%B0%E6%8D%AE%E6%96%87%E6%9C%AC%E5%8C%96-2026.md) — 区分输入表示、任务接口与输出形态三种推荐“统一”
 - [sources/来源-Qwen事件序列分类最小PoC-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-Qwen%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E5%88%86%E7%B1%BB%E6%9C%80%E5%B0%8FPoC-2026.md) — 事件序列分类的无泄漏 PoC、强基线和停止条件
 - [sources/来源-Qwen事件序列与统计特征融合方案-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-Qwen%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E4%B8%8E%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E8%9E%8D%E5%90%88%E6%96%B9%E6%A1%88-2026.md) — 从文本化、软 token 到深融合的 Qwen 异构输入工程门禁
+- [sources/来源-Qwen3-VL统计特征编码器调研-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-Qwen3-VL%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E7%BC%96%E7%A0%81%E5%99%A8%E8%B0%83%E7%A0%94-2026.md) — 核验 Qwen3-VL-4B 连续 embedding 接口，并整理 MLP、FT-Transformer 与 PLE-FT 查询压缩的证据边界
+- [sources/来源-Qwen3-VL事件序列编码器调研-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-Qwen3-VL%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E8%B0%83%E7%A0%94-2026.md) — 对比 GRU、时间感知 Transformer、TPP 与长序列架构，收敛短事件序列的最低成本实现
 - [sources/来源-LLM推荐向风控迁移机制与验证路径-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LLM%E6%8E%A8%E8%8D%90%E5%90%91%E9%A3%8E%E6%8E%A7%E8%BF%81%E7%A7%BB%E6%9C%BA%E5%88%B6%E4%B8%8E%E9%AA%8C%E8%AF%81%E8%B7%AF%E5%BE%84-2026.md) — 推荐机制向风控的受控迁移：离线教师、在线校准和策略执行分离
 - [sources/来源-多模态统一嵌入调研批次-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%9F%E4%B8%80%E5%B5%8C%E5%85%A5%E8%B0%83%E7%A0%94%E6%89%B9%E6%AC%A1-2026.md) — 本轮多模态结构对齐、推荐文本化、Qwen 融合与风控迁移的专题导航
 - [sources/来源-跨模态投影与连接器研究-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8%E7%A0%94%E7%A9%B6-2026.md) — 汇总 LLaVA、BLIP-2、MM1、Honeybee、DeCo、TokenPacker、Cambrian-1、SOLO、Chameleon、Emu3 等一手证据
@@ -178,6 +180,9 @@
 
 - [comparisons/claude-code-curated-docs-vs-gstack.md](comparisons/agent/claude-code-curated-docs-vs-gstack.md) — 两套 Claude Code 资料/工作流对照
 - [comparisons/表格建模路线对比-TabLLM-vs-树模型-vs-Transformer.md](comparisons/applications/%E8%A1%A8%E6%A0%BC%E5%BB%BA%E6%A8%A1%E8%B7%AF%E7%BA%BF%E5%AF%B9%E6%AF%94-TabLLM-vs-%E6%A0%91%E6%A8%A1%E5%9E%8B-vs-Transformer.md) — TabLLM、树模型与表格 Transformer 的能力/代价对照
+- [comparisons/Qwen3-VL统计特征编码器选型-2026.md](comparisons/applications/Qwen3-VL%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E7%BC%96%E7%A0%81%E5%99%A8%E9%80%89%E5%9E%8B-2026.md) — 最小方案先以字段级加法融合和两层 MLP 生成统计连续向量，再可选投影为单个 Qwen token
+- [comparisons/Qwen3-VL事件序列编码器选型-2026.md](comparisons/applications/Qwen3-VL%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E9%80%89%E5%9E%8B-2026.md) — 最小方案以描述/ID/时间融合和单层 GRU 生成序列连续向量，再可选投影为单个 Qwen token
+- [统计特征与事件序列编码器算法示意图](../encoder-algorithm-diagrams/encoder-algorithm-diagrams.html) — HTML 并排展示两条编码链路、连续向量接口、可选单 token projector 与 Qwen3-VL 联合接入方式
 - [comparisons/主流Agent框架对比-2026-06-20.md](comparisons/agent/%E4%B8%BB%E6%B5%81Agent%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%94-2026-06-20.md) — 基于 `raw/search/` 批次的主流 Agent 框架工程维度对照（含可打分占位表）
 - [comparisons/多Agent论文方向对比-2026H1-arXiv.md](comparisons/agent/%E5%A4%9AAgent%E8%AE%BA%E6%96%87%E6%96%B9%E5%90%91%E5%AF%B9%E6%AF%94-2026H1-arXiv.md) — 2026H1 多Agent arXiv 论文方向分层与工程关联
 - [comparisons/传统流量反作弊与Agent流量治理对比.md](comparisons/agent/%E4%BC%A0%E7%BB%9F%E6%B5%81%E9%87%8F%E5%8F%8D%E4%BD%9C%E5%BC%8A%E4%B8%8EAgent%E6%B5%81%E9%87%8F%E6%B2%BB%E7%90%86%E5%AF%B9%E6%AF%94.md) — 传统广告反作弊与 Agent 调用链治理的差异边界（含可打分占位表）
