@@ -69,6 +69,7 @@ wiki-root/
 6. **After substantive work**, update `wiki/index.md` and append `wiki/log.md` (see below).
 7. **Citations**: When answering from the wiki, point to specific pages or sections where possible.
 8. **Git commits use a dated version branch**: Do **not** commit straight to `main` for knowledge-base work. For each **distinct** commit (or batch) to publish, **create a new branch** whose name is **`kb/<YYYY-MM-DD>-v<N>`** (date + version), commit on that branch, push it, then merge into `main` and push `main`. Details in **Operation: Git sync**.
+9. **对话新增知识默认入库**：每次对话结束前检查是否产生了可复用的新知识、对比、分析、连接或纠错；若有，默认写入或更新 `wiki/`，**不需要等待 human 再次提示**。优先更新既有页面并补交叉链接，必要时新建概念/对比/地图页，同时更新 `wiki/index.md` 与 `wiki/log.md`。以下内容不自动入库：敏感数据、纯临时进度、重复内容、未经核验的猜测、凭据/令牌，以及 human 明确要求不保存的内容。
 
 ---
 
@@ -160,8 +161,10 @@ git@code.byted.org:zhangyiqing.albert/agentic_llm_wiki.git
 1. Read **`wiki/index.md`** to locate relevant pages.
 2. Open those pages (and follow links as needed).
 3. Synthesize an answer **with citations** to wiki pages (and raw paths if quoting source of truth).
-4. **File high-value answers back** when the human agrees: comparisons, analyses, and connections should become new or updated wiki pages — not only chat history.
+4. **File reusable new knowledge back by default**: comparisons, analyses, connections, corrections, and durable decisions should become new or updated wiki pages — not only chat history. Do this without waiting for a separate reminder.
 5. If wiki files changed materially — **Git sync** per Global rule 8 and **Operation: Git sync**.
+
+Before filing, exclude sensitive data, transient task state, duplicates, unverified speculation, credentials/tokens, and anything the human explicitly asks not to preserve.
 
 **Output shapes** (as appropriate): Markdown page, comparison table, Marp deck, matplotlib chart, canvas-style outline — then link or embed from the wiki if the human wants it preserved.
 
@@ -241,6 +244,7 @@ Personal growth, long-form research, reading companions (characters/themes), tea
 | Maintain `wiki/` with integration, links, and contradiction notes; **write all KB prose in 简体中文** (see Global rules) | Modify anything under `raw/` |
 | Append `wiki/log.md` with the standard `## [date] type | …` headers | Delete or rewrite past `log.md` entries |
 | Update `wiki/index.md` after ingests (and after major structural changes) | Treat chat as the system of record for durable knowledge |
+| File reusable new knowledge from each conversation into `wiki/` by default, without waiting for another reminder | Persist sensitive data, credentials, transient state, duplicates, or unverified speculation |
 | On each KB git publish: **create branch** `kb/<YYYY-MM-DD>-v<N>`, commit there, push, merge to `main` (see **Operation: Git sync**) | Commit KB work directly on `main` without a dated branch; force-push `main` without approval |
 
 When in doubt, **preserve provenance** (link to source pages and raw paths), **mark uncertainty and conflict**, and **offer to update this schema** when workflows diverge from the above.
