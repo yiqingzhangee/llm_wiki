@@ -52,6 +52,7 @@
 - [concepts/Softmax与交叉熵的浮点数值稳定性.md](concepts/reasoning-training/Softmax与交叉熵的浮点数值稳定性.md) — 解释 Softmax Collapse 与 Cancellation，整理零和诊断、稳定公式、验收门禁和框架状态
 - [concepts/递归自我改进与Harness自演化.md](concepts/agent/%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E4%B8%8EHarness%E8%87%AA%E6%BC%94%E5%8C%96.md) — 将模糊目标、Harness、经验整合和独立验证拆成 RSI 四环，明确当前证据的迁移边界
 - [concepts/LLM推荐系统的分层改造与评估.md](concepts/applications/LLM%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%88%86%E5%B1%82%E6%94%B9%E9%80%A0%E4%B8%8E%E8%AF%84%E4%BC%B0.md) — 按语义增强、受约束生成与 Agent 编排组织 LLM4Rec，并给出四层验收口径
+- [concepts/BERT4Rec数据处理与输入张量.md](concepts/applications/BERT4Rec%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E8%BE%93%E5%85%A5%E5%BC%A0%E9%87%8F.md) — 从交互记录到 Cloze 样本，统一说明 TensorFlow 稀疏标签、PyTorch 密集标签和末尾 `[MASK]` 推理格式
 - [concepts/LLM用户表征基础模型与场景适配.md](concepts/applications/LLM%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%9C%BA%E6%99%AF%E9%80%82%E9%85%8D.md) — 汇总未来对齐、量化长历史、条件化表示与掩码适配，并明确其在推荐等系统中的表征层边界
 - [concepts/多模态结构保真与统一对齐.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%93%E6%9E%84%E4%BF%9D%E7%9C%9F%E4%B8%8E%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90.md) — 区分共享接口与原始表示统一，按数值、时间、空间与拓扑结构组织边—环—整体评测
 - [concepts/多模态大模型跨模态投影与连接器.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8.md) — 区分维度接口、token 压缩、信息选择和语义对齐，整理独立 connector 的正反证据与选型门禁
@@ -77,6 +78,7 @@
 - [sources/来源-M3市场微观结构状态事件生成模型-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-M3%E5%B8%82%E5%9C%BA%E5%BE%AE%E8%A7%82%E7%BB%93%E6%9E%84%E7%8A%B6%E6%80%81%E4%BA%8B%E4%BB%B6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B-2026.md) — arXiv 预印本（作者报告、未同行评审）：以 LOB 状态前缀、离散订单事件和撮合回放生成市场微观结构轨迹
 - [sources/来源-LLM在策略蒸馏综述-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-LLM%E5%9C%A8%E7%AD%96%E7%95%A5%E8%92%B8%E9%A6%8F%E7%BB%BC%E8%BF%B0-2026.md) — 在策略蒸馏综述：用学生自身 rollout 的反馈缓解长程生成分布错配
 - [sources/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md](sources/reasoning-training/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md) — 核验两个浮点数值 bug、JAX 修复公式、Gemini 协作声明与 PyTorch/JAX 合入状态
+- [sources/来源-BERT4Rec原论文与参考实现-2019.md](sources/applications/来源-BERT4Rec原论文与参考实现-2019.md) — 核验 CIKM 论文、作者 TFRecord 字段及 RecBole/Transformers4Rec/Hugging Face 输入差异
 - [sources/来源-TableGPT2表格数据多模态接入-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md) — TableGPT2 二手解读：表格编码器 + 投影器接入语言主干，数值待回原文核验
 - [sources/repo-claude-code-best-practice.md](sources/code/repo-claude-code-best-practice.md) — Claude Code 最佳实践仓库
 - [sources/repo-langgraph.md](sources/code/repo-langgraph.md) — LangGraph 仓库

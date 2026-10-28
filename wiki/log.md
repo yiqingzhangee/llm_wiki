@@ -326,3 +326,12 @@ Append-only log of all wiki operations.
 - 作者发布帖支持 Gemini Flash 3.7/3.8 与 Gemini 4 Argon 的协作分工，但论文正文未记录；帖子“首次发现”的措辞还与 v2 对 Prieto et al.（2025）的 Collapse 识别归因存在张力，已保守标注。
 - 截至 2026-10-28，PyTorch 只有开放 issue 与未合并 draft PR，JAX HEAD 仍使用标准归约公式；未写成框架已经修复。论文实验主要来自 modular arithmetic 小模型，不外推为所有大规模训练尖峰的统一解释。
 - 未修改 `raw/`，未纳入 `assets/` 或其他无关工作区变更。
+
+## [2026-10-28] query | Filed: BERT4Rec 数据处理与输入张量
+
+- 新增 [[来源-BERT4Rec原论文与参考实现-2019]]，核验 CIKM 2019 原论文、作者 TensorFlow 实现、RecBole、Transformers4Rec 与 Hugging Face MLM collator。
+- 新增 [[BERT4Rec数据处理与输入张量]]，区分原始交互记录、Cloze 样本、TensorFlow 稀疏标签、PyTorch dense `labels=-100` 与末尾 `[MASK]` 推理格式。
+- 明确原始主干只直接接收 item ID、position 与 padding mask；`user_id` 仅作评估元数据，时间戳用于排序切分，文本、类别、价格和 payload 均属于扩展输入。
+- 将 BERT4Rec 织入 [[Qwen异构特征接入与事件序列建模]]、[[LLM推荐系统的分层改造与评估]] 与 [[研究主题导航]]，同步全局和来源索引。
+- 记录作者默认脚本为 100% `[MASK]` 替换，避免把通用 BERT 的 80/10/10 或某个 PyTorch 字段名误写成统一标准。
+- 未修改 `raw/`，未纳入 `assets/` 或其他无关工作区变更。
