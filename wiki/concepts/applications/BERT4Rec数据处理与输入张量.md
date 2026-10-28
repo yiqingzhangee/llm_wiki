@@ -4,9 +4,9 @@
 
 ## 核心结论
 
-BERT4Rec 的稳定输入契约是：**按时间排序的离散 item ID 序列，通过随机 Cloze mask 生成训练目标，并以双向注意力恢复被遮住的 item**。`input_ids`、`masked_lm_positions` 或 `labels` 只是不同实现对这一语义的编码方式。
+BERT4Rec 接收**按时间排序的离散 item ID 序列**。训练时随机遮住部分 item，再用双向注意力恢复它们。`input_ids`、`masked_lm_positions` 和 `labels` 是不同实现对这套训练语义的编码。
 
-必须区分三层：
+数据处理分为三层：
 
 1. 原始交互记录；
 2. 截断、padding、mask 后的训练样本；
@@ -113,7 +113,7 @@ RecBole 保留稀疏目标，但字段名不同：
 | `pos_items` | `[B,M]` | 原始 item ID |
 | `neg_items` | `[B,M]` | BPR loss 使用的负 item |
 
-因此看到某个实现没有 `labels` 或 `attention_mask`，不能据此判断输入不完整；它可能在模型内部根据 padding ID 与目标位置构造这些信息。
+某个实现没有 `labels` 或 `attention_mask` 字段，不代表输入不完整。它可能在模型内部根据 padding ID 与目标位置构造这些信息。
 
 ## 模型内部 shape
 
@@ -163,7 +163,7 @@ item_table     [V,H]
 scores         [B,V]
 ```
 
-线上通常还要过滤 padding、`[MASK]`、不可推荐 item、库存/政策不合格 item，以及按产品规则决定是否过滤已交互 item。
+线上还要过滤 padding、`[MASK]`、不可推荐 item 和库存或政策不合格的 item。是否过滤已交互 item 取决于产品规则。
 
 ## 原始 BERT4Rec 不直接包含的输入
 
@@ -202,7 +202,7 @@ batch = {
 }
 ```
 
-这样不会依赖“最后一列一定是 mask”这一脆弱假设。
+显式返回 `prediction_index`，可以避免依赖“最后一列一定是 mask”的假设。
 
 ## 常见错误
 
