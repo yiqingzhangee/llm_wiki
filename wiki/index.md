@@ -48,7 +48,7 @@
 - [concepts/多模态嵌入与检索基座.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%B5%8C%E5%85%A5%E4%B8%8E%E6%A3%80%E7%B4%A2%E5%9F%BA%E5%BA%A7.md) — CLIP→MLLM 隐藏状态→通用多模态嵌入模型族演进与 WeMM 两阶段训练范式
 - [concepts/知识图谱驱动的深度研究Agent.md](concepts/agent/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6Agent.md) — 以证据图谱、统一 KG 工具层与可执行分析环境组织 deep research 的 Agent 形态
 - [concepts/多模态模型视觉头与风控部署边界.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E8%A7%86%E8%A7%89%E5%A4%B4%E4%B8%8E%E9%A3%8E%E6%8E%A7%E9%83%A8%E7%BD%B2%E8%BE%B9%E7%95%8C.md) — 把视觉头能力、整模型表现与风控系统 KPI 三层拆开，明确 VLM 在风控中的语义证据层定位
-- [concepts/长多模态上下文的证据约束意图分类.md](concepts/multimodal/%E9%95%BF%E5%A4%9A%E6%A8%A1%E6%80%81%E4%B8%8A%E4%B8%8B%E6%96%87%E7%9A%84%E8%AF%81%E6%8D%AE%E7%BA%A6%E6%9D%9F%E6%84%8F%E5%9B%BE%E5%88%86%E7%B1%BB.md) — 以无泄漏输入、人机标注、证据链蒸馏和 GRPO 过程奖励组织细粒度意图分类闭环
+- [concepts/长多模态上下文的证据约束意图分类.md](concepts/multimodal/%E9%95%BF%E5%A4%9A%E6%A8%A1%E6%80%81%E4%B8%8A%E4%B8%8B%E6%96%87%E7%9A%84%E8%AF%81%E6%8D%AE%E7%BA%A6%E6%9D%9F%E6%84%8F%E5%9B%BE%E5%88%86%E7%B1%BB.md) — 用无泄漏输入、人机标注、证据链蒸馏和 GRPO 过程奖励处理细粒度意图分类
 - [concepts/参数高效微调与对齐训练.md](concepts/reasoning-training/%E5%8F%82%E6%95%B0%E9%AB%98%E6%95%88%E5%BE%AE%E8%B0%83%E4%B8%8E%E5%AF%B9%E9%BD%90%E8%AE%AD%E7%BB%83.md) — 把 LoRA/QLoRA、DPO、GRPO 放回同一训练栈，区分“参数怎么省”与“行为怎么对齐”
 - [concepts/Softmax与交叉熵的浮点数值稳定性.md](concepts/reasoning-training/Softmax与交叉熵的浮点数值稳定性.md) — 解释 Softmax Collapse 与 Cancellation，整理零和诊断、稳定公式、验收门禁和框架状态
 - [concepts/递归自我改进与Harness自演化.md](concepts/agent/%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E4%B8%8EHarness%E8%87%AA%E6%BC%94%E5%8C%96.md) — 将模糊目标、Harness、经验整合和独立验证拆成 RSI 四环，明确当前证据的迁移边界

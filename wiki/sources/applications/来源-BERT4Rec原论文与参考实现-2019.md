@@ -15,7 +15,7 @@
 
 - CIKM 论文与作者实现用于定义 BERT4Rec 的训练目标、数据划分和原始 TensorFlow 字段，按 **E3/E4** 使用。
 - RecBole、Transformers4Rec 和 Hugging Face 官方源码用于说明现代 PyTorch 生态的实现差异，按 **E4 工程证据**使用。
-- 不存在统一的跨框架字段标准；稳定的是“离散 item 序列 + 双向 padding mask + 只在选中位置计算 Cloze 损失”的语义契约。
+- 各框架的字段名不同，共同语义是“离散 item 序列 + 双向 padding mask + 只在选中位置计算 Cloze 损失”。
 
 ## 原论文定义的任务
 
@@ -98,7 +98,7 @@ RecBole 使用：
 - `attention_mask:[B,L]`
 - `labels:[B,L]`
 
-`labels` 在被选中的位置保存原 item ID，其余位置写 `-100`，交给 `CrossEntropyLoss(ignore_index=-100)` 忽略。该格式语义上等价于稀疏 `positions/ids/weights`，但它是实现选择，不是原论文规定的字段名。
+`labels` 在被选中的位置保存原 item ID，其余位置写 `-100`，交给 `CrossEntropyLoss(ignore_index=-100)` 忽略。该格式与稀疏 `positions/ids/weights` 的语义等价。字段名来自具体实现，并非原论文规定。
 
 ## 原始模型不直接接收什么
 

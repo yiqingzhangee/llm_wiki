@@ -18,7 +18,7 @@
 
 ## 核心问题
 
-标准实现先减去最大 logit 以防指数溢出，但这只解决了 overflow，没有解决高置信度和近相等概率下的有效位损失。
+标准实现先减去最大 logit，以防指数溢出。高置信度和近相等概率下的有效位损失仍然存在。
 
 ### Softmax Collapse
 
@@ -53,7 +53,7 @@ soft-target 蒸馏通常分别计算教师概率 \(p=\operatorname{softmax}(z_T)
 \mathcal L(z,t)=\operatorname{softplus}(-m).
 \]
 
-这样不再先形成 `1 + 极小数`。目标 logit 只通过 \(z_j-z_t\) 进入损失，自动微分会把目标梯度计算为非目标梯度之和的相反数，从而保持零和不变量。
+该公式不会先形成 `1 + 极小数`。目标 logit 只通过 \(z_j-z_t\) 进入损失，自动微分会把目标梯度计算为非目标梯度之和的相反数，因而保持零和不变量。
 
 ### soft target
 
@@ -94,7 +94,7 @@ soft-target 蒸馏通常分别计算教师概率 \(p=\operatorname{softmax}(z_T)
 
 论文 v1/v2 正文和致谢没有记录这段分工。因此，本页只把它作为可归因的研究过程说明，不将其作为模型能力的独立评测证据。
 
-这里还存在一处归因张力：论文 v2 明确写 Softmax Collapse 由 Prieto et al.（2025）先识别，而作者发布帖使用了“this bug was first found and fixed by Gemini Flash 3.7”的表述。在没有进一步澄清前，更稳妥的理解是：Gemini 在本项目中发现并形成了完整修复，不能据该帖子否定更早文献已识别 Collapse。
+这里有一处归因冲突：论文 v2 明确写 Softmax Collapse 由 Prieto et al.（2025）先识别，而作者发布帖使用了“this bug was first found and fixed by Gemini Flash 3.7”的表述。现有材料只能支持 Gemini 在本项目中发现并形成完整修复，不能据该帖子否定更早文献已识别 Collapse。
 
 ## 框架状态（截至 2026-10-28）
 
