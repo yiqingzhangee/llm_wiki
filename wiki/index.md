@@ -184,6 +184,7 @@
 
 ## 领域知识 — 对比（Comparisons）
 
+- [comparisons/证据约束分类的正反证据与适用边界-2026.md](comparisons/multimodal/%E8%AF%81%E6%8D%AE%E7%BA%A6%E6%9D%9F%E5%88%86%E7%B1%BB%E7%9A%84%E6%AD%A3%E5%8F%8D%E8%AF%81%E6%8D%AE%E4%B8%8E%E9%80%82%E7%94%A8%E8%BE%B9%E7%95%8C-2026.md) — 区分证据监督的性能、审计、忠实性与成本收益，给出反事实门禁和 EviState 条件支持
 - [comparisons/claude-code-curated-docs-vs-gstack.md](comparisons/agent/claude-code-curated-docs-vs-gstack.md) — 两套 Claude Code 资料/工作流对照
 - [comparisons/表格建模路线对比-TabLLM-vs-树模型-vs-Transformer.md](comparisons/applications/%E8%A1%A8%E6%A0%BC%E5%BB%BA%E6%A8%A1%E8%B7%AF%E7%BA%BF%E5%AF%B9%E6%AF%94-TabLLM-vs-%E6%A0%91%E6%A8%A1%E5%9E%8B-vs-Transformer.md) — TabLLM、树模型与表格 Transformer 的能力/代价对照
 - [comparisons/Qwen3-VL统计特征编码器选型-2026.md](comparisons/applications/Qwen3-VL%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E7%BC%96%E7%A0%81%E5%99%A8%E9%80%89%E5%9E%8B-2026.md) — 最小方案先以字段级加法融合和两层 MLP 生成统计连续向量，再可选投影为单个 Qwen token
