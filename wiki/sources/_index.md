@@ -6,6 +6,8 @@
 
 ## 网络与飞书分享（非 `raw/` 来源）
 
+- [来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md](reasoning-training/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md)
+  - 来源：arXiv:2610.31642v2、作者 HTML/发布说明，以及 PyTorch/JAX 官方 issue、PR 与源码
 - [来源-Qwen3-VL统计特征编码器调研-2026.md](applications/%E6%9D%A5%E6%BA%90-Qwen3-VL%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E7%BC%96%E7%A0%81%E5%99%A8%E8%B0%83%E7%A0%94-2026.md)
   - 来源：Qwen3-VL 官方仓库、模型配置与 Transformers 源码，以及 FT-Transformer、数值 embedding、TabM、TabArena、BLIP-2、Flamingo、TableGPT2 论文
 - [来源-Qwen3-VL事件序列编码器调研-2026.md](applications/%E6%9D%A5%E6%BA%90-Qwen3-VL%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E8%B0%83%E7%A0%94-2026.md)

@@ -317,3 +317,12 @@ Append-only log of all wiki operations.
 - 将自包含 HTML 图解 [统计特征与事件序列编码器算法示意图](../encoder-algorithm-diagrams/encoder-algorithm-diagrams.html) 接入 [[Qwen异构特征接入与事件序列建模]] 与全局索引。
 - 图解并排呈现统计 MLP 与事件 GRU 的最小工程链路，明确连续向量是主输出，Qwen soft token 是独立可选 projector 的输出。
 - 未修改 `raw/`，未提交 Git。
+
+## [2026-10-28] query | Filed: Softmax 与交叉熵的浮点数值稳定性
+
+- 新增 [[来源-A-Fix-for-Softmax-and-Cross-Entropy-2026]]，核验 arXiv:2610.31642v2 的 Softmax Collapse、Softmax Cancellation、JAX 参考实现、grokking 与蒸馏实验。
+- 新增 [[Softmax与交叉熵的浮点数值稳定性]]，整理梯度零和不变量、精度悬崖、hard/soft target 修复路径、压力测试和上线门禁。
+- 将数值风险织入 [[知识蒸馏]] 与 [[参数高效微调与对齐训练]]；同步全局和来源索引。
+- 作者发布帖支持 Gemini Flash 3.7/3.8 与 Gemini 4 Argon 的协作分工，但论文正文未记录；帖子“首次发现”的措辞还与 v2 对 Prieto et al.（2025）的 Collapse 识别归因存在张力，已保守标注。
+- 截至 2026-10-28，PyTorch 只有开放 issue 与未合并 draft PR，JAX HEAD 仍使用标准归约公式；未写成框架已经修复。论文实验主要来自 modular arithmetic 小模型，不外推为所有大规模训练尖峰的统一解释。
+- 未修改 `raw/`，未纳入 `assets/` 或其他无关工作区变更。
