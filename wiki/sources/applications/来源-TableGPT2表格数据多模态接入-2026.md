@@ -4,7 +4,7 @@
 >
 > 外部定位：论文 `TableGPT2: A Large Multimodal Model with Tabular Data Integration`（arXiv:2411.02059）、[项目仓库](https://github.com/tablegpt/tablegpt-agent)、[模型页](https://huggingface.co/tablegpt/TableGPT2-7B)。
 >
-> 证据定位：中文二手解读（E2）。本次未核验所列外部一手链接；架构细节、数据规模、基准数字与“首次/最强”等表述均须回论文、仓库和模型卡核验。
+> 证据定位：原始转录为中文二手解读（E2）；2026-10-28 已核验论文 v2、官方 Hugging Face 模型卡与 Agent 仓库（E3/E4）。
 >
 > 关联概念：[[表格数据深度学习]]、[[多模态结构保真与统一对齐]]、[[Qwen异构特征接入与事件序列建模]]。
 
@@ -28,3 +28,17 @@
 ## 对既有结论的影响
 
 该材料支持 [[多模态结构保真与统一对齐]] 中“统一接口不等于统一原始表示”的原则，也为 [[异构数据接入大模型的四档方案对比-2026]] 的“独立编码器 + 投影器”路线补充了表格模态案例。它不推翻既有“先文本化与强基线、再逐层升级”的门禁；反而说明端到端融合需要更严格的结构消融和部署验证。
+
+## 一手核验补充（2026-10-28）
+
+论文中的 Semantic Table Encoder 使用无位置 embedding 的行列双维注意力，并通过分层特征提取同时建模单元格、行、列和整表。表格—语言 Adapter 对每列执行 Q-Former 风格 cross-attention，用固定数量 learnable queries 将变长行压缩为列表示，再对齐到 Qwen2.5 文本 embedding 空间。
+
+公开状态与论文架构并不等价。官方 [TableGPT2-7B 模型卡](https://huggingface.co/tablegpt/TableGPT2-7B) 明确说明：
+
+- 目前公开的是 7B standalone decoder；
+- table encoder 仍在准备中；
+- QuickStart 仍把 `df.head().to_string()` 作为文本输入。
+
+因此，TableGPT2 论文可作为表格专用编码器设计证据，但公开的 7B 权重不能直接当作“完整表格编码器已经可下载”的证据。
+
+参见 [[多模态行为序列与表格编码器对比-2026]]。
