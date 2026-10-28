@@ -6,6 +6,8 @@
 
 ## 网络与飞书分享（非 `raw/` 来源）
 
+- [来源-长多模态意图分类内部实践-已脱敏-2026.md](multimodal/%E6%9D%A5%E6%BA%90-%E9%95%BF%E5%A4%9A%E6%A8%A1%E6%80%81%E6%84%8F%E5%9B%BE%E5%88%86%E7%B1%BB%E5%86%85%E9%83%A8%E5%AE%9E%E8%B7%B5-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md)
+  - 来源：内部技术实践材料；仅保留数据治理、人机标注、证据链蒸馏与强化学习方案
 - [来源-BERT4Rec原论文与参考实现-2019.md](applications/来源-BERT4Rec原论文与参考实现-2019.md)
   - 来源：CIKM 2019 原论文、作者 TensorFlow 实现，以及 RecBole、Transformers4Rec、Hugging Face 官方实现
 - [来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md](reasoning-training/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md)
