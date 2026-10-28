@@ -99,3 +99,16 @@ sequence_vector → sequence_projector → sequence_token [B,1,2560]
 - 单 token 接入没有超过连续向量 late fusion；
 - 自定义 embedding 使生成或服务链路不稳定；
 - 收益不足以覆盖 Qwen 推理成本。
+
+## 数值一致性门禁
+
+GRU 上线前除任务指标外，还要比较同一样本在单条与典型 batch shape 下的 `sequence_vector`。记录并分别控制：
+
+```python
+torch.backends.cuda.matmul.allow_tf32
+torch.backends.cudnn.allow_tf32
+```
+
+两者互不替代。H20、PyTorch 2.7.1、CUDA 12.6 的一次内部对照中，单条与双条 batch 的偏差首次出现在 GRU；关闭 cuDNN TF32 后，最大绝对误差从 `2.38e-4`、`1.59e-4` 降至 `1.79e-7`、`1.49e-7`。这项结果用于增加工程门禁，不代表所有环境都必须关闭 TF32。诊断过程与证据边界见 [[GRU单条与Batch推理的cuDNN-TF32一致性]]。
+
+验收至少覆盖单步、长序列、不等长 padding、checkpoint 回读和最终 vector 回读；同 batch 重复一致不能替代跨 batch shape 检查。

@@ -378,3 +378,11 @@ Append-only log of all wiki operations.
 - 统一记录输入粒度、模态前端、结构主干、融合点、中间表示、训练目标、统计表格分支和发布边界。
 - 补入 MLLM-MSR，与 MP4SR、Molar 一并归入“多模态序列推荐编码器”，并明确三者都没有统计表格专用分支。
 - 未修改 `raw/`，未纳入 `assets/` 或其他无关工作区变更。
+
+## [2026-10-28] query | 已归档：GRU 单条与 Batch 推理的 cuDNN TF32 一致性诊断
+
+- 新增 [[GRU单条与Batch推理的cuDNN-TF32一致性]] 与 [[来源-GRU单条与Batch推理一致性内部诊断-2026]]，记录 H20、PyTorch 2.7.1、CUDA 12.6 环境中的逐层定位和精度开关对照。
+- 保留 128 维输出、96/88 个超标维度、关闭 cuDNN TF32 前后的最大绝对误差及原始容差。
+- 将跨 batch shape 一致性门禁织入 [[Qwen异构特征接入与事件序列建模]]、[[Qwen3-VL事件序列编码器选型-2026]] 与原调研来源页。
+- 明确未定位具体 cuDNN kernel/GRU gate，且 H20 完整 smoke、checkpoint/vector 回读、长序列与不等长序列仍待验证。
+- 未修改 `raw/`，未纳入 `assets/` 或其他无关工作区变更。
