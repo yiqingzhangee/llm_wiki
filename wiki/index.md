@@ -81,7 +81,10 @@
 - [sources/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md](sources/reasoning-training/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md) — 核验两个浮点数值 bug、JAX 修复公式、Gemini 协作声明与 PyTorch/JAX 合入状态
 - [sources/来源-BERT4Rec原论文与参考实现-2019.md](sources/applications/来源-BERT4Rec原论文与参考实现-2019.md) — 核验 CIKM 论文、作者 TFRecord 字段及 RecBole/Transformers4Rec/Hugging Face 输入差异
 - [sources/来源-长多模态意图分类内部实践-已脱敏-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E9%95%BF%E5%A4%9A%E6%A8%A1%E6%80%81%E6%84%8F%E5%9B%BE%E5%88%86%E7%B1%BB%E5%86%85%E9%83%A8%E5%AE%9E%E8%B7%B5-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md) — 脱敏提炼输入治理、多模型标注、证据链蒸馏与强化学习后训练方法
-- [sources/来源-TableGPT2表格数据多模态接入-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md) — TableGPT2 二手解读：表格编码器 + 投影器接入语言主干，数值待回原文核验
+- [sources/来源-LUMOS多模态用户行为预测-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LUMOS%E5%A4%9A%E6%A8%A1%E6%80%81%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E9%A2%84%E6%B5%8B-2026.md) — 每日行为、事件上下文和静态属性的多模态时间 token 与未来条件解码
+- [sources/来源-MultiModalPFN多模态表格学习-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-MultiModalPFN%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A1%A8%E6%A0%BC%E5%AD%A6%E4%B9%A0-2026.md) — 用 MGM/CAP 将图像与文本表示转成 TabPFN 可消费的 token
+- [sources/来源-MP4SR多模态序列推荐-2023.md](sources/applications/%E6%9D%A5%E6%BA%90-MP4SR%E5%A4%9A%E6%A8%A1%E6%80%81%E5%BA%8F%E5%88%97%E6%8E%A8%E8%8D%90-2023.md) — 以图文语义统一、序列 mixup 和对比预训练建模多模态行为序列
+- [sources/来源-TableGPT2表格数据多模态接入-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-TableGPT2%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A5%E5%85%A5-2026.md) — 核验行列双维表格编码器、Q-Former 风格适配器，以及当前仅公开 standalone decoder 的边界
 - [sources/repo-claude-code-best-practice.md](sources/code/repo-claude-code-best-practice.md) — Claude Code 最佳实践仓库
 - [sources/repo-langgraph.md](sources/code/repo-langgraph.md) — LangGraph 仓库
 - [sources/repo-gstack.md](sources/code/repo-gstack.md) — GStack 仓库
@@ -184,6 +187,7 @@
 
 ## 领域知识 — 对比（Comparisons）
 
+- [comparisons/多模态行为序列与表格编码器对比-2026.md](comparisons/applications/%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A1%8C%E4%B8%BA%E5%BA%8F%E5%88%97%E4%B8%8E%E8%A1%A8%E6%A0%BC%E7%BC%96%E7%A0%81%E5%99%A8%E5%AF%B9%E6%AF%94-2026.md) — 区分同时处理行为与统计特征、表格+图文、行为+物品内容三类公开模型及其编码器
 - [comparisons/证据约束分类的正反证据与适用边界-2026.md](comparisons/multimodal/%E8%AF%81%E6%8D%AE%E7%BA%A6%E6%9D%9F%E5%88%86%E7%B1%BB%E7%9A%84%E6%AD%A3%E5%8F%8D%E8%AF%81%E6%8D%AE%E4%B8%8E%E9%80%82%E7%94%A8%E8%BE%B9%E7%95%8C-2026.md) — 区分证据监督的性能、审计、忠实性与成本收益，给出反事实门禁和 EviState 条件支持
 - [comparisons/claude-code-curated-docs-vs-gstack.md](comparisons/agent/claude-code-curated-docs-vs-gstack.md) — 两套 Claude Code 资料/工作流对照
 - [comparisons/表格建模路线对比-TabLLM-vs-树模型-vs-Transformer.md](comparisons/applications/%E8%A1%A8%E6%A0%BC%E5%BB%BA%E6%A8%A1%E8%B7%AF%E7%BA%BF%E5%AF%B9%E6%AF%94-TabLLM-vs-%E6%A0%91%E6%A8%A1%E5%9E%8B-vs-Transformer.md) — TabLLM、树模型与表格 Transformer 的能力/代价对照
