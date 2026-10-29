@@ -34,6 +34,7 @@
 - [concepts/自回归掩码、解码与生成评测.md](concepts/reasoning-training/%E8%87%AA%E5%9B%9E%E5%BD%92%E6%8E%A9%E7%A0%81%E3%80%81%E8%A7%A3%E7%A0%81%E4%B8%8E%E7%94%9F%E6%88%90%E8%AF%84%E6%B5%8B.md) — 区分因果掩码、贪婪/采样/搜索解码与 pass@1 的结构、推理与评测层次
 - [concepts/表格数据深度学习.md](concepts/applications/%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.md) — 表格数据深度学习的问题空间、代表模型与边界
 - [concepts/风控表格数据编码器的自监督学习目标设计.md](concepts/applications/%E9%A3%8E%E6%8E%A7%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E7%BC%96%E7%A0%81%E5%99%A8%E7%9A%84%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87%E8%AE%BE%E8%AE%A1.md) — 按遮蔽重建、扰动识别、行级对比、自生成任务和跨表迁移组织风控表格预训练目标与门禁
+- [concepts/风控表征学习中的生成机制、风险定义与表征分工.md](concepts/applications/%E9%A3%8E%E6%8E%A7%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E7%94%9F%E6%88%90%E6%9C%BA%E5%88%B6%E3%80%81%E9%A3%8E%E9%99%A9%E5%AE%9A%E4%B9%89%E4%B8%8E%E8%A1%A8%E5%BE%81%E5%88%86%E5%B7%A5.md) — 拆分生成机制、风险定义与表征三层，区分纯自监督、领域引导和弱监督，并统一序列与统计视图的验收边界
 - [concepts/TabLLM.md](concepts/applications/TabLLM.md) — TabLLM 方法要点、适用场景与风险
 - [concepts/Agent框架选型与工程维度.md](concepts/agent/Agent%E6%A1%86%E6%9E%B6%E9%80%89%E5%9E%8B%E4%B8%8E%E5%B7%A5%E7%A8%8B%E7%BB%B4%E5%BA%A6.md) — Agent 框架选型中的分层能力与工程治理维度
 - [concepts/多Agent系统研究趋势与工程映射.md](concepts/agent/%E5%A4%9AAgent%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6%E8%B6%8B%E5%8A%BF%E4%B8%8E%E5%B7%A5%E7%A8%8B%E6%98%A0%E5%B0%84.md) — 连接多Agent论文趋势与工程落地能力的映射框架
