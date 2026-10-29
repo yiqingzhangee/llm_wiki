@@ -12,5 +12,5 @@
 
 ## 在本 wiki 中
 
-- 来源摘要：[repo-gstack.md](../sources/repo-gstack.md)
-- 相关实践资料：[claude-code-best-practice](../sources/repo-claude-code-best-practice.md)
+- 来源摘要：[repo-gstack.md](../sources/code/repo-gstack.md)
+- 相关实践资料：[claude-code-best-practice](../sources/code/repo-claude-code-best-practice.md)

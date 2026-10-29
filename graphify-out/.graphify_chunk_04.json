@@ -1,0 +1,662 @@
+{
+  "nodes": [
+    {
+      "id": "source:kimi-agent-autoresearch",
+      "type": "source",
+      "name": "Kimi Agent 自主持续优化研究报告",
+      "summary": "总结 Kimi Agent 的自我改进机制、评测维度与工程实践。",
+      "tags": [
+        "source",
+        "agent",
+        "autoresearch"
+      ]
+    },
+    {
+      "id": "source:kuaimod-vlm-policy",
+      "type": "source",
+      "name": "KuaiMod: VLM as Policy 短视频审核",
+      "summary": "以视觉语言模型作为策略网络进行内容审核决策。",
+      "tags": [
+        "source",
+        "vlm",
+        "moderation"
+      ]
+    },
+    {
+      "id": "source:lats-icml2024",
+      "type": "source",
+      "name": "Language Agent Tree Search (LATS)",
+      "summary": "统一推理、行动与规划的树搜索式语言代理框架。",
+      "tags": [
+        "source",
+        "reasoning",
+        "planning"
+      ]
+    },
+    {
+      "id": "source:mr-ben-neurips2024",
+      "type": "source",
+      "name": "MR-Ben 元推理基准",
+      "summary": "用于评估 LLM System-2 思维能力的元推理基准。",
+      "tags": [
+        "source",
+        "benchmark",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "source:nrn-kdd2024",
+      "type": "source",
+      "name": "NRN 实体与数值联合推理",
+      "summary": "在知识图谱中联合实体关系与数值信息进行推理。",
+      "tags": [
+        "source",
+        "kg",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "source:rsbench-neurosymbolic-2024",
+      "type": "source",
+      "name": "Neuro-Symbolic 推理捷径基准 rsbench",
+      "summary": "系统评估神经符号推理中的捷径问题与概念质量。",
+      "tags": [
+        "source",
+        "neuro-symbolic",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "source:qwen25-qwen3-finetune-20260621",
+      "type": "source",
+      "name": "Qwen2.5 与 Qwen3 微调深度调研",
+      "summary": "对比 Qwen 2.5/3 在 SFT、偏好优化与推理训练上的策略演进。",
+      "tags": [
+        "source",
+        "qwen",
+        "finetuning"
+      ]
+    },
+    {
+      "id": "source:reverse-curriculum-rl-icml2024",
+      "type": "source",
+      "name": "Reverse Curriculum RL (R3)",
+      "summary": "通过逆课程强化学习提升复杂推理训练稳定性。",
+      "tags": [
+        "source",
+        "rl",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "source:self-discover-neurips2024",
+      "type": "source",
+      "name": "SELF-DISCOVER",
+      "summary": "让模型自组装推理结构以提升复杂任务表现。",
+      "tags": [
+        "source",
+        "reasoning",
+        "self-composition"
+      ]
+    },
+    {
+      "id": "source:tce-claude-code-agent-deploy-20260621",
+      "type": "source",
+      "name": "TCE 部署 Claude Code Agent 操作清单",
+      "summary": "面向企业环境的 Claude Code Agent 部署与权限实践。",
+      "tags": [
+        "source",
+        "deployment",
+        "agent"
+      ]
+    },
+    {
+      "id": "source:thought-rollback-icml2024",
+      "type": "source",
+      "name": "Thought Rollback (TR)",
+      "summary": "在推理过程中自适应回滚无效思路以改进决策。",
+      "tags": [
+        "source",
+        "reasoning",
+        "adaptive"
+      ]
+    },
+    {
+      "id": "source:raw-transcripts-batch-20260621",
+      "type": "source",
+      "name": "raw/transcripts 增量批次",
+      "summary": "记录 2026-06-21 批次新增转录来源的主题范围与编译入口。",
+      "tags": [
+        "source",
+        "ingestion",
+        "batch"
+      ]
+    },
+    {
+      "id": "source:moderation-interview-qa-20260621",
+      "type": "source",
+      "name": "内容风控与机审算法面试题详解",
+      "summary": "覆盖文本/图像/视频审核算法与工程落地问答。",
+      "tags": [
+        "source",
+        "moderation",
+        "ml-system"
+      ]
+    },
+    {
+      "id": "source:cybernetics-moderation-scheme-20260621",
+      "type": "source",
+      "name": "基于控制论的内容风控系统方案",
+      "summary": "将内容风控系统抽象为闭环控制并给出工程分层。",
+      "tags": [
+        "source",
+        "cybernetics",
+        "moderation"
+      ]
+    },
+    {
+      "id": "source:multiagent-debate-icml2024",
+      "type": "source",
+      "name": "多智能体辩论提升事实性与推理",
+      "summary": "通过多代理辩论机制提升事实性与推理质量。",
+      "tags": [
+        "source",
+        "multi-agent",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "source:multilingual-llm-survey-huang-2025",
+      "type": "source",
+      "name": "多语言大语言模型综述（Huang 2025）",
+      "summary": "综述多语言 LLM 的数据、架构、对齐与评测前沿。",
+      "tags": [
+        "source",
+        "multilingual",
+        "survey"
+      ]
+    },
+    {
+      "id": "source:large-small-collab-survey-2025",
+      "type": "source",
+      "name": "大小语言模型协同机制综述",
+      "summary": "系统归纳大小模型协同推理、路由与蒸馏机制。",
+      "tags": [
+        "source",
+        "collaboration",
+        "survey"
+      ]
+    },
+    {
+      "id": "source:ccl-multilingual-era-2024",
+      "type": "source",
+      "name": "大模型时代多语言研究综述（CCL 2024）",
+      "summary": "中文语境下多语言大模型研究版图与挑战综述。",
+      "tags": [
+        "source",
+        "multilingual",
+        "survey"
+      ]
+    },
+    {
+      "id": "source:on-policy-distill-survey",
+      "type": "source",
+      "name": "大语言模型在策略蒸馏综述",
+      "summary": "聚焦 On-Policy Distillation 的框架、训练动态与应用。",
+      "tags": [
+        "source",
+        "distillation",
+        "survey"
+      ]
+    },
+    {
+      "id": "source:kd-llm-survey-2024",
+      "type": "source",
+      "name": "大语言模型知识蒸馏综述 2024",
+      "summary": "梳理 LLM 知识蒸馏的目标、方法与评估维度。",
+      "tags": [
+        "source",
+        "distillation",
+        "survey"
+      ]
+    },
+    {
+      "id": "source:adversarial-generation-detection-20260621",
+      "type": "source",
+      "name": "对抗样本生成与检测调研实验",
+      "summary": "总结对抗样本生成/检测方法及实验观察。",
+      "tags": [
+        "source",
+        "adversarial",
+        "security"
+      ]
+    },
+    {
+      "id": "source:gsm1k-contamination-2024",
+      "type": "source",
+      "name": "GSM1k 小学算术基准污染检验",
+      "summary": "审视算术基准中数据污染对 LLM 性能评估的影响。",
+      "tags": [
+        "source",
+        "benchmark",
+        "contamination"
+      ]
+    },
+    {
+      "id": "concept:reasoning-optimization",
+      "type": "concept",
+      "name": "推理优化",
+      "summary": "通过搜索、回滚、课程设计等机制提升推理质量。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:reasoning-benchmark",
+      "type": "concept",
+      "name": "推理评测基准",
+      "summary": "衡量模型推理能力与脆弱性的评测体系。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:multilingual-llm",
+      "type": "concept",
+      "name": "多语言大模型",
+      "summary": "支持多语种理解、生成与迁移的语言模型体系。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:distillation",
+      "type": "concept",
+      "name": "模型蒸馏",
+      "summary": "将大模型能力迁移至更小或更高效模型的方法。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:content-moderation",
+      "type": "concept",
+      "name": "内容风控",
+      "summary": "内容平台中的风险识别、判定与处置闭环。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:agent-engineering",
+      "type": "concept",
+      "name": "Agent 工程化",
+      "summary": "智能体的部署、迭代、观测与运维实践。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:adversarial-robustness",
+      "type": "concept",
+      "name": "对抗鲁棒性",
+      "summary": "模型在对抗扰动下的性能保持与防御能力。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:kg-reasoning",
+      "type": "concept",
+      "name": "知识图谱推理",
+      "summary": "在结构化实体关系图上进行符号与数值联合推理。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:multi-agent-deliberation",
+      "type": "concept",
+      "name": "多智能体协作推理",
+      "summary": "通过辩论与分工提升解题可靠性。",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "concept:dataset-contamination",
+      "type": "concept",
+      "name": "数据污染检验",
+      "summary": "识别训练/测试泄露导致的评测失真。",
+      "tags": [
+        "concept"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "source:kimi-agent-autoresearch",
+      "target": "concept:agent-engineering",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:kuaimod-vlm-policy",
+      "target": "concept:content-moderation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:lats-icml2024",
+      "target": "concept:reasoning-optimization",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:lats-icml2024",
+      "target": "concept:agent-engineering",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:mr-ben-neurips2024",
+      "target": "concept:reasoning-benchmark",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:nrn-kdd2024",
+      "target": "concept:kg-reasoning",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:rsbench-neurosymbolic-2024",
+      "target": "concept:reasoning-benchmark",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:qwen25-qwen3-finetune-20260621",
+      "target": "concept:agent-engineering",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:qwen25-qwen3-finetune-20260621",
+      "target": "concept:distillation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:reverse-curriculum-rl-icml2024",
+      "target": "concept:reasoning-optimization",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:self-discover-neurips2024",
+      "target": "concept:reasoning-optimization",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:tce-claude-code-agent-deploy-20260621",
+      "target": "concept:agent-engineering",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:thought-rollback-icml2024",
+      "target": "concept:reasoning-optimization",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:raw-transcripts-batch-20260621",
+      "target": "concept:agent-engineering",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:raw-transcripts-batch-20260621",
+      "target": "concept:content-moderation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:moderation-interview-qa-20260621",
+      "target": "concept:content-moderation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:cybernetics-moderation-scheme-20260621",
+      "target": "concept:content-moderation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:multiagent-debate-icml2024",
+      "target": "concept:multi-agent-deliberation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:multiagent-debate-icml2024",
+      "target": "concept:reasoning-optimization",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:multilingual-llm-survey-huang-2025",
+      "target": "concept:multilingual-llm",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:large-small-collab-survey-2025",
+      "target": "concept:distillation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:ccl-multilingual-era-2024",
+      "target": "concept:multilingual-llm",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:on-policy-distill-survey",
+      "target": "concept:distillation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:kd-llm-survey-2024",
+      "target": "concept:distillation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:adversarial-generation-detection-20260621",
+      "target": "concept:adversarial-robustness",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:adversarial-generation-detection-20260621",
+      "target": "concept:content-moderation",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:gsm1k-contamination-2024",
+      "target": "concept:dataset-contamination",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:gsm1k-contamination-2024",
+      "target": "concept:reasoning-benchmark",
+      "type": "about",
+      "weight": 0.88,
+      "description": "来源文档与该主题存在直接讨论"
+    },
+    {
+      "source": "source:lats-icml2024",
+      "target": "source:self-discover-neurips2024",
+      "type": "related_method",
+      "weight": 0.78,
+      "description": "均探索推理结构的动态组织"
+    },
+    {
+      "source": "source:lats-icml2024",
+      "target": "source:thought-rollback-icml2024",
+      "type": "complements",
+      "weight": 0.76,
+      "description": "分别覆盖树搜索与回滚控制"
+    },
+    {
+      "source": "source:reverse-curriculum-rl-icml2024",
+      "target": "source:thought-rollback-icml2024",
+      "type": "complements",
+      "weight": 0.72,
+      "description": "都试图提升推理过程的训练/执行稳定性"
+    },
+    {
+      "source": "source:mr-ben-neurips2024",
+      "target": "source:rsbench-neurosymbolic-2024",
+      "type": "benchmark_family",
+      "weight": 0.81,
+      "description": "都用于刻画系统2/捷径相关推理能力"
+    },
+    {
+      "source": "source:mr-ben-neurips2024",
+      "target": "source:gsm1k-contamination-2024",
+      "type": "evaluation_risk",
+      "weight": 0.73,
+      "description": "共同关注推理评估可信度"
+    },
+    {
+      "source": "source:nrn-kdd2024",
+      "target": "source:rsbench-neurosymbolic-2024",
+      "type": "shared_focus",
+      "weight": 0.69,
+      "description": "都涉及符号或结构化推理范式"
+    },
+    {
+      "source": "source:multiagent-debate-icml2024",
+      "target": "source:self-discover-neurips2024",
+      "type": "alternative_strategy",
+      "weight": 0.71,
+      "description": "一个是多代理辩论，一个是单模型结构自组装"
+    },
+    {
+      "source": "source:qwen25-qwen3-finetune-20260621",
+      "target": "source:on-policy-distill-survey",
+      "type": "method_overlap",
+      "weight": 0.82,
+      "description": "都讨论 on-policy / 偏好对齐训练路径"
+    },
+    {
+      "source": "source:qwen25-qwen3-finetune-20260621",
+      "target": "source:kd-llm-survey-2024",
+      "type": "method_overlap",
+      "weight": 0.79,
+      "description": "微调实践与蒸馏框架存在技术交叉"
+    },
+    {
+      "source": "source:multilingual-llm-survey-huang-2025",
+      "target": "source:ccl-multilingual-era-2024",
+      "type": "survey_overlap",
+      "weight": 0.86,
+      "description": "同属多语言大模型综述谱系"
+    },
+    {
+      "source": "source:large-small-collab-survey-2025",
+      "target": "source:kd-llm-survey-2024",
+      "type": "builds_on",
+      "weight": 0.77,
+      "description": "协同机制综述吸收蒸馏研究作为核心路径"
+    },
+    {
+      "source": "source:large-small-collab-survey-2025",
+      "target": "source:on-policy-distill-survey",
+      "type": "builds_on",
+      "weight": 0.75,
+      "description": "小大模型协同与策略蒸馏紧密相关"
+    },
+    {
+      "source": "source:kuaimod-vlm-policy",
+      "target": "source:cybernetics-moderation-scheme-20260621",
+      "type": "application_link",
+      "weight": 0.74,
+      "description": "VLM 策略可映射到闭环风控执行层"
+    },
+    {
+      "source": "source:moderation-interview-qa-20260621",
+      "target": "source:cybernetics-moderation-scheme-20260621",
+      "type": "operationalization",
+      "weight": 0.85,
+      "description": "面试题方法可具体化控制论方案中的模块"
+    },
+    {
+      "source": "source:adversarial-generation-detection-20260621",
+      "target": "source:moderation-interview-qa-20260621",
+      "type": "risk_extension",
+      "weight": 0.72,
+      "description": "对抗鲁棒性补充机审风险场景"
+    },
+    {
+      "source": "source:tce-claude-code-agent-deploy-20260621",
+      "target": "source:kimi-agent-autoresearch",
+      "type": "engineering_parallel",
+      "weight": 0.67,
+      "description": "均涉及 Agent 工程化与持续迭代"
+    },
+    {
+      "source": "source:raw-transcripts-batch-20260621",
+      "target": "source:tce-claude-code-agent-deploy-20260621",
+      "type": "contains_theme",
+      "weight": 0.7,
+      "description": "增量批次包含 Agent 工程实践主题"
+    },
+    {
+      "source": "source:raw-transcripts-batch-20260621",
+      "target": "source:moderation-interview-qa-20260621",
+      "type": "contains_theme",
+      "weight": 0.7,
+      "description": "增量批次包含内容风控主题"
+    }
+  ],
+  "input_tokens": 18740,
+  "output_tokens": 2610
+}

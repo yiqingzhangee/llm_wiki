@@ -1,0 +1,34 @@
+{
+  "env": {
+    "LAST30DAYS_MEMORY_DIR": "/Users/bytedance/Documents/llm_wiki/raw/search/last30days"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c 'import json; print(json.dumps({\"hookSpecificOutput\": {\"hookEventName\": \"SessionStart\", \"additionalContext\": \"[AUTO-WIKI-SYNC] 在本会话内请确保存在一个每12小时执行一次的循环任务，触发命令为 /wiki-sync（若已存在同用途循环任务则不要重复创建）。执行策略：默认深度更新（sources + concepts + comparisons + maps + index + log）。\"}}))'"
+          },
+          {
+            "type": "command",
+            "command": "mkdir -p /Users/bytedance/Documents/llm_wiki/raw/search/last30days"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Bash(*last30days.py*)",
+            "command": "python3 - <<'PY'\nimport json, os, re\nfrom pathlib import Path\n\nroot = Path('/Users/bytedance/Documents/llm_wiki/raw/search/last30days')\nroot.mkdir(parents=True, exist_ok=True)\n\nlatest = max(root.glob('*-raw-v3.md'), key=lambda p: p.stat().st_mtime, default=None)\nif latest is None:\n    raise SystemExit(0)\n\nbase = re.sub(r'-raw-v3$', '', latest.stem)\ndate = __import__('datetime').datetime.now().strftime('%Y-%m-%d')\ntarget = root / f\"{base}-{date}.md\"\n\nif target.exists():\n    i = 2\n    while True:\n        alt = root / f\"{base}-{date}-v{i}.md\"\n        if not alt.exists():\n            target = alt\n            break\n        i += 1\n\nlatest.rename(target)\nprint(f\"[last30days-save] renamed to {target}\")\nPY"
+          }
+        ]
+      }
+    ]
+  }
+}
