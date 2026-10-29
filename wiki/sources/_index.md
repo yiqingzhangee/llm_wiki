@@ -18,6 +18,8 @@
   - 来源：CIKM 2019 原论文、作者 TensorFlow 实现，以及 RecBole、Transformers4Rec、Hugging Face 官方实现
 - [来源-序列编码器自监督联合训练内部实践-已脱敏-2026.md](applications/来源-序列编码器自监督联合训练内部实践-已脱敏-2026.md)
   - 来源：内部技术材料（已脱敏）；仅保留联合训练目标、Transformer 序列编码、表示评估与漂移诊断
+- [来源-序列编码器训练合同与骨干对照内部分析-已脱敏-2026.md](applications/来源-序列编码器训练合同与骨干对照内部分析-已脱敏-2026.md)
+  - 来源：内部 AI 辅助技术分析（已脱敏）；仅保留训练目标完整性、增强语义风险与骨干公平对照
 - [来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md](reasoning-training/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md)
   - 来源：arXiv:2610.31642v2、作者 HTML/发布说明，以及 PyTorch/JAX 官方 issue、PR 与源码
 - [来源-Qwen3-VL统计特征编码器调研-2026.md](applications/%E6%9D%A5%E6%BA%90-Qwen3-VL%E7%BB%9F%E8%AE%A1%E7%89%B9%E5%BE%81%E7%BC%96%E7%A0%81%E5%99%A8%E8%B0%83%E7%A0%94-2026.md)
