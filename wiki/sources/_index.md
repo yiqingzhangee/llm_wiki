@@ -24,6 +24,8 @@
   - 来源：GRU4Rec、SASRec、TiSASRec、Transformer Hawkes Process、UniSRec、RecFormer、LLM-ESR、Mamba4Rec、HSTU 与 SOHET
 - [来源-GRU单条与Batch推理一致性内部诊断-2026.md](applications/来源-GRU单条与Batch推理一致性内部诊断-2026.md)
   - 来源：内部工程诊断摘要；限定 H20、PyTorch 2.7.1、CUDA 12.6 环境，记录逐层定位、cuDNN TF32 对照与待验证边界
+- [来源-风控模型安全部署与监控内部实践-已脱敏-2026.md](applications/来源-风控模型安全部署与监控内部实践-已脱敏-2026.md)
+  - 来源：内部技术材料（已脱敏）；仅保留统一特征执行、训练注册、安全部署门禁和模型告警方法
 - [来源-Jev内部分享与工程实践-2026.md](agent/%E6%9D%A5%E6%BA%90-Jev%E5%86%85%E9%83%A8%E5%88%86%E4%BA%AB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-2026.md)
   - 来源：ByteTech《一文讲清 Jev》《Jev 实测》、TypeSafe 官方资料、LangChain 工程文章与 TrueForge 开源仓库
 - [来源-ByteTech-2026年9月最佳AI与Agent内容.md](agent/%E6%9D%A5%E6%BA%90-ByteTech-2026%E5%B9%B49%E6%9C%88%E6%9C%80%E4%BD%B3AI%E4%B8%8EAgent%E5%86%85%E5%AE%B9.md)
