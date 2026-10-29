@@ -56,6 +56,7 @@
 - [concepts/LLM推荐系统的分层改造与评估.md](concepts/applications/LLM%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%88%86%E5%B1%82%E6%94%B9%E9%80%A0%E4%B8%8E%E8%AF%84%E4%BC%B0.md) — 按语义增强、受约束生成与 Agent 编排组织 LLM4Rec，并给出四层验收口径
 - [concepts/风控模型训练部署与监控生命周期.md](concepts/applications/%E9%A3%8E%E6%8E%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E9%83%A8%E7%BD%B2%E4%B8%8E%E7%9B%91%E6%8E%A7%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md) — 从统一特征执行、训练注册、安全部署门禁到绝对/相对变化告警的工程控制面
 - [concepts/BERT4Rec数据处理与输入张量.md](concepts/applications/BERT4Rec%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E8%BE%93%E5%85%A5%E5%BC%A0%E9%87%8F.md) — 从交互记录到 Cloze 样本，统一说明 TensorFlow 稀疏标签、PyTorch 密集标签和末尾 `[MASK]` 推理格式
+- [concepts/事件序列编码器的自监督联合预训练.md](concepts/applications/%E4%BA%8B%E4%BB%B6%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E7%9A%84%E8%87%AA%E7%9B%91%E7%9D%A3%E8%81%94%E5%90%88%E9%A2%84%E8%AE%AD%E7%BB%83.md) — 以对比学习和掩码恢复联合训练事件序列表示，并用时间外探针、几何诊断和漂移检查选择检查点
 - [concepts/LLM用户表征基础模型与场景适配.md](concepts/applications/LLM%E7%94%A8%E6%88%B7%E8%A1%A8%E5%BE%81%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%9C%BA%E6%99%AF%E9%80%82%E9%85%8D.md) — 汇总未来对齐、量化长历史、条件化表示与掩码适配，并明确其在推荐等系统中的表征层边界
 - [concepts/多模态结构保真与统一对齐.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E7%BB%93%E6%9E%84%E4%BF%9D%E7%9C%9F%E4%B8%8E%E7%BB%9F%E4%B8%80%E5%AF%B9%E9%BD%90.md) — 区分共享接口与原始表示统一，按数值、时间、空间与拓扑结构组织边—环—整体评测
 - [concepts/多模态大模型跨模态投影与连接器.md](concepts/multimodal/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%A8%E6%A8%A1%E6%80%81%E6%8A%95%E5%BD%B1%E4%B8%8E%E8%BF%9E%E6%8E%A5%E5%99%A8.md) — 区分维度接口、token 压缩、信息选择和语义对齐，整理独立 connector 的正反证据与选型门禁
@@ -82,6 +83,7 @@
 - [sources/来源-LLM在策略蒸馏综述-2026.md](sources/reasoning-training/%E6%9D%A5%E6%BA%90-LLM%E5%9C%A8%E7%AD%96%E7%95%A5%E8%92%B8%E9%A6%8F%E7%BB%BC%E8%BF%B0-2026.md) — 在策略蒸馏综述：用学生自身 rollout 的反馈缓解长程生成分布错配
 - [sources/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md](sources/reasoning-training/来源-A-Fix-for-Softmax-and-Cross-Entropy-2026.md) — 核验两个浮点数值 bug、JAX 修复公式、Gemini 协作声明与 PyTorch/JAX 合入状态
 - [sources/来源-BERT4Rec原论文与参考实现-2019.md](sources/applications/来源-BERT4Rec原论文与参考实现-2019.md) — 核验 CIKM 论文、作者 TFRecord 字段及 RecBole/Transformers4Rec/Hugging Face 输入差异
+- [sources/来源-序列编码器自监督联合训练内部实践-已脱敏-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E8%87%AA%E7%9B%91%E7%9D%A3%E8%81%94%E5%90%88%E8%AE%AD%E7%BB%83%E5%86%85%E9%83%A8%E5%AE%9E%E8%B7%B5-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md) — 内部技术材料脱敏摘要：联合训练目标、Transformer 序列编码、表示评估与跨时间漂移
 - [sources/来源-长多模态意图分类内部实践-已脱敏-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E9%95%BF%E5%A4%9A%E6%A8%A1%E6%80%81%E6%84%8F%E5%9B%BE%E5%88%86%E7%B1%BB%E5%86%85%E9%83%A8%E5%AE%9E%E8%B7%B5-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md) — 脱敏提炼输入治理、多模型标注、证据链蒸馏与强化学习后训练方法
 - [sources/来源-LUMOS多模态用户行为预测-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-LUMOS%E5%A4%9A%E6%A8%A1%E6%80%81%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E9%A2%84%E6%B5%8B-2026.md) — 每日行为、事件上下文和静态属性的多模态时间 token 与未来条件解码
 - [sources/来源-MultiModalPFN多模态表格学习-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-MultiModalPFN%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A1%A8%E6%A0%BC%E5%AD%A6%E4%B9%A0-2026.md) — 用 MGM/CAP 将图像与文本表示转成 TabPFN 可消费的 token
