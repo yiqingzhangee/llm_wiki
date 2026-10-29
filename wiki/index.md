@@ -35,6 +35,7 @@
 - [concepts/表格数据深度学习.md](concepts/applications/%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.md) — 表格数据深度学习的问题空间、代表模型与边界
 - [concepts/风控表格数据编码器的自监督学习目标设计.md](concepts/applications/%E9%A3%8E%E6%8E%A7%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E7%BC%96%E7%A0%81%E5%99%A8%E7%9A%84%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87%E8%AE%BE%E8%AE%A1.md) — 按遮蔽重建、扰动识别、行级对比、自生成任务和跨表迁移组织风控表格预训练目标与门禁
 - [concepts/风控表征学习中的生成机制、风险定义与表征分工.md](concepts/applications/%E9%A3%8E%E6%8E%A7%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E7%94%9F%E6%88%90%E6%9C%BA%E5%88%B6%E3%80%81%E9%A3%8E%E9%99%A9%E5%AE%9A%E4%B9%89%E4%B8%8E%E8%A1%A8%E5%BE%81%E5%88%86%E5%B7%A5.md) — 拆分生成机制、风险定义与表征三层，区分纯自监督、领域引导和弱监督，并统一序列与统计视图的验收边界
+- [concepts/压缩表征的事实保真与关系可读性.md](concepts/applications/压缩表征的事实保真与关系可读性.md) — 区分掩码推断、完整输入事实保真与关系读取，并用双层探针定位骨干和压缩接口的信息损失
 - [concepts/TabLLM.md](concepts/applications/TabLLM.md) — TabLLM 方法要点、适用场景与风险
 - [concepts/Agent框架选型与工程维度.md](concepts/agent/Agent%E6%A1%86%E6%9E%B6%E9%80%89%E5%9E%8B%E4%B8%8E%E5%B7%A5%E7%A8%8B%E7%BB%B4%E5%BA%A6.md) — Agent 框架选型中的分层能力与工程治理维度
 - [concepts/多Agent系统研究趋势与工程映射.md](concepts/agent/%E5%A4%9AAgent%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6%E8%B6%8B%E5%8A%BF%E4%B8%8E%E5%B7%A5%E7%A8%8B%E6%98%A0%E5%B0%84.md) — 连接多Agent论文趋势与工程落地能力的映射框架
@@ -88,6 +89,7 @@
 - [sources/来源-BERT4Rec原论文与参考实现-2019.md](sources/applications/来源-BERT4Rec原论文与参考实现-2019.md) — 核验 CIKM 论文、作者 TFRecord 字段及 RecBole/Transformers4Rec/Hugging Face 输入差异
 - [sources/来源-序列编码器自监督联合训练内部实践-已脱敏-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E8%87%AA%E7%9B%91%E7%9D%A3%E8%81%94%E5%90%88%E8%AE%AD%E7%BB%83%E5%86%85%E9%83%A8%E5%AE%9E%E8%B7%B5-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md) — 内部技术材料脱敏摘要：联合训练目标、Transformer 序列编码、表示评估与跨时间漂移
 - [sources/来源-序列编码器训练合同与骨干对照内部分析-已脱敏-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E5%BA%8F%E5%88%97%E7%BC%96%E7%A0%81%E5%99%A8%E8%AE%AD%E7%BB%83%E5%90%88%E5%90%8C%E4%B8%8E%E9%AA%A8%E5%B9%B2%E5%AF%B9%E7%85%A7%E5%86%85%E9%83%A8%E5%88%86%E6%9E%90-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md) — AI 辅助内部分析脱敏摘要：区分梯度 smoke 与正式目标，约束增强语义并规范 GRU/Transformer 公平对照
+- [sources/来源-序列与统计编码器事实保真内部分析-已脱敏-2026.md](sources/applications/来源-序列与统计编码器事实保真内部分析-已脱敏-2026.md) — AI 辅助内部分析脱敏摘要：区分掩码推断、完整输入保真和关系读取，并用受控事实对照排除捷径
 - [sources/来源-风控行为序列表征自监督目标公开文献调研-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E9%A3%8E%E6%8E%A7%E8%A1%8C%E4%B8%BA%E5%BA%8F%E5%88%97%E8%A1%A8%E5%BE%81%E8%87%AA%E7%9B%91%E7%9D%A3%E7%9B%AE%E6%A0%87%E5%85%AC%E5%BC%80%E6%96%87%E7%8C%AE%E8%B0%83%E7%A0%94-2026.md) — 汇总直接风控、金融交易、用户表征、推荐序列与连续时间事件流的自监督目标及迁移边界
 - [sources/来源-风控表格编码器自监督目标公开文献调研-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E9%A3%8E%E6%8E%A7%E8%A1%A8%E6%A0%BC%E7%BC%96%E7%A0%81%E5%99%A8%E8%87%AA%E7%9B%91%E7%9D%A3%E7%9B%AE%E6%A0%87%E5%85%AC%E5%BC%80%E6%96%87%E7%8C%AE%E8%B0%83%E7%A0%94-2026.md) — 核验通用表格与直接信用风险证据，并保留树模型、异常检测和缺失值研究的反证
 - [sources/来源-长多模态意图分类内部实践-已脱敏-2026.md](sources/multimodal/%E6%9D%A5%E6%BA%90-%E9%95%BF%E5%A4%9A%E6%A8%A1%E6%80%81%E6%84%8F%E5%9B%BE%E5%88%86%E7%B1%BB%E5%86%85%E9%83%A8%E5%AE%9E%E8%B7%B5-%E5%B7%B2%E8%84%B1%E6%95%8F-2026.md) — 脱敏提炼输入治理、多模型标注、证据链蒸馏与强化学习后训练方法
