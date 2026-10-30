@@ -28,6 +28,7 @@
 
 ## 领域知识 — 概念（Concepts）
 
+- [多平台CLI的分层封装与草稿发布生命周期](concepts/agent/多平台CLI的分层封装与草稿发布生命周期.md) — 多平台客户端分层、代码与调度草稿、依赖增量修改的并发边界，以及提交发布状态的区分（泛化分析）
 - [concepts/agent-ai-and-multimodal-agents.md](concepts/agent/agent-ai-and-multimodal-agents.md) — Agent AI / 多模态智能体（MAA）（来自 arXiv 2401.03568 综述摄入）
 - [concepts/推理评测污染与捷径风险.md](concepts/reasoning-training/%E6%8E%A8%E7%90%86%E8%AF%84%E6%B5%8B%E6%B1%A1%E6%9F%93%E4%B8%8E%E6%8D%B7%E5%BE%84%E9%A3%8E%E9%99%A9.md) — 区分 benchmark contamination 与 reasoning shortcuts 的评估风险框架
 - [concepts/LLM推理结构与自纠错框架.md](concepts/reasoning-training/LLM%E6%8E%A8%E7%90%86%E7%BB%93%E6%9E%84%E4%B8%8E%E8%87%AA%E7%BA%A0%E9%94%99%E6%A1%86%E6%9E%B6.md) — 从搜索、辩论、回滚、代码执行到案例推理的结构化纠错图谱
