@@ -28,6 +28,8 @@
 
 ## 领域知识 — 概念（Concepts）
 
+- [中国组织中的资源分配与人际运作机制](concepts/social/中国组织中的资源分配与人际运作机制.md) — 从单位组织研究整理资源、依赖、分配与关系机制，附正版阅读渠道、证据边界与行动观察表
+- [资源依赖与组织权力](concepts/social/资源依赖与组织权力.md) — 区分资源控制、名义职位、依赖与外部替代，防止把权力解释成固定个人属性
 - [多平台CLI的分层封装与草稿发布生命周期](concepts/agent/多平台CLI的分层封装与草稿发布生命周期.md) — 多平台客户端分层、代码与调度草稿、依赖增量修改的并发边界，以及提交发布状态的区分（泛化分析）
 - [CLI开发检查清单](concepts/agent/CLI开发检查清单.md) — 从接口契约到安装制品验收的执行步骤、专项测试与通过标准，可复制到实际开发项目填写
 - [concepts/agent-ai-and-multimodal-agents.md](concepts/agent/agent-ai-and-multimodal-agents.md) — Agent AI / 多模态智能体（MAA）（来自 arXiv 2401.03568 综述摄入）
@@ -82,6 +84,7 @@
 
 ## 领域知识 — 来源（Sources，对应 `raw/`）
 
+- [来源-中国的单位组织-修订版与公开原始研究](sources/social/来源-中国的单位组织-修订版与公开原始研究.md) — 核实版本、七章目录、完整阅读渠道与十一项公开来源的实际读取范围
 - [sources/_index.md](sources/_index.md) — 来源总表
 - [sources/paper-agent-ai-survey-2401-03568.md](sources/agent/paper-agent-ai-survey-2401-03568.md) — Agent AI 综述（`raw/articles/`）
 - [sources/来源-文本与数值冲突下的LLM证据仲裁-2026.md](sources/applications/%E6%9D%A5%E6%BA%90-%E6%96%87%E6%9C%AC%E4%B8%8E%E6%95%B0%E5%80%BC%E5%86%B2%E7%AA%81%E4%B8%8B%E7%9A%84LLM%E8%AF%81%E6%8D%AE%E4%BB%B2%E8%A3%81-2026.md) — arXiv 预印本（作者报告、未同行评审）：受控测量文本、数值、时效、可靠性与工具预测冲突下的模型仲裁偏好
@@ -203,6 +206,7 @@
 
 ## 领域知识 — 对比（Comparisons）
 
+- [单位制机制在当代组织中的适用边界](comparisons/social/单位制机制在当代组织中的适用边界.md) — 比较历史单位制与当代组织的成立条件，保留类型、代际与制度变化的限制
 - [comparisons/多模态行为序列与表格编码器对比-2026.md](comparisons/applications/%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A1%8C%E4%B8%BA%E5%BA%8F%E5%88%97%E4%B8%8E%E8%A1%A8%E6%A0%BC%E7%BC%96%E7%A0%81%E5%99%A8%E5%AF%B9%E6%AF%94-2026.md) — 区分同时处理行为与统计特征、表格+图文、行为+物品内容三类公开模型及其编码器
 - [comparisons/证据约束分类的正反证据与适用边界-2026.md](comparisons/multimodal/%E8%AF%81%E6%8D%AE%E7%BA%A6%E6%9D%9F%E5%88%86%E7%B1%BB%E7%9A%84%E6%AD%A3%E5%8F%8D%E8%AF%81%E6%8D%AE%E4%B8%8E%E9%80%82%E7%94%A8%E8%BE%B9%E7%95%8C-2026.md) — 区分证据监督的性能、审计、忠实性与成本收益，给出反事实门禁和 EviState 条件支持
 - [comparisons/claude-code-curated-docs-vs-gstack.md](comparisons/agent/claude-code-curated-docs-vs-gstack.md) — 两套 Claude Code 资料/工作流对照
@@ -230,6 +234,7 @@
 
 ## 领域知识 — 地图（Maps）
 
+- [中国组织资源分配与人际运作研究地图](maps/中国组织资源分配与人际运作研究地图.md) — 连接机制、来源和适用边界，记录未读章节及下一轮核验问题
 - [maps/README.md](maps/README.md) — 主题导航图放置说明（占位；可随摄入增加领域地图）
 - [maps/研究主题导航.md](maps/%E7%A0%94%E7%A9%B6%E4%B8%BB%E9%A2%98%E5%AF%BC%E8%88%AA.md) — 现有主题关系总览（蒸馏/多语/协同/治理/表格）
 - [maps/表格建模选型决策树.md](maps/%E8%A1%A8%E6%A0%BC%E5%BB%BA%E6%A8%A1%E9%80%89%E5%9E%8B%E5%86%B3%E7%AD%96%E6%A0%91.md) — 按样本量、预算与线上约束选择建模路线
