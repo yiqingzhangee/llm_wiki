@@ -28,6 +28,7 @@
 
 ## 领域知识 — 概念（Concepts）
 
+- [大模型预训练从零开始](concepts/reasoning-training/大模型预训练从零开始.md) — 串起分词、随机初始化、下一词元预测、数据工程、算力规划与评估，附单GPU教学路径与实现检查
 - [中国组织中的资源分配与人际运作机制](concepts/social/中国组织中的资源分配与人际运作机制.md) — 从单位组织研究整理资源、依赖、分配与关系机制，附正版阅读渠道、证据边界与行动观察表
 - [资源依赖与组织权力](concepts/social/资源依赖与组织权力.md) — 区分资源控制、名义职位、依赖与外部替代，防止把权力解释成固定个人属性
 - [多平台CLI的分层封装与草稿发布生命周期](concepts/agent/多平台CLI的分层封装与草稿发布生命周期.md) — 多平台客户端分层、代码与调度草稿、依赖增量修改的并发边界，以及提交发布状态的区分（泛化分析）
@@ -84,6 +85,7 @@
 
 ## 领域知识 — 来源（Sources，对应 `raw/`）
 
+- [来源-预训练入门-GPT3与Chinchilla](sources/reasoning-training/来源-预训练入门-GPT3与Chinchilla.md) — 核读官方摘要，连接自回归规模化与固定计算预算下的模型、数据平衡，标明阅读边界
 - [来源-中国的单位组织-修订版与公开原始研究](sources/social/来源-中国的单位组织-修订版与公开原始研究.md) — 核实版本、七章目录、完整阅读渠道与十一项公开来源的实际读取范围
 - [sources/_index.md](sources/_index.md) — 来源总表
 - [sources/paper-agent-ai-survey-2401-03568.md](sources/agent/paper-agent-ai-survey-2401-03568.md) — Agent AI 综述（`raw/articles/`）
