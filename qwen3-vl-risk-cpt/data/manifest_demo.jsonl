@@ -1,0 +1,8 @@
+{"doc_id":"demo-001","group_id":"demo-device-sharing","split":"train","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_train.jsonl","line":1}
+{"doc_id":"demo-002","group_id":"demo-missing-values","split":"train","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_train.jsonl","line":2}
+{"doc_id":"demo-003","group_id":"demo-event-bursts","split":"train","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_train.jsonl","line":3}
+{"doc_id":"demo-004","group_id":"demo-retrospective-case","split":"train","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_train.jsonl","line":4}
+{"doc_id":"demo-005","group_id":"demo-rule-scope","split":"train","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_train.jsonl","line":5}
+{"doc_id":"demo-006","group_id":"demo-correlated-signals","split":"train","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_train.jsonl","line":6}
+{"doc_id":"demo-007","group_id":"demo-normal-baseline","split":"valid","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_valid.jsonl","line":1}
+{"doc_id":"demo-008","group_id":"demo-evidence-origin","split":"valid","source":"人工编写的虚构教学样例","version":"demo-v1","scope":"教学","training_file":"risk_cpt_demo_valid.jsonl","line":2}
