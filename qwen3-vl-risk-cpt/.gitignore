@@ -1,0 +1,4 @@
+outputs/
+LLaMA-Factory/
+.venv/
+__pycache__/

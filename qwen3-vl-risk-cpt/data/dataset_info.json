@@ -1,0 +1,12 @@
+{
+  "risk_cpt_demo_train": {
+    "file_name": "risk_cpt_demo_train.jsonl",
+    "formatting": "alpaca",
+    "columns": {"prompt": "text"}
+  },
+  "risk_cpt_demo_valid": {
+    "file_name": "risk_cpt_demo_valid.jsonl",
+    "formatting": "alpaca",
+    "columns": {"prompt": "text"}
+  }
+}
