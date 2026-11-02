@@ -29,6 +29,22 @@
 
 ## 三、训练正文与来源清单分开
 
+### 内部文档选材与表格处理
+
+内部文档可按职责选择：业务定义与机制用于知识正文，标准目录用于定位正式条款，发布与评审材料用于确认版本，字段文档用于解释证据，审核实践用于制作任务样本。搜索摘要、大纲或少量条目只能证明局部内容存在，不能证明全部材料已经成熟或适合训练。
+
+选材时需追加检查：
+
+- 知识库派生页、原文与改写属于同一来源组，不能重复计为独立知识；文档可读取也不等于已经完成训练用途审核。
+- 在工作表粒度区分现行、废弃、不参考、复制与不同适用域；先筛版本，再逐行抽取定义、机制和条件。
+- 标签目录常只保存层级、场景与原文入口，需跟随标准正文提取识别、例外和申诉边界，不能只训练名称。
+- 对合并单元格，结合真实合并范围还原条目；空白不一定表示继承，不可对全部列盲目向下填充。
+- 评审页中的删除线、颜色、评论和待确认状态可能改变条款含义，先解析状态再生成有效标准快照，避免纯文本抽取复活已删除内容。
+- 限定版本的定义、广义定义占位与待建设方案分开；摘要和明细的窗口、比较边界或适用条件冲突应先复核。
+- 可疑手法说明需配正常反例与证据不足处理；可观察元素、推测意图和最终风险标签分开，参见 [[风控表征学习中的生成机制、风险定义与表征分工]]。
+
+只有完成逐项复核后才生成真实训练正文。案例应另设监督及评测池，按案件簇、时间和实体控制泄漏；文档中模型生成的解释不能直接替代成熟标签。
+
 训练JSONL每行一个对象：
 
 ```json
@@ -82,6 +98,7 @@ LoRA产物需要同一基座和适配器一起加载，或验证后合并导出�
 
 ## 来源与验证边界
 
+- 内部文档检索与局部核验（已脱敏）：补充选材、表格版本、条款状态与正文/任务样本分工；未保存私有来源身份、真实案例或内部参数。这是资料治理建议，不构成训练效果证据。
 - [官方数据格式](https://github.com/hiyouga/LLaMA-Factory/blob/9997aa078b4da35e04bb492a8a27d45141f4b80b/data/README.md)、[PT处理器](https://github.com/hiyouga/LLaMA-Factory/blob/9997aa078b4da35e04bb492a8a27d45141f4b80b/src/llamafactory/data/processor/pretrain.py)、[PT工作流](https://github.com/hiyouga/LLaMA-Factory/blob/9997aa078b4da35e04bb492a8a27d45141f4b80b/src/llamafactory/train/pt/workflow.py)：直接读取源码，单一框架实现证据。
 - [多模态模块配置](https://github.com/hiyouga/LLaMA-Factory/blob/9997aa078b4da35e04bb492a8a27d45141f4b80b/src/llamafactory/model/model_utils/visual.py)、[模型加载器](https://github.com/hiyouga/LLaMA-Factory/blob/9997aa078b4da35e04bb492a8a27d45141f4b80b/src/llamafactory/model/loader.py)：参数排除与加载路径。
 - [官方Qwen3-VL LoRA SFT示例](https://github.com/hiyouga/LLaMA-Factory/blob/9997aa078b4da35e04bb492a8a27d45141f4b80b/examples/train_lora/qwen3vl_lora_sft.yaml)：仅用于模型与模板参照，不当作CPT成功证据。
