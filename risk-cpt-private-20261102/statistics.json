@@ -1,0 +1,37 @@
+{
+  "knowledge_units": 48,
+  "business_units": 40,
+  "split_counts": {
+    "train": 35,
+    "valid": 5,
+    "auxiliary": 8
+  },
+  "source_count": 13,
+  "original_candidates": 11,
+  "business_source_counterexamples": 6,
+  "normal_scenario_units": 5,
+  "source_boundary_units": 1,
+  "business_counterexamples_missing": 34,
+  "text_characters": {
+    "train": 7720,
+    "valid": 1119,
+    "auxiliary": 1541
+  },
+  "max_text_characters": 440,
+  "max_text_utf8_bytes": 1294,
+  "token_count": {
+    "train": 5123,
+    "valid": 726,
+    "auxiliary": 1015
+  },
+  "tokenizer_verified": true,
+  "training_executed": false,
+  "group_policy": {
+    "valid": [
+      "account_farming",
+      "social_intents"
+    ],
+    "auxiliary_in_default_training": false
+  },
+  "tokenizer_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17"
+}

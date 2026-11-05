@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checked": [
+    "JSONL结构",
+    "五字段与缺失标记",
+    "来源对应与最小摘录",
+    "11候选加2引用来源",
+    "manifest行号和SHA256",
+    "来源组隔离",
+    "精确重复",
+    "跨集合5字符片段近似重复",
+    "训练正文敏感标识模式",
+    "Tokenizer长度报告",
+    "YAML及数据登记"
+  ],
+  "counts": {
+    "train": 35,
+    "valid": 5,
+    "auxiliary": 8
+  },
+  "max_cross_split_shingle_jaccard": 0.1272,
+  "groups": {
+    "train": [
+      "ecommerce_features",
+      "risk_foundations",
+      "risk_standard",
+      "statistics"
+    ],
+    "valid": [
+      "account_farming",
+      "social_intents"
+    ],
+    "auxiliary": [
+      "annotation_methods",
+      "knowledge_provenance",
+      "standard_governance"
+    ]
+  },
+  "training_executed": false,
+  "limits": [
+    "敏感标识检查包含人工选材和模式扫描，不保证识别所有敏感语义",
+    "来源核对不是业务签核或平台生效核验",
+    "近似重复检测不能证明不存在语义泄漏",
+    "未运行训练框架参数解析、模型加载或GPU训练"
+  ]
+}

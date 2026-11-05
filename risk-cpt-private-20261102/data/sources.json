@@ -1,0 +1,277 @@
+[
+  {
+    "source_id": "D01",
+    "title": "色赌诈作弊手法",
+    "url": "https://bytedance.larkoffice.com/wiki/MTIewGNJzipWX8kc0mjcCfhAnNd",
+    "revision": 3125,
+    "read_scope": "UX作弊手法/aRNSCM；A1:AF12、A13:T26",
+    "group_id": "risk_standard",
+    "usage": "业务机制；逐行状态筛选，签核符号不等于已核实平台生效",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K001",
+      "K002",
+      "K003",
+      "K004",
+      "K005",
+      "K006",
+      "K007",
+      "K008",
+      "K009",
+      "K010",
+      "K011",
+      "K012",
+      "K013",
+      "K014",
+      "K015",
+      "K016"
+    ],
+    "unit_count": 16,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D02",
+    "title": "反作弊特征建设",
+    "url": "https://bytedance.larkoffice.com/docx/U8D4dwlwkolG8LxnYHpczw0Tnye",
+    "revision": 7,
+    "read_scope": "几种有具体物理含义的统计特征/doxcn3JZj37NlFHArSnUBFQucDc",
+    "group_id": "statistics",
+    "usage": "统计语义；无统一窗口和正常反例",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K019",
+      "K020",
+      "K021",
+      "K022",
+      "K023"
+    ],
+    "unit_count": 5,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D03",
+    "title": "国际电商风控特征数据建设",
+    "url": "https://bytedance.sg.larkoffice.com/docx/VVagdmZS1opUhpxLzJzcJ4zEnvb",
+    "revision": 3525,
+    "read_scope": "特征介绍/Aimmd4OCGoqMgWxuCh7cgX15nDh",
+    "group_id": "ecommerce_features",
+    "usage": "电商设计框架；嵌入字段表未读取",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K024",
+      "K025",
+      "K026",
+      "K027",
+      "K028",
+      "K029",
+      "K030",
+      "K031",
+      "K032"
+    ],
+    "unit_count": 9,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D04",
+    "title": "Account Farming 行为风险标签与解释性建设",
+    "url": "https://bytedance.larkoffice.com/wiki/PJUjwIyeSiMD1Ik99ajcvNScn1G",
+    "revision": 3960,
+    "read_scope": "总体方案/TR57dXeqtoia5TxF3e8lxgirgKe；账号标签/Pc5kde5BdoLj6hxG55ilnMCbgsc；团伙标签/CADOdtjxEoFZVxx0z38lg3eDgod",
+    "group_id": "account_farming",
+    "usage": "方案和字段语义；不收模型解释模板、真实账号、阈值、处置建议",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K033",
+      "K034",
+      "K035"
+    ],
+    "unit_count": 3,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D05",
+    "title": "[BRIC] 社交杀猪盘专项",
+    "url": "https://bytedance.sg.larkoffice.com/docx/S4zhdfrBTo6BU2xXp5JlwNCTgyc",
+    "revision": 4797,
+    "read_scope": "MVP版本/L2zGdoNawofL8bx2jYhlNyWcgLe；表中评论意图、私信意图",
+    "group_id": "social_intents",
+    "usage": "仅意图分类；MVP完整判定因版本边界冲突排除",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K036",
+      "K037"
+    ],
+    "unit_count": 2,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D06",
+    "title": "BRIC标准标签（明细）",
+    "url": "https://bytedance.larkoffice.com/wiki/ARHTwrt4oivlN2klu2qcflsIn6e",
+    "revision": 7048,
+    "read_scope": "Social/KEVQVq；A1:T10；F7:F10富文本引用",
+    "group_id": "risk_standard",
+    "usage": "导航仅溯源；沿引用补读D06a、D06b",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K002",
+      "K006",
+      "K017",
+      "K018"
+    ],
+    "unit_count": 4,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D07",
+    "title": "【2026】BRIC-标准四级标签和案例评审",
+    "url": "https://bytedance.larkoffice.com/wiki/Ur6Tw3JFBiBtpzkZNgncQKItnYd",
+    "revision": 9866,
+    "read_scope": "流程说明/Tw0XdPNjWol7oExzm3HlbQo6gxf",
+    "group_id": "standard_governance",
+    "usage": "治理方法辅助；示例条款不当已发布标准",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "M001",
+      "M002"
+    ],
+    "unit_count": 2,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D08",
+    "title": "BRIC 治理规则（标准）发布流程",
+    "url": "https://bytedance.larkoffice.com/wiki/HvTPwlCyfiLHWHkg4qRcT8TDnie",
+    "revision": 3212,
+    "read_scope": "治理规则（标准）体系说明/ITNkd4zX7o5XZfx8083mdl1eygb",
+    "group_id": "standard_governance",
+    "usage": "标准组成辅助；图像与平台现行状态未核验",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "M003"
+    ],
+    "unit_count": 1,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D09",
+    "title": "国际化风控数据知识库（BRIC知识库）｜能力说明与使用指南",
+    "url": "https://bytedance.larkoffice.com/docx/Kv6hdClBKoeCVpx9GIzcMQiFn1g",
+    "revision": 629,
+    "read_scope": "知识从哪里来/doxcnu6ADijxXvsqnwpu0GILzDf",
+    "group_id": "knowledge_provenance",
+    "usage": "来源治理辅助；不保存资产规模、库表路径",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "M004",
+      "M005"
+    ],
+    "unit_count": 2,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D10",
+    "title": "风控基础知识",
+    "url": "https://bytedance.larkoffice.com/docx/ZUn8dyLBpowAWfx6wvacy6V5nWc",
+    "revision": 8,
+    "read_scope": "定义与类型/doxcn10G6VJXoWMi6JVzVFLPPcf；垃圾注册/doxcnAT7alGfF0aqUycehZkSjHd；账号被盗/doxcnVs4X8lRhokYr5nn2defxvh；业务鉴权/doxcnrtizZNch9fRoxHq3OwP6Ta",
+    "group_id": "risk_foundations",
+    "usage": "定义节为导航；其他章节提取基础机制，不视作当前政策",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K038",
+      "K039",
+      "K040"
+    ],
+    "unit_count": 3,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D11",
+    "title": "风控及ToB场景大模型替代人审实践",
+    "url": "https://bytedance.larkoffice.com/docx/UzScdEmaWotVYex9oYgcHHuinnf",
+    "revision": 1436,
+    "read_scope": "适配prompt的人审标准改造/I2BBdFUYioKUOqxS0VNcOTrHnsn",
+    "group_id": "annotation_methods",
+    "usage": "标准拆解方法辅助；不收案例、模型输出、实验指标",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "M006",
+      "M007",
+      "M008"
+    ],
+    "unit_count": 3,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": true,
+    "via_source": null
+  },
+  {
+    "source_id": "D06a",
+    "title": "投资与信贷引流行为-标准标签（D06引用）",
+    "url": "https://bytedance.larkoffice.com/wiki/Xx7IwY3b3iiMAhk0p3ycCQAGncP",
+    "revision": 6912,
+    "read_scope": "变更日志/QFmfdvW2coOUlmxu07VlpDqtg8c；标准细则/QfjvdZzEzo4HmcxSTt9lgI0Fggb",
+    "group_id": "risk_standard",
+    "usage": "仅虚拟货币条款；旧荐股、旧网贷已下线；处置/申诉存在复制疑点，均排除",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K002"
+    ],
+    "unit_count": 1,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": false,
+    "via_source": "D06"
+  },
+  {
+    "source_id": "D06b",
+    "title": "招工与刷单引流行为-标准标签（D06引用）",
+    "url": "https://bytedance.larkoffice.com/wiki/L4GZwkrR4iplsSkxZnucY61snZc",
+    "revision": 5237,
+    "read_scope": "标准细则/RnDDdU3T2ocs6VxhQKslEcaPgkb；兼职高收益引流行为",
+    "group_id": "risk_standard",
+    "usage": "识别机制和正常例外；旧返利条款已下线；处罚版本不混入",
+    "captured_at": "2026-11-02",
+    "unit_ids": [
+      "K006",
+      "K017",
+      "K018"
+    ],
+    "unit_count": 3,
+    "full_document_read": false,
+    "effective_policy_verified": false,
+    "origin_candidate": false,
+    "via_source": "D06"
+  }
+]
